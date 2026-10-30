@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>ZLogger.MessagePack</id>
+    <version>2.5.10</version>
+    <authors>Cysharp</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://github.com/Cysharp/ZLogger</projectUrl>
+    <description>ZLogger plugin to format log results as messagepack.</description>
+    <copyright>© Cysharp, Inc.</copyright>
+    <tags>logging messagepack</tags>
+    <repository type="git" url="https://github.com/Cysharp/ZLogger" commit="ac885aa1e6588d28aaf6b523682a591e97ed9ba5" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="ZLogger" version="2.5.10" exclude="Build,Analyzers" />
+        <dependency id="MessagePack" version="2.5.187" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0">
+        <dependency id="ZLogger" version="2.5.10" exclude="Build,Analyzers" />
+        <dependency id="MessagePack" version="2.5.187" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="ZLogger" version="2.5.10" exclude="Build,Analyzers" />
+        <dependency id="MessagePack" version="2.5.187" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
