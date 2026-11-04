@@ -2,7 +2,7 @@
 
 namespace _Members.CJY.Scripts
 {
-    public class TestBoss : MonoBehaviour
+    public class TestBoss : AbstractBoss
     {
         
     }
