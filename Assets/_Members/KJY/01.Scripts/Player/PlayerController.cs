@@ -10,36 +10,48 @@ namespace _Members.KJY._01.Scripts.Player
     {
         [field:SerializeField] public PlayerInputSO PlayerInput {get; private set;}
 
-        [Header("")]
+        [Header("Movement Setting")]
         [SerializeField] private float baseSpeed;
         
         public IMoveable Mover { get; private set; }
+        public AgentHandler Handler { get; private set; }
+        public Camera Camera { get; private set; }
 
         protected override void InitializeModules()
         {
             base.InitializeModules();
+            
+            Camera = Camera.main; 
+            
             Mover = GetModule<IMoveable>();
+            Handler = GetModule<AgentHandler>();
+            
+            ValidateData();
         }
 
         public void ValidateData()
         {
-            // Mover.SetSpeed();
+            Mover.SetSpeed(baseSpeed);
         }
 
         private void Update()
         {
             Mover.SetDirection(PlayerInput.InputDir);
+            Handler.SetZAngle();
         }
 
+        private Vector2 WorldMousePosition()
+        {
+            return Camera.ScreenToWorldPoint(PlayerInput.LookPos);
+        }
+        
         private void OnEnable()
         {
             PlayerInput.SetEnable();
         }
-
         private void OnDisable()
         {
             PlayerInput.SetDisable();
         }
-        
     }
 }
