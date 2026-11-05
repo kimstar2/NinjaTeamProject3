@@ -37,7 +37,7 @@ namespace _Members.KJY._01.Scripts.Player
         private void Update()
         {
             Mover.SetDirection(PlayerInput.InputDir);
-            Handler.SetZAngle();
+            // Handler.SetZAngle();
         }
 
         private Vector2 WorldMousePosition()
