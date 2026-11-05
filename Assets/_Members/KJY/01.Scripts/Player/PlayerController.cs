@@ -1,5 +1,6 @@
 using System;
 using _Members.KJY._01.Scripts.Agent;
+using _Members.KJY._01.Scripts.Agent.Hand;
 using _Members.KJY._01.Scripts.MainSystem;
 using _TevLib.ModuleSystem;
 using UnityEngine;
@@ -29,7 +30,7 @@ namespace _Members.KJY._01.Scripts.Player
             ValidateData();
         }
 
-        public void ValidateData()
+        private void ValidateData()
         {
             Mover.SetSpeed(baseSpeed);
         }
@@ -37,14 +38,12 @@ namespace _Members.KJY._01.Scripts.Player
         private void Update()
         {
             Mover.SetDirection(PlayerInput.InputDir);
-            float zAngle = AgentUtil.GetZAngle((Vector3)WorldMousePosition() - transform.position);
+            
+            Vector2 dir = (Vector3)WorldMousePosition() - transform.position;
+            float zAngle = AgentUtil.GetZAngle(dir);
             Handler.SetZAngle(zAngle);
         }
 
-        private Vector2 WorldMousePosition()
-        {
-            return Camera.ScreenToWorldPoint(PlayerInput.LookPos);
-        }
         
         private void OnEnable()
         {
@@ -54,5 +53,9 @@ namespace _Members.KJY._01.Scripts.Player
         {
             PlayerInput.SetDisable();
         }
+        
+        private Vector2 WorldMousePosition() 
+            => Camera.ScreenToWorldPoint(PlayerInput.LookPos);
+
     }
 }

@@ -38,7 +38,6 @@ namespace _Members.KJY._01.Scripts.MainSystem
         public void OnLook(InputAction.CallbackContext context)
         {
             LookPos = context.ReadValue<Vector2>();
-            Debug.Log(LookPos);
         }
 
         public void OnAttack(InputAction.CallbackContext context)
