@@ -10,7 +10,7 @@ namespace _Members.KJY._01.Scripts.Agent
                 return 0f;
             
             float z = Mathf.Atan2(dir.y, dir.x);
-            return z;
+            return z * Mathf.Rad2Deg;
         }
     }
 }
