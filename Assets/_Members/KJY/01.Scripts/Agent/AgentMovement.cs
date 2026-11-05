@@ -6,9 +6,9 @@ namespace _Members.KJY._01.Scripts.Agent
     public class AgentMovement : MonoModule , IMoveable
     {
         public Rigidbody2D RbCompo { get; private set; }
-        private Vector2 _moveDir;
+        public Vector2 MoveDir { get; private set; }
         private float _multi = 1f;
-        private float _speed;
+        private float _speed = 1f;
         
         public override void Init(ModuleOwner owner)
         {
@@ -18,12 +18,12 @@ namespace _Members.KJY._01.Scripts.Agent
 
         private void FixedUpdate()
         {
-            RbCompo.linearVelocity = _moveDir * (_speed * _multi);
+            RbCompo.linearVelocity = MoveDir * (_speed * _multi);
         }
         
         public void SetDirection(Vector2 moveDir)
         {
-            _moveDir = moveDir;
+            MoveDir = moveDir;
         }
 
         public void SetMulti(float multi)
