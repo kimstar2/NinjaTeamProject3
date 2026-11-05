@@ -37,7 +37,8 @@ namespace _Members.KJY._01.Scripts.Player
         private void Update()
         {
             Mover.SetDirection(PlayerInput.InputDir);
-            // Handler.SetZAngle();
+            float zAngle = AgentUtil.GetZAngle((Vector3)WorldMousePosition() - transform.position);
+            Handler.SetZAngle(zAngle);
         }
 
         private Vector2 WorldMousePosition()
