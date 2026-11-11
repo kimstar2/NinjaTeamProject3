@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: cf4f4eadc255ac246a683682b88409a8
+=======
+guid: 81e4191bebbffee49a87679d87cdc04e
+>>>>>>> base
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -111,6 +115,117 @@ TextureImporter:
       213: -8237656247504995078
     second: FeelDuckSmoke_35
   - first:
+<<<<<<< HEAD
+=======
+      213: 2504449621035583
+    second: FeelDuckSmoke_0
+  - first:
+      213: -7931904439948636316
+    second: FeelDuckSmoke_1
+  - first:
+      213: 1647121955755081789
+    second: FeelDuckSmoke_2
+  - first:
+      213: 8130350719589456588
+    second: FeelDuckSmoke_3
+  - first:
+      213: 588024655082357993
+    second: FeelDuckSmoke_4
+  - first:
+      213: 5487159787059967615
+    second: FeelDuckSmoke_5
+  - first:
+      213: -676758088168967796
+    second: FeelDuckSmoke_6
+  - first:
+      213: 4984435850738861413
+    second: FeelDuckSmoke_7
+  - first:
+      213: -6477065539939699987
+    second: FeelDuckSmoke_8
+  - first:
+      213: -8642211699604113195
+    second: FeelDuckSmoke_9
+  - first:
+      213: -3784502952940389130
+    second: FeelDuckSmoke_10
+  - first:
+      213: -6837060274678197150
+    second: FeelDuckSmoke_11
+  - first:
+      213: -8316239522534425986
+    second: FeelDuckSmoke_12
+  - first:
+      213: 573189835275343553
+    second: FeelDuckSmoke_13
+  - first:
+      213: -662683277140887359
+    second: FeelDuckSmoke_14
+  - first:
+      213: 7046109047960679679
+    second: FeelDuckSmoke_15
+  - first:
+      213: 3163241829592336917
+    second: FeelDuckSmoke_16
+  - first:
+      213: -2962313755937083009
+    second: FeelDuckSmoke_17
+  - first:
+      213: 1035102379971084787
+    second: FeelDuckSmoke_18
+  - first:
+      213: 321421563137378391
+    second: FeelDuckSmoke_19
+  - first:
+      213: 6822521645089646477
+    second: FeelDuckSmoke_20
+  - first:
+      213: 622922370483138574
+    second: FeelDuckSmoke_21
+  - first:
+      213: 3418156585126254463
+    second: FeelDuckSmoke_22
+  - first:
+      213: -1653832395018183930
+    second: FeelDuckSmoke_23
+  - first:
+      213: -3647434131282639419
+    second: FeelDuckSmoke_24
+  - first:
+      213: -1040366452165113699
+    second: FeelDuckSmoke_25
+  - first:
+      213: -3192249966748626209
+    second: FeelDuckSmoke_26
+  - first:
+      213: 41901951014505187
+    second: FeelDuckSmoke_27
+  - first:
+      213: -4002079136166045773
+    second: FeelDuckSmoke_28
+  - first:
+      213: -5754853035727490405
+    second: FeelDuckSmoke_29
+  - first:
+      213: -8792316848381333903
+    second: FeelDuckSmoke_30
+  - first:
+      213: -195287860126066308
+    second: FeelDuckSmoke_31
+  - first:
+      213: -1648419910022610347
+    second: FeelDuckSmoke_32
+  - first:
+      213: 3084197713969989767
+    second: FeelDuckSmoke_33
+  - first:
+      213: 4910991670501963501
+    second: FeelDuckSmoke_34
+  - first:
+      213: 2677704571331994214
+    second: FeelDuckSmoke_35
+  - first:
+>>>>>>> base
       213: -5499634796404681808
     second: FeelDuckSmoke_36
   - first:
@@ -173,8 +288,37 @@ TextureImporter:
   - first:
       213: -2562122200981578033
     second: FeelDuckSmoke_56
+<<<<<<< HEAD
   externalObjects: {}
   serializedVersion: 13
+=======
+  - first:
+      213: 2759861876498234367
+    second: FeelDuckSmoke_57
+  - first:
+      213: -8601334820376274203
+    second: FeelDuckSmoke_58
+  - first:
+      213: -4391083907484558470
+    second: FeelDuckSmoke_59
+  - first:
+      213: 7925525076084790308
+    second: FeelDuckSmoke_60
+  - first:
+      213: 6802528979033199671
+    second: FeelDuckSmoke_61
+  - first:
+      213: 8563539600871693704
+    second: FeelDuckSmoke_62
+  - first:
+      213: 3862321540346919239
+    second: FeelDuckSmoke_63
+  - first:
+      213: 5057831149000178781
+    second: FeelDuckSmoke_64
+  externalObjects: {}
+  serializedVersion: 12
+>>>>>>> base
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -191,12 +335,19 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+<<<<<<< HEAD
     flipGreenChannel: 0
+=======
+>>>>>>> base
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+<<<<<<< HEAD
   ignoreMipmapLimit: 0
+=======
+  ignoreMasterTextureLimit: 0
+>>>>>>> base
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -205,12 +356,20 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< HEAD
     filterMode: 1
+=======
+    filterMode: 0
+>>>>>>> base
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
+<<<<<<< HEAD
     wrapW: 1
+=======
+    wrapW: 0
+>>>>>>> base
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -235,33 +394,92 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+<<<<<<< HEAD
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
+=======
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+>>>>>>> base
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
     textureCompression: 1
+=======
+    textureCompression: 0
+>>>>>>> base
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+<<<<<<< HEAD
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+=======
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+>>>>>>> base
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
     textureCompression: 1
+=======
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+>>>>>>> base
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+<<<<<<< HEAD
     ignorePlatformSupport: 0
+=======
+>>>>>>> base
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -271,6 +489,7 @@ TextureImporter:
       name: FeelDuckSmoke_0
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 15
         y: 312
         width: 40
@@ -284,6 +503,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: ceda15b8f5fe1b120800000000000000
+=======
+        x: 0
+        y: 347
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a050e98c5e80000800000000000000
+>>>>>>> base
       internalID: 2427984867767725548
       vertices: []
       indices: 
@@ -293,6 +526,7 @@ TextureImporter:
       name: FeelDuckSmoke_1
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 79
         y: 312
         width: 40
@@ -306,6 +540,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: b576f7b44a9613820800000000000000
+=======
+        x: 64
+        y: 347
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f8488dfe63ce190800000000000000
+>>>>>>> base
       internalID: 2896212189738133339
       vertices: []
       indices: 
@@ -315,6 +563,7 @@ TextureImporter:
       name: FeelDuckSmoke_2
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 143
         y: 311
         width: 40
@@ -328,6 +577,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: ca430d5d673a72de0800000000000000
+=======
+        x: 128
+        y: 347
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30478221b0cbd610800000000000000
+>>>>>>> base
       internalID: -1357937031840254804
       vertices: []
       indices: 
@@ -337,6 +600,7 @@ TextureImporter:
       name: FeelDuckSmoke_3
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 214
         y: 349
         width: 26
@@ -350,6 +614,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: f14be0fda2136e9e0800000000000000
+=======
+        x: 192
+        y: 347
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca987c27eec4d070800000000000000
+>>>>>>> base
       internalID: -1592531358028221409
       vertices: []
       indices: 
@@ -359,6 +637,7 @@ TextureImporter:
       name: FeelDuckSmoke_4
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 278
         y: 349
         width: 26
@@ -372,6 +651,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: a8359883417641d30800000000000000
+=======
+        x: 256
+        y: 347
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e40b5dee45192800800000000000000
+>>>>>>> base
       internalID: 4401256072393347978
       vertices: []
       indices: 
@@ -381,6 +674,7 @@ TextureImporter:
       name: FeelDuckSmoke_5
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 335
         y: 349
         width: 40
@@ -394,6 +688,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 899c5b9d10a4f7de0800000000000000
+=======
+        x: 320
+        y: 347
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76748d01ce462c40800000000000000
+>>>>>>> base
       internalID: -1333265592870385256
       vertices: []
       indices: 
@@ -403,6 +711,7 @@ TextureImporter:
       name: FeelDuckSmoke_6
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 399
         y: 349
         width: 40
@@ -416,6 +725,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 421d370e560083560800000000000000
+=======
+        x: 384
+        y: 347
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81f0dbba1cab96f0800000000000000
+>>>>>>> base
       internalID: 7293580034083901732
       vertices: []
       indices: 
@@ -425,6 +748,7 @@ TextureImporter:
       name: FeelDuckSmoke_7
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 463
         y: 349
         width: 40
@@ -438,6 +762,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: d7ba942f2576a10d0800000000000000
+=======
+        x: 448
+        y: 347
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56503016ff54c2540800000000000000
+>>>>>>> base
       internalID: -3451332558476170371
       vertices: []
       indices: 
@@ -447,6 +785,7 @@ TextureImporter:
       name: FeelDuckSmoke_8
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 206
         y: 311
         width: 41
@@ -460,6 +799,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 868cc2cedc2065c50800000000000000
+=======
+        x: 0
+        y: 310
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de278f85537dc16a0800000000000000
+>>>>>>> base
       internalID: 6653508582940395624
       vertices: []
       indices: 
@@ -469,6 +822,7 @@ TextureImporter:
       name: FeelDuckSmoke_9
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 269
         y: 311
         width: 42
@@ -482,6 +836,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 3de6fe1b8a229d5d0800000000000000
+=======
+        x: 64
+        y: 310
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d83f536f32b01880800000000000000
+>>>>>>> base
       internalID: -3037358365749580077
       vertices: []
       indices: 
@@ -491,6 +859,7 @@ TextureImporter:
       name: FeelDuckSmoke_10
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 332
         y: 311
         width: 43
@@ -504,6 +873,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: c520d3bf045b51390800000000000000
+=======
+        x: 128
+        y: 310
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc329e8d9eba7bc0800000000000000
+>>>>>>> base
       internalID: -7848167484925607332
       vertices: []
       indices: 
@@ -513,6 +896,7 @@ TextureImporter:
       name: FeelDuckSmoke_11
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 395
         y: 311
         width: 44
@@ -526,6 +910,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: f6d3f47a70df03380800000000000000
+=======
+        x: 192
+        y: 310
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2641fdb87e1ed11a0800000000000000
+>>>>>>> base
       internalID: -8993410246545293969
       vertices: []
       indices: 
@@ -535,6 +933,7 @@ TextureImporter:
       name: FeelDuckSmoke_12
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 458
         y: 311
         width: 45
@@ -548,6 +947,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: de8602da03d3f4470800000000000000
+=======
+        x: 256
+        y: 310
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a75403738c69c80800000000000000
+>>>>>>> base
       internalID: 8380984710832089325
       vertices: []
       indices: 
@@ -557,6 +970,7 @@ TextureImporter:
       name: FeelDuckSmoke_13
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 8
         y: 137
         width: 23
@@ -570,6 +984,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 29955aafd398dcf00800000000000000
+=======
+        x: 320
+        y: 310
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c693784e1164f700800000000000000
+>>>>>>> base
       internalID: 1138717180085754258
       vertices: []
       indices: 
@@ -579,6 +1007,7 @@ TextureImporter:
       name: FeelDuckSmoke_14
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 9
         y: 273
         width: 47
@@ -592,6 +1021,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 0837df0f505e9c160800000000000000
+=======
+        x: 384
+        y: 310
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8fc6b021dadc6f0800000000000000
+>>>>>>> base
       internalID: 7046414905678590848
       vertices: []
       indices: 
@@ -601,6 +1044,7 @@ TextureImporter:
       name: FeelDuckSmoke_15
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 31
         y: 237
         width: 22
@@ -614,6 +1058,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 1dd914c7898f9ec30800000000000000
+=======
+        x: 448
+        y: 310
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4bc54e8dec8c160800000000000000
+>>>>>>> base
       internalID: 4389312645652651473
       vertices: []
       indices: 
@@ -623,6 +1081,7 @@ TextureImporter:
       name: FeelDuckSmoke_16
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 43
         y: 200
         width: 13
@@ -636,6 +1095,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: c6bf8d02e39eeba80800000000000000
+=======
+        x: 0
+        y: 273
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a02873fa716eb20800000000000000
+>>>>>>> base
       internalID: -8449059397852136596
       vertices: []
       indices: 
@@ -645,6 +1118,7 @@ TextureImporter:
       name: FeelDuckSmoke_17
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 45
         y: 132
         width: 50
@@ -658,6 +1132,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: a5801ba6d0d217680800000000000000
+=======
+        x: 64
+        y: 273
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71fd10855fb3e6d0800000000000000
+>>>>>>> base
       internalID: -8759170264611092390
       vertices: []
       indices: 
@@ -667,6 +1155,7 @@ TextureImporter:
       name: FeelDuckSmoke_18
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 45
         y: 247
         width: 10
@@ -680,6 +1169,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 785592a68b24539a0800000000000000
+=======
+        x: 128
+        y: 273
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f18650612c6d5e00800000000000000
+>>>>>>> base
       internalID: -6254019147711556217
       vertices: []
       indices: 
@@ -689,6 +1192,7 @@ TextureImporter:
       name: FeelDuckSmoke_19
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 45
         y: 165
         width: 11
@@ -702,6 +1206,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 63b5ebcdd25d46630800000000000000
+=======
+        x: 192
+        y: 273
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75844fd653be57400800000000000000
+>>>>>>> base
       internalID: 3919491968672881462
       vertices: []
       indices: 
@@ -711,6 +1229,7 @@ TextureImporter:
       name: FeelDuckSmoke_20
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 72
         y: 273
         width: 48
@@ -724,6 +1243,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 2c8d7dc50eb404b10800000000000000
+=======
+        x: 256
+        y: 273
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d876bf7f9477eae50800000000000000
+>>>>>>> base
       internalID: 1963652864535943362
       vertices: []
       indices: 
@@ -733,6 +1266,7 @@ TextureImporter:
       name: FeelDuckSmoke_21
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 95
         y: 237
         width: 22
@@ -746,6 +1280,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 807697dac66da9ee0800000000000000
+=======
+        x: 320
+        y: 273
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00ba47789015a800800000000000000
+>>>>>>> base
       internalID: -1253453784014035192
       vertices: []
       indices: 
@@ -755,6 +1303,7 @@ TextureImporter:
       name: FeelDuckSmoke_22
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 107
         y: 166
         width: 13
@@ -768,6 +1317,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 5fc887a60697033f0800000000000000
+=======
+        x: 384
+        y: 273
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77dc13dd4bbf6f20800000000000000
+>>>>>>> base
       internalID: -923104468600845067
       vertices: []
       indices: 
@@ -777,6 +1340,7 @@ TextureImporter:
       name: FeelDuckSmoke_23
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 109
         y: 247
         width: 10
@@ -790,6 +1354,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: a493cc1754e25ef80800000000000000
+=======
+        x: 448
+        y: 273
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b58e8f2386c09e0800000000000000
+>>>>>>> base
       internalID: -8077999480822286006
       vertices: []
       indices: 
@@ -799,6 +1377,7 @@ TextureImporter:
       name: FeelDuckSmoke_24
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 114
         y: 96
         width: 45
@@ -812,6 +1391,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 02bd541cdd1bca8f0800000000000000
+=======
+        x: 0
+        y: 236
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c543478bf5b16dc0800000000000000
+>>>>>>> base
       internalID: -527851490320721120
       vertices: []
       indices: 
@@ -821,6 +1414,7 @@ TextureImporter:
       name: FeelDuckSmoke_25
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 136
         y: 273
         width: 48
@@ -834,6 +1428,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 14515c22afb3cc5a0800000000000000
+=======
+        x: 64
+        y: 236
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98077e4930ef81f0800000000000000
+>>>>>>> base
       internalID: -6499754216691264191
       vertices: []
       indices: 
@@ -843,6 +1451,7 @@ TextureImporter:
       name: FeelDuckSmoke_26
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 160
         y: 237
         width: 21
@@ -856,6 +1465,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 74c69b96d6f419d70800000000000000
+=======
+        x: 128
+        y: 236
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd212b98199d2b3d0800000000000000
+>>>>>>> base
       internalID: 9048100457707826247
       vertices: []
       indices: 
@@ -865,6 +1488,7 @@ TextureImporter:
       name: FeelDuckSmoke_27
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 172
         y: 166
         width: 12
@@ -878,6 +1502,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 4a5381c10a4223a50800000000000000
+=======
+        x: 192
+        y: 236
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea8d993a9dd49000800000000000000
+>>>>>>> base
       internalID: 6499297482333762980
       vertices: []
       indices: 
@@ -887,6 +1525,7 @@ TextureImporter:
       name: FeelDuckSmoke_28
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 173
         y: 247
         width: 10
@@ -900,6 +1539,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 960c2ea7a6529f950800000000000000
+=======
+        x: 256
+        y: 236
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b712d5ca32c578c0800000000000000
+>>>>>>> base
       internalID: 6483254277834981481
       vertices: []
       indices: 
@@ -909,6 +1562,7 @@ TextureImporter:
       name: FeelDuckSmoke_29
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 174
         y: 129
         width: 74
@@ -922,6 +1576,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: b5803959312068e70800000000000000
+=======
+        x: 320
+        y: 236
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9272ee87a7a220b0800000000000000
+>>>>>>> base
       internalID: 9116976778795223131
       vertices: []
       indices: 
@@ -931,6 +1599,7 @@ TextureImporter:
       name: FeelDuckSmoke_30
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 200
         y: 273
         width: 48
@@ -944,6 +1613,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: cfcca2a4555214020800000000000000
+=======
+        x: 384
+        y: 236
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e6c8bf86a6bf580800000000000000
+>>>>>>> base
       internalID: 2324179930946653436
       vertices: []
       indices: 
@@ -953,6 +1636,7 @@ TextureImporter:
       name: FeelDuckSmoke_31
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 230
         y: 237
         width: 16
@@ -966,6 +1650,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: da19f1caf597f2810800000000000000
+=======
+        x: 448
+        y: 236
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c795d34d9b23a4df0800000000000000
+>>>>>>> base
       internalID: 1742745032632275373
       vertices: []
       indices: 
@@ -975,6 +1673,7 @@ TextureImporter:
       name: FeelDuckSmoke_32
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 236
         y: 200
         width: 12
@@ -988,6 +1687,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: c408393a7c9141d00800000000000000
+=======
+        x: 0
+        y: 199
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552cb6653d2af19e0800000000000000
+>>>>>>> base
       internalID: 942406567260815436
       vertices: []
       indices: 
@@ -997,6 +1710,7 @@ TextureImporter:
       name: FeelDuckSmoke_33
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 239
         y: 247
         width: 8
@@ -1010,6 +1724,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 657b961e075f0a1c0800000000000000
+=======
+        x: 64
+        y: 199
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788c046ea754dca20800000000000000
+>>>>>>> base
       internalID: -4494322562948810922
       vertices: []
       indices: 
@@ -1019,6 +1747,7 @@ TextureImporter:
       name: FeelDuckSmoke_34
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 263
         y: 132
         width: 49
@@ -1032,6 +1761,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 0fae8086fb5a166d0800000000000000
+=======
+        x: 128
+        y: 199
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6fb2f97e8572440800000000000000
+>>>>>>> base
       internalID: -2998933635349288208
       vertices: []
       indices: 
@@ -1041,6 +1784,7 @@ TextureImporter:
       name: FeelDuckSmoke_35
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 265
         y: 274
         width: 22
@@ -1054,6 +1798,20 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: afcffa1b947fdad80800000000000000
+=======
+        x: 192
+        y: 199
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662eeabde1e192520800000000000000
+>>>>>>> base
       internalID: -8237656247504995078
       vertices: []
       indices: 
@@ -1063,6 +1821,7 @@ TextureImporter:
       name: FeelDuckSmoke_36
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 287
         y: 274
         width: 24
@@ -1074,6 +1833,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 256
+        y: 199
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: 0b3dbed7a4f5da3b0800000000000000
       internalID: -5499634796404681808
@@ -1085,6 +1856,7 @@ TextureImporter:
       name: FeelDuckSmoke_37
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 294
         y: 237
         width: 16
@@ -1096,6 +1868,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 320
+        y: 199
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: 9a10154d47b6f8ac0800000000000000
       internalID: -3850741006856027735
@@ -1107,6 +1891,7 @@ TextureImporter:
       name: FeelDuckSmoke_38
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 300
         y: 202
         width: 12
@@ -1118,6 +1903,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 384
+        y: 199
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: 06686ca02ff7c78d0800000000000000
       internalID: -2847260186865400224
@@ -1129,6 +1926,7 @@ TextureImporter:
       name: FeelDuckSmoke_39
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 303
         y: 247
         width: 8
@@ -1140,6 +1938,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 448
+        y: 199
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: a1a0a293c23546df0800000000000000
       internalID: -187933835039995366
@@ -1151,6 +1961,7 @@ TextureImporter:
       name: FeelDuckSmoke_40
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 327
         y: 137
         width: 23
@@ -1162,6 +1973,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 0
+        y: 162
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: 42c8e78fcc18e9260800000000000000
       internalID: 7106259979379575844
@@ -1173,6 +1996,7 @@ TextureImporter:
       name: FeelDuckSmoke_41
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 351
         y: 274
         width: 24
@@ -1184,6 +2008,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 64
+        y: 162
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: 83c604cc85bde3fc0800000000000000
       internalID: -3513129484872029128
@@ -1195,6 +2031,7 @@ TextureImporter:
       name: FeelDuckSmoke_42
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 362
         y: 237
         width: 9
@@ -1206,6 +2043,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 128
+        y: 162
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: c9d362310bf50fca0800000000000000
       internalID: -5985178694935233124
@@ -1217,6 +2066,7 @@ TextureImporter:
       name: FeelDuckSmoke_43
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 364
         y: 166
         width: 12
@@ -1228,6 +2078,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 192
+        y: 162
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: 7b98a2efe79893620800000000000000
       internalID: 2754383825636854199
@@ -1239,6 +2101,7 @@ TextureImporter:
       name: FeelDuckSmoke_44
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 365
         y: 240
         width: 9
@@ -1250,6 +2113,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 256
+        y: 162
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: 16b5cf483917fe700800000000000000
       internalID: 571800556104604513
@@ -1261,6 +2136,7 @@ TextureImporter:
       name: FeelDuckSmoke_45
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 367
         y: 249
         width: 9
@@ -1272,6 +2148,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 320
+        y: 162
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: bce3ed6735a58cb10800000000000000
       internalID: 2001949348889247435
@@ -1283,6 +2171,7 @@ TextureImporter:
       name: FeelDuckSmoke_46
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 371
         y: 132
         width: 43
@@ -1294,6 +2183,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 384
+        y: 162
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: 7db3e36ddf3534890800000000000000
       internalID: -7475038606818657321
@@ -1305,6 +2206,7 @@ TextureImporter:
       name: FeelDuckSmoke_47
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 415
         y: 274
         width: 24
@@ -1316,6 +2218,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 448
+        y: 162
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: 69f01e6146691ac20800000000000000
       internalID: 3216016965543989142
@@ -1327,6 +2241,7 @@ TextureImporter:
       name: FeelDuckSmoke_48
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 426
         y: 237
         width: 9
@@ -1338,6 +2253,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 0
+        y: 125
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: 65d637440da3b7820800000000000000
       internalID: 2916989849828552022
@@ -1349,6 +2276,7 @@ TextureImporter:
       name: FeelDuckSmoke_49
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 428
         y: 202
         width: 12
@@ -1360,6 +2288,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 64
+        y: 125
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: 8f05e4cd99ffdc910800000000000000
       internalID: 1859423257465082104
@@ -1371,6 +2311,7 @@ TextureImporter:
       name: FeelDuckSmoke_50
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 429
         y: 240
         width: 9
@@ -1382,6 +2323,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 128
+        y: 125
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: 87047dc488448b3d0800000000000000
       internalID: -3190724983796580232
@@ -1393,6 +2346,7 @@ TextureImporter:
       name: FeelDuckSmoke_51
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 431
         y: 249
         width: 9
@@ -1404,6 +2358,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 192
+        y: 125
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: d2c800381895f1730800000000000000
       internalID: 3971991809147571245
@@ -1415,6 +2381,7 @@ TextureImporter:
       name: FeelDuckSmoke_52
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 433
         y: 132
         width: 45
@@ -1426,6 +2393,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 256
+        y: 125
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: 1ed55ae21ed8a3220800000000000000
       internalID: 2466439744228515297
@@ -1437,6 +2416,7 @@ TextureImporter:
       name: FeelDuckSmoke_53
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 479
         y: 274
         width: 24
@@ -1448,6 +2428,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 320
+        y: 125
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: a7e673efeef479b80800000000000000
       internalID: -8388147893068403078
@@ -1459,6 +2451,7 @@ TextureImporter:
       name: FeelDuckSmoke_54
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 490
         y: 132
         width: 16
@@ -1470,6 +2463,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 384
+        y: 125
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: 487fec8f52a5715c0800000000000000
       internalID: -4244825004638799996
@@ -1481,6 +2486,7 @@ TextureImporter:
       name: FeelDuckSmoke_55
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 493
         y: 240
         width: 9
@@ -1492,6 +2498,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 448
+        y: 125
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: 7c0d81699ca4f9450800000000000000
       internalID: 6097674650150031559
@@ -1503,6 +2521,7 @@ TextureImporter:
       name: FeelDuckSmoke_56
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 495
         y: 249
         width: 9
@@ -1514,6 +2533,18 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+=======
+        x: 64
+        y: 88
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+>>>>>>> base
       bones: []
       spriteID: fced953de63817cd0800000000000000
       internalID: -2562122200981578033
@@ -1522,18 +2553,27 @@ TextureImporter:
       edges: []
       weights: []
     outline: []
+<<<<<<< HEAD
     customData: 
     physicsShape: []
     bones: []
     spriteID: 
+=======
+    physicsShape: []
+    bones: []
+    spriteID: ab71deb4245d608479e6dfb7a4b172c1
+>>>>>>> base
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< HEAD
     spriteCustomMetadata:
       entries: []
+=======
+>>>>>>> base
     nameFileIdTable:
       FeelDuckSmoke_0: 2427984867767725548
       FeelDuckSmoke_1: 2896212189738133339
@@ -1592,8 +2632,14 @@ TextureImporter:
       FeelDuckSmoke_7: -3451332558476170371
       FeelDuckSmoke_8: 6653508582940395624
       FeelDuckSmoke_9: -3037358365749580077
+<<<<<<< HEAD
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
+=======
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+>>>>>>> base
   userData: 
   assetBundleName: 
   assetBundleVariant: 
