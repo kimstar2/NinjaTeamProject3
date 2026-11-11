@@ -1,29 +1,44 @@
-using System;
+using System.Collections.Generic;
 using _Members.KJY._01.Scripts.Agent;
 using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour, IMoveable
+namespace _Members.NKY.Scripts
 {
-    public Rigidbody2D RbCompo { get; private set; }
-
-    public Vector2 MoveDir { get; private set; }
-    private void Awake()
+    public class EnemyMovement : MonoBehaviour, IToMoveable
     {
-        RbCompo = GetComponent<Rigidbody2D>();
-    }
+        public Rigidbody2D RbCompo { get; private set; }
 
-    public void SetDirection(Vector2 moveDir)
-    {
-        MoveDir = moveDir;
-    }
+        public Vector2 MoveDir { get; private set; }
+        public float Multi { get; private set; }
+        public float Speed { get; private set; }
+        private void Awake()
+        {
+            RbCompo = GetComponent<Rigidbody2D>();
+        }
 
-    public void SetMulti(float multi)
-    {
-        
-    }
+        private void Update()
+        {
+            RbCompo.linearVelocity = MoveDir * (Speed * Multi);
+        }
 
-    public void SetSpeed(float speed)
-    {
-        throw new System.NotImplementedException();
+        public void SetDirection(Vector2 moveDir)
+        {
+            MoveDir = moveDir;
+        }
+
+        public void SetMulti(float multi)
+        {
+            Multi = multi;
+        }
+
+        public void SetSpeed(float speed)
+        {
+            Speed = speed;
+        }
+
+        public void ToMove(Vector3[] movePath)
+        {
+            
+        }
     }
 }
