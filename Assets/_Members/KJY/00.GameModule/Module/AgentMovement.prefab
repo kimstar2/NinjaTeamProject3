@@ -44,3 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bffd73b3b69443f9f27d94cd38c5f78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::_Members.KJY._01.Scripts.Agent.AgentMovement
+  useAcceleration: 1
+  acceleration: 120

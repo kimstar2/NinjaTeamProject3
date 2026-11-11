@@ -29,6 +29,7 @@ namespace _Members.KJY._01.Scripts.Agent
         {
             base.Init(owner);
             _mover = owner.GetModule<IVelocityAddable>();
+            _crtCooldown -= dashCooldown;
         }
 
 
