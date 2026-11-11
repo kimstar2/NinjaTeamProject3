@@ -19,7 +19,7 @@ namespace _Members.KJY._01.Scripts.Agent.Hand
         
         private void Awake()
         {
-            _originPos = transform.position;
+            _originPos = transform.localPosition;
         }
 
         public void Attack(Vector2 pos)
