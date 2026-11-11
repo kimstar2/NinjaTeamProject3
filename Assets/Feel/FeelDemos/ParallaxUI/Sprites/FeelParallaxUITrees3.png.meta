@@ -1,9 +1,42 @@
 fileFormatVersion: 2
-guid: 9dd1793cd950e4842977bcfb8336a451
+guid: 1869de8aca8260644b0fa57b4d41afcd
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2150959151935903088
+    second: FeelParallaxUITrees3_0
+  - first:
+      213: -2586131144459699209
+    second: FeelParallaxUITrees3_1
+  - first:
+      213: -2074719436926575342
+    second: FeelParallaxUITrees3_2
+  - first:
+      213: -5808131481000879666
+    second: FeelParallaxUITrees3_3
+  - first:
+      213: 4901608292004595731
+    second: FeelParallaxUITrees3_4
+  - first:
+      213: 2644180278324904903
+    second: FeelParallaxUITrees3_5
+  - first:
+      213: -7080266731332694591
+    second: FeelParallaxUITrees3_6
+  - first:
+      213: -1248819372819871881
+    second: FeelParallaxUITrees3_7
+  - first:
+      213: -765371830782725024
+    second: FeelParallaxUITrees3_8
+  - first:
+      213: -3524825978673160618
+    second: FeelParallaxUITrees3_9
+  - first:
+      213: -6415590537200051988
+    second: FeelParallaxUITrees3_10
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,9 +53,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -36,11 +72,11 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -54,12 +90,17 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -69,9 +110,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -81,9 +123,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -93,36 +136,281 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: FeelParallaxUITrees3_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 515
+        width: 100
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a2c7e2c024622e0800000000000000
+      internalID: -2150959151935903088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUITrees3_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 504
+        width: 93
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbb7ef0d673c1cd0800000000000000
+      internalID: -2586131144459699209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUITrees3_2
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 540
+        width: 115
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d94691aad1533e0800000000000000
+      internalID: -2074719436926575342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUITrees3_3
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 474
+        width: 102
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9dd2ad03f556fa0800000000000000
+      internalID: -5808131481000879666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUITrees3_4
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 495
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3180b0195c2060440800000000000000
+      internalID: 4901608292004595731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUITrees3_5
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 517
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c346a324f302b420800000000000000
+      internalID: 2644180278324904903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUITrees3_6
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 514
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd06e3bbe6ddbd90800000000000000
+      internalID: -7080266731332694591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUITrees3_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 507
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777027e956d4baee0800000000000000
+      internalID: -1248819372819871881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUITrees3_8
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 457
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064fa11006ad065f0800000000000000
+      internalID: -765371830782725024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUITrees3_9
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 485
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e1e1e927d451fc0800000000000000
+      internalID: -3524825978673160618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUITrees3_10
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 407
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce855ddc56e37f6a0800000000000000
+      internalID: -6415590537200051988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FeelParallaxUITrees3_0: -2150959151935903088
+      FeelParallaxUITrees3_1: -2586131144459699209
+      FeelParallaxUITrees3_10: -6415590537200051988
+      FeelParallaxUITrees3_2: -2074719436926575342
+      FeelParallaxUITrees3_3: -5808131481000879666
+      FeelParallaxUITrees3_4: 4901608292004595731
+      FeelParallaxUITrees3_5: 2644180278324904903
+      FeelParallaxUITrees3_6: -7080266731332694591
+      FeelParallaxUITrees3_7: -1248819372819871881
+      FeelParallaxUITrees3_8: -765371830782725024
+      FeelParallaxUITrees3_9: -3524825978673160618
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
