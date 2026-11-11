@@ -6,7 +6,5 @@ public class SkillEnemy : MonoBehaviour
     [SerializeField] private SkillDataSO skillDataSO;
     public SkillDataSO SkillDataSO => skillDataSO;
     
-    public void 
-    
     
 }
