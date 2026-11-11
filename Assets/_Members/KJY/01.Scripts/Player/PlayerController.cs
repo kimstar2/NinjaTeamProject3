@@ -20,12 +20,16 @@ namespace _Members.KJY._01.Scripts.Player
         [field: SerializeField] public AgentHand LHand { get; private set; }
         [field: SerializeField] public AgentHand RHand { get; private set; }
 
-        public IMoveable Mover { get; private set; }
-        public Camera Camera { get; private set; }
         public AgentHandler Handler { get; private set; }
+        public IMoveable Mover { get; private set; }
+        public IDash Dasher {get; private set;}
+        
+        public Camera Camera { get; private set; }
 
+        
         private Vector2 _mPosDir;
-
+        private bool CanMove => !Dasher.IsDashing;
+        
         protected override void InitializeModules()
         {
             base.InitializeModules();
@@ -34,6 +38,7 @@ namespace _Members.KJY._01.Scripts.Player
 
             Mover = GetModule<IMoveable>();
             Handler = GetModule<AgentHandler>();
+            Dasher = GetModule<IDash>();
 
             ValidateData();
         }
@@ -45,7 +50,8 @@ namespace _Members.KJY._01.Scripts.Player
 
         private void Update()
         {
-            Mover.SetDirection(PlayerInput.InputDir);
+            if (CanMove)
+                Mover.SetDirection(PlayerInput.InputDir);
 
             _mPosDir = ((Vector3)WorldMousePosition() - transform.position).normalized;
             float zAngle = AgentUtil.GetZAngle(_mPosDir);
@@ -53,15 +59,27 @@ namespace _Members.KJY._01.Scripts.Player
             Handler.SetZAngle(lerpAngle);
         }
 
-
         private void OnEnable()
         {
             PlayerInput.SetEnable();
 
             PlayerInput.OnAttackPressed += HandleAttack;
+            PlayerInput.OnLShiftPressed += DashWithMoveDir;
+            PlayerInput.OnJumpPressed += DashWithMoveDir;
+            PlayerInput.OnRClickPressed += DashWithMouseDir;
+        }
+        private void OnDisable()
+        {
+            PlayerInput.OnAttackPressed -= HandleAttack;
+            PlayerInput.OnLShiftPressed -= DashWithMoveDir;
+            PlayerInput.OnJumpPressed -= DashWithMoveDir;
+            PlayerInput.OnRClickPressed -= DashWithMouseDir;
+
+            PlayerInput.SetDisable();
         }
 
-
+        #region Handle
+        
         private bool _lastIsRight = true;
         private void HandleAttack(bool attacking)
         {
@@ -74,16 +92,25 @@ namespace _Members.KJY._01.Scripts.Player
                     RHand.Attack(WorldMousePosition());
             }
         }
-
-        private void OnDisable()
+        
+        private void DashWithMoveDir()
         {
-            PlayerInput.OnAttackPressed -= HandleAttack;
-
-            PlayerInput.SetDisable();
+            Dasher.Dash(Mover.MoveDir);
+        }
+        
+        private void DashWithMouseDir()
+        {
+            Dasher.Dash(_mPosDir);
         }
 
+
+        #endregion
+
+        #region Helper
+        
         private Vector2 WorldMousePosition()
             => Camera.ScreenToWorldPoint(PlayerInput.LookPos);
-
+        
+        #endregion
     }
 }
