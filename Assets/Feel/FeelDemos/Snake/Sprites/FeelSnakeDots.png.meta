@@ -1,9 +1,729 @@
 fileFormatVersion: 2
-guid: abb24727399ff0840aea198a236353b4
+guid: 26af3f36640d0a44ba3493e97be7d0eb
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4366236761560183565
+    second: FeelSnakeDots_0
+  - first:
+      213: 2534807406704677770
+    second: FeelSnakeDots_1
+  - first:
+      213: 6608214329856146861
+    second: FeelSnakeDots_2
+  - first:
+      213: 3634298325101147824
+    second: FeelSnakeDots_3
+  - first:
+      213: -5612669712198382185
+    second: FeelSnakeDots_4
+  - first:
+      213: 823759355798935023
+    second: FeelSnakeDots_5
+  - first:
+      213: -8447846047881216513
+    second: FeelSnakeDots_6
+  - first:
+      213: 7705206561683647791
+    second: FeelSnakeDots_7
+  - first:
+      213: 2727817356842790742
+    second: FeelSnakeDots_8
+  - first:
+      213: 3866109071120595825
+    second: FeelSnakeDots_9
+  - first:
+      213: 1543706908707641666
+    second: FeelSnakeDots_10
+  - first:
+      213: 8139889815874570835
+    second: FeelSnakeDots_11
+  - first:
+      213: -4673051998401295190
+    second: FeelSnakeDots_12
+  - first:
+      213: -8886587041492203246
+    second: FeelSnakeDots_13
+  - first:
+      213: -6623836567550942512
+    second: FeelSnakeDots_14
+  - first:
+      213: 1706223321286508586
+    second: FeelSnakeDots_15
+  - first:
+      213: -340230989532079208
+    second: FeelSnakeDots_16
+  - first:
+      213: -7105306607476452917
+    second: FeelSnakeDots_17
+  - first:
+      213: -6965360695450619298
+    second: FeelSnakeDots_18
+  - first:
+      213: 6066723443532429215
+    second: FeelSnakeDots_19
+  - first:
+      213: 4390784212823010251
+    second: FeelSnakeDots_20
+  - first:
+      213: 8166280287861022482
+    second: FeelSnakeDots_21
+  - first:
+      213: -2696073327971038496
+    second: FeelSnakeDots_22
+  - first:
+      213: -3330470357598659818
+    second: FeelSnakeDots_23
+  - first:
+      213: 6545806720142381350
+    second: FeelSnakeDots_24
+  - first:
+      213: 1508939916961022856
+    second: FeelSnakeDots_25
+  - first:
+      213: 5734896745676408619
+    second: FeelSnakeDots_26
+  - first:
+      213: -169713944028681973
+    second: FeelSnakeDots_27
+  - first:
+      213: 241344374287089235
+    second: FeelSnakeDots_28
+  - first:
+      213: 2733136076553723444
+    second: FeelSnakeDots_29
+  - first:
+      213: -6270513572687000339
+    second: FeelSnakeDots_30
+  - first:
+      213: -7532711101811995206
+    second: FeelSnakeDots_31
+  - first:
+      213: -3826172986962552573
+    second: FeelSnakeDots_32
+  - first:
+      213: 5422353693908677142
+    second: FeelSnakeDots_33
+  - first:
+      213: 274156442591164582
+    second: FeelSnakeDots_34
+  - first:
+      213: -6053211733105837231
+    second: FeelSnakeDots_35
+  - first:
+      213: 4222282057385204255
+    second: FeelSnakeDots_36
+  - first:
+      213: 2911234351966559489
+    second: FeelSnakeDots_37
+  - first:
+      213: -3086748866695289270
+    second: FeelSnakeDots_38
+  - first:
+      213: 8496661374234363315
+    second: FeelSnakeDots_39
+  - first:
+      213: -8461507947345097182
+    second: FeelSnakeDots_40
+  - first:
+      213: 3793204830368392980
+    second: FeelSnakeDots_41
+  - first:
+      213: 2201232962654071488
+    second: FeelSnakeDots_42
+  - first:
+      213: 6960853847209902814
+    second: FeelSnakeDots_43
+  - first:
+      213: -6289037125663862666
+    second: FeelSnakeDots_44
+  - first:
+      213: 3302653971004256785
+    second: FeelSnakeDots_45
+  - first:
+      213: 8390284600202509905
+    second: FeelSnakeDots_46
+  - first:
+      213: 986576888351547276
+    second: FeelSnakeDots_47
+  - first:
+      213: 8392376431235639850
+    second: FeelSnakeDots_48
+  - first:
+      213: -7378491236138079340
+    second: FeelSnakeDots_49
+  - first:
+      213: -1541056211792321873
+    second: FeelSnakeDots_50
+  - first:
+      213: -4999416412369463723
+    second: FeelSnakeDots_51
+  - first:
+      213: 3748320128925948884
+    second: FeelSnakeDots_52
+  - first:
+      213: -1039243649507207252
+    second: FeelSnakeDots_53
+  - first:
+      213: 4847292067730259647
+    second: FeelSnakeDots_54
+  - first:
+      213: -3379837569896041796
+    second: FeelSnakeDots_55
+  - first:
+      213: 7978429229932435402
+    second: FeelSnakeDots_56
+  - first:
+      213: -7068328603915186837
+    second: FeelSnakeDots_57
+  - first:
+      213: -7450599325941699654
+    second: FeelSnakeDots_58
+  - first:
+      213: 1190893545249994721
+    second: FeelSnakeDots_59
+  - first:
+      213: -2096691355561283873
+    second: FeelSnakeDots_60
+  - first:
+      213: 5492707486855275085
+    second: FeelSnakeDots_61
+  - first:
+      213: 4624383616017196127
+    second: FeelSnakeDots_62
+  - first:
+      213: -6718591260017510728
+    second: FeelSnakeDots_63
+  - first:
+      213: -2095759374259997106
+    second: FeelSnakeDots_64
+  - first:
+      213: -3922814492760605943
+    second: FeelSnakeDots_65
+  - first:
+      213: -910297842422037477
+    second: FeelSnakeDots_66
+  - first:
+      213: -7980790657896420297
+    second: FeelSnakeDots_67
+  - first:
+      213: 5199408688686758186
+    second: FeelSnakeDots_68
+  - first:
+      213: 8627669428394757938
+    second: FeelSnakeDots_69
+  - first:
+      213: 4507489708187203283
+    second: FeelSnakeDots_70
+  - first:
+      213: 3058667119812285769
+    second: FeelSnakeDots_71
+  - first:
+      213: -8041804036659192521
+    second: FeelSnakeDots_72
+  - first:
+      213: -7564900557699114983
+    second: FeelSnakeDots_73
+  - first:
+      213: 1596443237175946444
+    second: FeelSnakeDots_74
+  - first:
+      213: -3163959479755804820
+    second: FeelSnakeDots_75
+  - first:
+      213: -2919648908514395565
+    second: FeelSnakeDots_76
+  - first:
+      213: -5897621019600926338
+    second: FeelSnakeDots_77
+  - first:
+      213: -2653390908238034067
+    second: FeelSnakeDots_78
+  - first:
+      213: 4475201730037277422
+    second: FeelSnakeDots_79
+  - first:
+      213: -4923634249963434258
+    second: FeelSnakeDots_80
+  - first:
+      213: 1808925981481086909
+    second: FeelSnakeDots_81
+  - first:
+      213: -6881138810123449799
+    second: FeelSnakeDots_82
+  - first:
+      213: -2847321816432878509
+    second: FeelSnakeDots_83
+  - first:
+      213: 8210401700658578308
+    second: FeelSnakeDots_84
+  - first:
+      213: 3572162644069822298
+    second: FeelSnakeDots_85
+  - first:
+      213: -4403031127856869931
+    second: FeelSnakeDots_86
+  - first:
+      213: -6648560158252507757
+    second: FeelSnakeDots_87
+  - first:
+      213: 880136018692323573
+    second: FeelSnakeDots_88
+  - first:
+      213: -4910695463548964048
+    second: FeelSnakeDots_89
+  - first:
+      213: 7940544631455940346
+    second: FeelSnakeDots_90
+  - first:
+      213: 5524918249036457308
+    second: FeelSnakeDots_91
+  - first:
+      213: -1238931782881485768
+    second: FeelSnakeDots_92
+  - first:
+      213: 2385574593154419731
+    second: FeelSnakeDots_93
+  - first:
+      213: 976225053583684319
+    second: FeelSnakeDots_94
+  - first:
+      213: -8266178124786426779
+    second: FeelSnakeDots_95
+  - first:
+      213: -8365986396096469545
+    second: FeelSnakeDots_96
+  - first:
+      213: -3064847097778512399
+    second: FeelSnakeDots_97
+  - first:
+      213: 3713706586152599887
+    second: FeelSnakeDots_98
+  - first:
+      213: -8703035593827832288
+    second: FeelSnakeDots_99
+  - first:
+      213: -4094566225582977768
+    second: FeelSnakeDots_100
+  - first:
+      213: 8524770410457622243
+    second: FeelSnakeDots_101
+  - first:
+      213: -6270111917132111450
+    second: FeelSnakeDots_102
+  - first:
+      213: 5392492516781251901
+    second: FeelSnakeDots_103
+  - first:
+      213: -1988921635575706009
+    second: FeelSnakeDots_104
+  - first:
+      213: -4147996193768340280
+    second: FeelSnakeDots_105
+  - first:
+      213: -3149305115485243608
+    second: FeelSnakeDots_106
+  - first:
+      213: -980696026319488489
+    second: FeelSnakeDots_107
+  - first:
+      213: -6669439258531979358
+    second: FeelSnakeDots_108
+  - first:
+      213: 1723627881130573986
+    second: FeelSnakeDots_109
+  - first:
+      213: -7261560173053087888
+    second: FeelSnakeDots_110
+  - first:
+      213: -704557321872412086
+    second: FeelSnakeDots_111
+  - first:
+      213: -2892211522220870445
+    second: FeelSnakeDots_112
+  - first:
+      213: 3908585745204163704
+    second: FeelSnakeDots_113
+  - first:
+      213: 8141957647618790878
+    second: FeelSnakeDots_114
+  - first:
+      213: 989385371433949851
+    second: FeelSnakeDots_115
+  - first:
+      213: -7517115263419231076
+    second: FeelSnakeDots_116
+  - first:
+      213: 5584160330105080531
+    second: FeelSnakeDots_117
+  - first:
+      213: -3523572483816262908
+    second: FeelSnakeDots_118
+  - first:
+      213: 8892780554948581400
+    second: FeelSnakeDots_119
+  - first:
+      213: -1800490674590646141
+    second: FeelSnakeDots_120
+  - first:
+      213: -5622424307666995101
+    second: FeelSnakeDots_121
+  - first:
+      213: 3861335086610351896
+    second: FeelSnakeDots_122
+  - first:
+      213: -632999869872931862
+    second: FeelSnakeDots_123
+  - first:
+      213: -2876050391033127939
+    second: FeelSnakeDots_124
+  - first:
+      213: -1889853581411721519
+    second: FeelSnakeDots_125
+  - first:
+      213: -2064155262126860760
+    second: FeelSnakeDots_126
+  - first:
+      213: -902665380104219391
+    second: FeelSnakeDots_127
+  - first:
+      213: -8759110879259090824
+    second: FeelSnakeDots_128
+  - first:
+      213: 3332031801361341092
+    second: FeelSnakeDots_129
+  - first:
+      213: -2166701940917210299
+    second: FeelSnakeDots_130
+  - first:
+      213: 4211965318719797294
+    second: FeelSnakeDots_131
+  - first:
+      213: 8985360520093072086
+    second: FeelSnakeDots_132
+  - first:
+      213: -3418403899543269141
+    second: FeelSnakeDots_133
+  - first:
+      213: 8381225608066538518
+    second: FeelSnakeDots_134
+  - first:
+      213: -405966191467971142
+    second: FeelSnakeDots_135
+  - first:
+      213: 8228961559977068256
+    second: FeelSnakeDots_136
+  - first:
+      213: 6294924269277012888
+    second: FeelSnakeDots_137
+  - first:
+      213: -9000613169213584934
+    second: FeelSnakeDots_138
+  - first:
+      213: -5775063916391227603
+    second: FeelSnakeDots_139
+  - first:
+      213: -1829056016735469744
+    second: FeelSnakeDots_140
+  - first:
+      213: 7275496117315396255
+    second: FeelSnakeDots_141
+  - first:
+      213: -7174009293674527362
+    second: FeelSnakeDots_142
+  - first:
+      213: -1753836734484558608
+    second: FeelSnakeDots_143
+  - first:
+      213: 3370464746132704779
+    second: FeelSnakeDots_144
+  - first:
+      213: 3922516612696815798
+    second: FeelSnakeDots_145
+  - first:
+      213: -5322105487797711791
+    second: FeelSnakeDots_146
+  - first:
+      213: 3607702292339001943
+    second: FeelSnakeDots_147
+  - first:
+      213: 1333216022149803530
+    second: FeelSnakeDots_148
+  - first:
+      213: 2456781680342433050
+    second: FeelSnakeDots_149
+  - first:
+      213: 3729673763268293953
+    second: FeelSnakeDots_150
+  - first:
+      213: -2262111564585538761
+    second: FeelSnakeDots_151
+  - first:
+      213: 3492276750557502818
+    second: FeelSnakeDots_152
+  - first:
+      213: 7079482465694014435
+    second: FeelSnakeDots_153
+  - first:
+      213: -5490925902082901823
+    second: FeelSnakeDots_154
+  - first:
+      213: -7835236627275344617
+    second: FeelSnakeDots_155
+  - first:
+      213: -2872171314898572979
+    second: FeelSnakeDots_156
+  - first:
+      213: 1994141465244431311
+    second: FeelSnakeDots_157
+  - first:
+      213: 8808754408466354871
+    second: FeelSnakeDots_158
+  - first:
+      213: -313566867704609317
+    second: FeelSnakeDots_159
+  - first:
+      213: -10450219489805226
+    second: FeelSnakeDots_160
+  - first:
+      213: -1485920005875159014
+    second: FeelSnakeDots_161
+  - first:
+      213: -2088648101388766467
+    second: FeelSnakeDots_162
+  - first:
+      213: 468538703784712774
+    second: FeelSnakeDots_163
+  - first:
+      213: 3020270069852357755
+    second: FeelSnakeDots_164
+  - first:
+      213: 3569059449240133422
+    second: FeelSnakeDots_165
+  - first:
+      213: 4167022939325548533
+    second: FeelSnakeDots_166
+  - first:
+      213: 6945059741757864314
+    second: FeelSnakeDots_167
+  - first:
+      213: 3888785581995902740
+    second: FeelSnakeDots_168
+  - first:
+      213: 1373410870344691226
+    second: FeelSnakeDots_169
+  - first:
+      213: -43767866966294582
+    second: FeelSnakeDots_170
+  - first:
+      213: 8358703582678797007
+    second: FeelSnakeDots_171
+  - first:
+      213: 2371614383179385267
+    second: FeelSnakeDots_172
+  - first:
+      213: -3352668893023624513
+    second: FeelSnakeDots_173
+  - first:
+      213: -7356753768836919358
+    second: FeelSnakeDots_174
+  - first:
+      213: -6451679612906316878
+    second: FeelSnakeDots_175
+  - first:
+      213: 8910225018078352051
+    second: FeelSnakeDots_176
+  - first:
+      213: -5790419029148162096
+    second: FeelSnakeDots_177
+  - first:
+      213: 5655200245541962816
+    second: FeelSnakeDots_178
+  - first:
+      213: -1563709809426481889
+    second: FeelSnakeDots_179
+  - first:
+      213: -2256114599279807804
+    second: FeelSnakeDots_180
+  - first:
+      213: -3069269243483196467
+    second: FeelSnakeDots_181
+  - first:
+      213: 521420401269624353
+    second: FeelSnakeDots_182
+  - first:
+      213: 5630868696473661632
+    second: FeelSnakeDots_183
+  - first:
+      213: 3490594436717131346
+    second: FeelSnakeDots_184
+  - first:
+      213: -421192481458036838
+    second: FeelSnakeDots_185
+  - first:
+      213: -775419860195777816
+    second: FeelSnakeDots_186
+  - first:
+      213: 5250413531656201836
+    second: FeelSnakeDots_187
+  - first:
+      213: 4592095940764608615
+    second: FeelSnakeDots_188
+  - first:
+      213: 7839811591988100772
+    second: FeelSnakeDots_189
+  - first:
+      213: -7365446791521554275
+    second: FeelSnakeDots_190
+  - first:
+      213: 2876166305738474999
+    second: FeelSnakeDots_191
+  - first:
+      213: -7487497913861440499
+    second: FeelSnakeDots_192
+  - first:
+      213: -3627911580031515902
+    second: FeelSnakeDots_193
+  - first:
+      213: -3512892048995732610
+    second: FeelSnakeDots_194
+  - first:
+      213: 3016316099954931615
+    second: FeelSnakeDots_195
+  - first:
+      213: -347256823058559611
+    second: FeelSnakeDots_196
+  - first:
+      213: 8888785818346596187
+    second: FeelSnakeDots_197
+  - first:
+      213: 5929072715427886239
+    second: FeelSnakeDots_198
+  - first:
+      213: 1381704211214458201
+    second: FeelSnakeDots_199
+  - first:
+      213: -6543426464622649767
+    second: FeelSnakeDots_200
+  - first:
+      213: 1430824204490331955
+    second: FeelSnakeDots_201
+  - first:
+      213: -7058066801714669197
+    second: FeelSnakeDots_202
+  - first:
+      213: 3238579095572262122
+    second: FeelSnakeDots_203
+  - first:
+      213: -1342281852460459013
+    second: FeelSnakeDots_204
+  - first:
+      213: 213884740322796450
+    second: FeelSnakeDots_205
+  - first:
+      213: 7094725813612386335
+    second: FeelSnakeDots_206
+  - first:
+      213: 8672497316817028089
+    second: FeelSnakeDots_207
+  - first:
+      213: 4947808057102348127
+    second: FeelSnakeDots_208
+  - first:
+      213: -5166452849794117957
+    second: FeelSnakeDots_209
+  - first:
+      213: -7548241522316380930
+    second: FeelSnakeDots_210
+  - first:
+      213: -11246133462555383
+    second: FeelSnakeDots_211
+  - first:
+      213: -8980387402312632488
+    second: FeelSnakeDots_212
+  - first:
+      213: 5280905055994679772
+    second: FeelSnakeDots_213
+  - first:
+      213: 710640683787285301
+    second: FeelSnakeDots_214
+  - first:
+      213: -3741183538805221423
+    second: FeelSnakeDots_215
+  - first:
+      213: 8873397472479515453
+    second: FeelSnakeDots_216
+  - first:
+      213: 8831337068907623578
+    second: FeelSnakeDots_217
+  - first:
+      213: -2835725797836035298
+    second: FeelSnakeDots_218
+  - first:
+      213: 571207458165784652
+    second: FeelSnakeDots_219
+  - first:
+      213: 4638601956540504392
+    second: FeelSnakeDots_220
+  - first:
+      213: 1537465502524566902
+    second: FeelSnakeDots_221
+  - first:
+      213: -4920156133763068393
+    second: FeelSnakeDots_222
+  - first:
+      213: 5149522844234297311
+    second: FeelSnakeDots_223
+  - first:
+      213: -5660190977333212467
+    second: FeelSnakeDots_224
+  - first:
+      213: -1776728072909310576
+    second: FeelSnakeDots_225
+  - first:
+      213: 5873594133272466135
+    second: FeelSnakeDots_226
+  - first:
+      213: 6661981371453236651
+    second: FeelSnakeDots_227
+  - first:
+      213: 6953833998415501413
+    second: FeelSnakeDots_228
+  - first:
+      213: 8429773384594003889
+    second: FeelSnakeDots_229
+  - first:
+      213: -1586127425743919475
+    second: FeelSnakeDots_230
+  - first:
+      213: 7941814327543435207
+    second: FeelSnakeDots_231
+  - first:
+      213: -3188703696890960580
+    second: FeelSnakeDots_232
+  - first:
+      213: -2404015374135451533
+    second: FeelSnakeDots_233
+  - first:
+      213: -3623675659822247333
+    second: FeelSnakeDots_234
+  - first:
+      213: -5517321265714505593
+    second: FeelSnakeDots_235
+  - first:
+      213: 972170606292991809
+    second: FeelSnakeDots_236
+  - first:
+      213: -1604685944941423371
+    second: FeelSnakeDots_237
+  - first:
+      213: -2304895398189281687
+    second: FeelSnakeDots_238
+  - first:
+      213: 8423826143665480659
+    second: FeelSnakeDots_239
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,9 +740,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -31,16 +754,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -54,11 +777,17 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -68,9 +797,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -80,21 +810,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -104,36 +823,5548 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: FeelSnakeDots_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 496
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc04f57cc20863c0800000000000000
+      internalID: -4366236761560183565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 496
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8359aa08e17d2320800000000000000
+      internalID: 2534807406704677770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 496
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadb8b2dbe715bb50800000000000000
+      internalID: 6608214329856146861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 496
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b67373421f9f6230800000000000000
+      internalID: 3634298325101147824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_4
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 496
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d42da42aacb12b0800000000000000
+      internalID: -5612669712198382185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_5
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 496
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5dcc605c49e6b00800000000000000
+      internalID: 823759355798935023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_6
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 496
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd3ade27c833ca80800000000000000
+      internalID: -8447846047881216513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_7
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 496
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2da92e3b846eea60800000000000000
+      internalID: 7705206561683647791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_8
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 496
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f62c6fe672bd520800000000000000
+      internalID: 2727817356842790742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_9
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 496
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bfe0777bd27a530800000000000000
+      internalID: 3866109071120595825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_10
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 496
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249d5da21495c6510800000000000000
+      internalID: 1543706908707641666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_11
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 496
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a060a19a2b6f070800000000000000
+      internalID: 8139889815874570835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 471
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac8c5267fbf52fb0800000000000000
+      internalID: -4673051998401295190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_13
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 471
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219844e3b208ca480800000000000000
+      internalID: -8886587041492203246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 471
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d222e48cb76314a0800000000000000
+      internalID: -6623836567550942512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_15
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 471
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2005cc1219bda710800000000000000
+      internalID: 1706223321286508586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_16
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 471
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b5c57b7b1474bf0800000000000000
+      internalID: -340230989532079208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_17
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 471
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc151293941e46d90800000000000000
+      internalID: -7105306607476452917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_18
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 471
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52b23ff951165f90800000000000000
+      internalID: -6965360695450619298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 471
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97f84a34d4513450800000000000000
+      internalID: 6066723443532429215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_20
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 471
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb65ba6af23fec30800000000000000
+      internalID: 4390784212823010251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_21
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 471
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f1b3ea7a4745170800000000000000
+      internalID: 8166280287861022482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_22
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 471
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea81e5b79f959ad0800000000000000
+      internalID: -2696073327971038496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_23
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 471
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b1d58fadac7c1d0800000000000000
+      internalID: -3330470357598659818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 445
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6219372e78067da50800000000000000
+      internalID: 6545806720142381350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_25
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 445
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8838ed91cd4d0f410800000000000000
+      internalID: 1508939916961022856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_26
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 445
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2706959432769f40800000000000000
+      internalID: 5734896745676408619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_27
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 445
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b096dbc211e05adf0800000000000000
+      internalID: -169713944028681973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_28
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 445
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ebbe10e6d695300800000000000000
+      internalID: 241344374287089235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_29
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 445
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e1ac5e7cc0ee520800000000000000
+      internalID: 2733136076553723444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_30
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 445
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decc9b4d029aaf8a0800000000000000
+      internalID: -6270513572687000339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_31
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 445
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abdcad4b92f667790800000000000000
+      internalID: -7532711101811995206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_32
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 445
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309d6e6b0f3b6eac0800000000000000
+      internalID: -3826172986962552573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_33
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 445
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61234fba4f1104b40800000000000000
+      internalID: 5422353693908677142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_34
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 445
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8f78df4dffdc300800000000000000
+      internalID: 274156442591164582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_35
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 445
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bfff1000caefba0800000000000000
+      internalID: -6053211733105837231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_36
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 420
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a53fb192f889a30800000000000000
+      internalID: 4222282057385204255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_37
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 420
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d91eef738c66820800000000000000
+      internalID: 2911234351966559489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_38
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 420
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46a9c1924aa925d0800000000000000
+      internalID: -3086748866695289270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_39
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 420
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5850ca0843ae570800000000000000
+      internalID: 8496661374234363315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_40
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 420
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ec9565a5fa29a80800000000000000
+      internalID: -8461507947345097182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_41
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 420
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417676a22bb24a430800000000000000
+      internalID: 3793204830368392980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_42
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 420
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca60e687b95c8e10800000000000000
+      internalID: 2201232962654071488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_43
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 420
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed28b50a1bbe99060800000000000000
+      internalID: 6960853847209902814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_44
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 420
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670df811e0ad8b8a0800000000000000
+      internalID: -6289037125663862666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_45
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 420
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112fdb5d94265dd20800000000000000
+      internalID: 3302653971004256785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_46
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 420
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e3087e367407470800000000000000
+      internalID: 8390284600202509905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_47
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 420
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fddcde37601bd00800000000000000
+      internalID: 986576888351547276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_48
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 394
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a292546e5b77470800000000000000
+      internalID: 8392376431235639850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_49
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 394
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b28ab40555a9990800000000000000
+      internalID: -7378491236138079340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_50
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 394
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2a53d4a811d9ae0800000000000000
+      internalID: -1541056211792321873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_51
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 394
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556d570d2418e9ab0800000000000000
+      internalID: -4999416412369463723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_52
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 394
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbd31d3c45b40430800000000000000
+      internalID: 3748320128925948884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_53
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 394
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7da0c286dd391f0800000000000000
+      internalID: -1039243649507207252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_54
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 394
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe71ab147a054340800000000000000
+      internalID: 4847292067730259647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_55
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 394
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2b3d723a76811d0800000000000000
+      internalID: -3379837569896041796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_56
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 394
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac757b3fc1319be60800000000000000
+      internalID: 7978429229932435402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_57
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 394
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d07e7959048ed90800000000000000
+      internalID: -7068328603915186837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_58
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 394
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abbea7553672a9890800000000000000
+      internalID: -7450599325941699654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_59
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 394
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e77ee9ae57e68010800000000000000
+      internalID: 1190893545249994721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_60
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 368
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde2324225e07e2e0800000000000000
+      internalID: -2096691355561283873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_61
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 368
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4223219b540a3c40800000000000000
+      internalID: 5492707486855275085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_62
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 368
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5467d1d56c1d2040800000000000000
+      internalID: 4624383616017196127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_63
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 368
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6bc9b78d4c2c2a0800000000000000
+      internalID: -6718591260017510728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_64
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 368
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46b982f3fd5ae2e0800000000000000
+      internalID: -2095759374259997106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_65
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 368
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bff37b00d5f89c0800000000000000
+      internalID: -3922814492760605943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_66
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 368
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1441ae6fe8fd53f0800000000000000
+      internalID: -910297842422037477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_67
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 368
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ce3514e298e3190800000000000000
+      internalID: -7980790657896420297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_68
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 368
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29f04b97a2082840800000000000000
+      internalID: 5199408688686758186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_69
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 368
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f87fe32a3abb770800000000000000
+      internalID: 8627669428394757938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_70
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 368
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d63a350202dd8e30800000000000000
+      internalID: 4507489708187203283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_71
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 368
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945149a3a81927a20800000000000000
+      internalID: 3058667119812285769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_72
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 343
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d50a106d5c56090800000000000000
+      internalID: -8041804036659192521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_73
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 343
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9189039f503140790800000000000000
+      internalID: -7564900557699114983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_74
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 343
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc62f77aa4b72610800000000000000
+      internalID: 1596443237175946444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_75
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 343
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fec65dd9b5714d0800000000000000
+      internalID: -3163959479755804820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_76
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 343
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a742369c25b77d0800000000000000
+      internalID: -2919648908514395565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_77
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 343
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e794fcafde0772ea0800000000000000
+      internalID: -5897621019600926338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_78
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 343
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b8838f6034d2bd0800000000000000
+      internalID: -2653390908238034067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_79
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 343
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2e519434c1b1e30800000000000000
+      internalID: 4475201730037277422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_80
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 343
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee8bf67cbcbbabb0800000000000000
+      internalID: -4923634249963434258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_81
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 343
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfa72798989a1910800000000000000
+      internalID: 1808925981481086909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_82
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 343
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a0074c5b84180a0800000000000000
+      internalID: -6881138810123449799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_83
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 343
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c5c4ac4e74c78d0800000000000000
+      internalID: -2847321816432878509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_84
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 317
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483840f98d431f170800000000000000
+      internalID: 8210401700658578308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_85
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 317
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fa3b7affed29130800000000000000
+      internalID: 3572162644069822298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_86
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 317
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd8a19748a45e2c0800000000000000
+      internalID: -4403031127856869931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_87
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 317
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d5b8bf2c19bb3a0800000000000000
+      internalID: -6648560158252507757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_88
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 317
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8be2cbb0fd63c00800000000000000
+      internalID: 880136018692323573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_89
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 317
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033ba0f6e74b9dbb0800000000000000
+      internalID: -4910695463548964048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_90
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 317
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afef011854b723e60800000000000000
+      internalID: 7940544631455940346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_91
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 317
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5524ee00e37cac40800000000000000
+      internalID: 5524918249036457308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_92
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 317
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c586c8b1e6ecee0800000000000000
+      internalID: -1238931782881485768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_93
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 317
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c8a2204734b1120800000000000000
+      internalID: 2385574593154419731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_94
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 317
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd231b3938f3c8d00800000000000000
+      internalID: 976225053583684319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_95
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 317
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c1006aac2a84d80800000000000000
+      internalID: -8266178124786426779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_96
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 292
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d56be892bb06eb80800000000000000
+      internalID: -8365986396096469545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_97
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 292
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd56068dc97775d0800000000000000
+      internalID: -3064847097778512399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_98
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 292
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4187abc67cb98330800000000000000
+      internalID: 3713706586152599887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_99
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 292
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02eaf42fc3b983780800000000000000
+      internalID: -8703035593827832288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_100
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 292
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d80d636bd2d27c0800000000000000
+      internalID: -4094566225582977768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_101
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 292
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6661ba5811e4670800000000000000
+      internalID: 8524770410457622243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_102
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 292
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1a56d8e661cf8a0800000000000000
+      internalID: -6270111917132111450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_103
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 292
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3dd2b49f5bf5da40800000000000000
+      internalID: 5392492516781251901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_104
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 292
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ecb696f4ee564e0800000000000000
+      internalID: -1988921635575706009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_105
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 292
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c404c4507b5f66c0800000000000000
+      internalID: -4147996193768340280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_106
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 292
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8277e26eeab6b44d0800000000000000
+      internalID: -3149305115485243608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_107
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 292
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71af696f82ed362f0800000000000000
+      internalID: -980696026319488489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_108
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 266
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af1820a4546173a0800000000000000
+      internalID: -6669439258531979358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_109
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 266
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a04fbbfc6e8be710800000000000000
+      internalID: 1723627881130573986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_110
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 266
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07feb0afe71c93b90800000000000000
+      internalID: -7261560173053087888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_111
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 266
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42f4e149d8e836f0800000000000000
+      internalID: -704557321872412086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_112
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 266
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4bbb2b1fcccd7d0800000000000000
+      internalID: -2892211522220870445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_113
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 266
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874bc05d6061e3630800000000000000
+      internalID: 3908585745204163704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_114
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 266
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5d792b75b0ef070800000000000000
+      internalID: 8141957647618790878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_115
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 266
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ad94ad0c00bbd00800000000000000
+      internalID: 989385371433949851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_116
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 266
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94da3cce77dda790800000000000000
+      internalID: -7517115263419231076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_117
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 266
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dacdbceb3cee7d40800000000000000
+      internalID: 5584160330105080531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_118
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 266
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4037ac1ae71c91fc0800000000000000
+      internalID: -3523572483816262908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_119
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 266
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818163b7cc0896b70800000000000000
+      internalID: 8892780554948581400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_120
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 240
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3800f97554f5307e0800000000000000
+      internalID: -1800490674590646141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_121
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 240
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368bcfc81e229f1b0800000000000000
+      internalID: -5622424307666995101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_122
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 240
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81789249dc7369530800000000000000
+      internalID: 3861335086610351896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_123
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 240
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebfa5dd8f12737f0800000000000000
+      internalID: -632999869872931862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_124
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 240
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbd85648673618d0800000000000000
+      internalID: -2876050391033127939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_125
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 240
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de547a3e24e5c5e0800000000000000
+      internalID: -1889853581411721519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_126
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 240
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826dca7b9b5aa53e0800000000000000
+      internalID: -2064155262126860760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_127
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 240
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10558db8e961973f0800000000000000
+      internalID: -902665380104219391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_128
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 240
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870a0852013617680800000000000000
+      internalID: -8759110879259090824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_129
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 240
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa927cf441cd3e20800000000000000
+      internalID: 3332031801361341092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_130
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 240
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543fa7d70145ee1e0800000000000000
+      internalID: -2166701940917210299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_131
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 240
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28fe843428e37a30800000000000000
+      internalID: 4211965318719797294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_132
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 215
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da77fa59c962bc70800000000000000
+      internalID: 8985360520093072086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_133
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 215
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0d9ecc3c36f80d0800000000000000
+      internalID: -3418403899543269141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_134
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c963fe848105470800000000000000
+      internalID: 8381225608066538518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_135
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 215
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abdbbb656e7bd5af0800000000000000
+      internalID: -405966191467971142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_136
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 215
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e607cc90f4233270800000000000000
+      internalID: 8228961559977068256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_137
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893ed3e55401c5750800000000000000
+      internalID: 6294924269277012888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_138
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 215
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad942588206671380800000000000000
+      internalID: -9000613169213584934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_139
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 215
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f135437f9dadfa0800000000000000
+      internalID: -5775063916391227603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_140
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ff0385e33ed96e0800000000000000
+      internalID: -1829056016735469744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_141
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 215
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f926155eb21c7f460800000000000000
+      internalID: 7275496117315396255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_142
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 215
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75cd239e8cc07c90800000000000000
+      internalID: -7174009293674527362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_143
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc440f38ce19a7e0800000000000000
+      internalID: -1753836734484558608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_144
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 189
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e873144db46ce20800000000000000
+      internalID: 3370464746132704779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_145
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 189
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8bc5da3149f6630800000000000000
+      internalID: 3922516612696815798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_146
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 189
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c09aea1451426b0800000000000000
+      internalID: -5322105487797711791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_147
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 189
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a8a36de12211230800000000000000
+      internalID: 3607702292339001943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_148
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 189
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e291198e8808210800000000000000
+      internalID: 1333216022149803530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_149
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 189
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d7f73fbed381220800000000000000
+      internalID: 2456781680342433050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_150
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 189
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14573bbe68672c330800000000000000
+      internalID: 3729673763268293953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_151
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 189
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b6396648d5b90e0800000000000000
+      internalID: -2262111564585538761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_152
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 189
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26dd556a33f077030800000000000000
+      internalID: 3492276750557502818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_153
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 189
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb5c493bcf5f3260800000000000000
+      internalID: 7079482465694014435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_154
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 189
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c87b56fbff4cc3b0800000000000000
+      internalID: -5490925902082901823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_155
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 189
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7159f14ecc5a34390800000000000000
+      internalID: -7835236627275344617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_156
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 164
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d496761186ff328d0800000000000000
+      internalID: -2872171314898572979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_157
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 164
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc375c3e81d9cab10800000000000000
+      internalID: 1994141465244431311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_158
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b21b46b67bfe3a70800000000000000
+      internalID: 8808754408466354871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_159
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 164
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5822d589cf5abf0800000000000000
+      internalID: -313566867704609317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_160
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 164
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c3c7ba49fdadff0800000000000000
+      internalID: -10450219489805226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_161
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a103a2d90a3f06be0800000000000000
+      internalID: -1485920005875159014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_162
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 164
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2bdef2e91a303e0800000000000000
+      internalID: -2088648101388766467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_163
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 164
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a1c9af775908600800000000000000
+      internalID: 468538703784712774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_164
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b744b4f50a72ae920800000000000000
+      internalID: 3020270069852357755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_165
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 164
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f953ec8a8d78130800000000000000
+      internalID: 3569059449240133422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_166
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 164
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f74765194d34d930800000000000000
+      internalID: 4167022939325548533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_167
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79f753e90fc16060800000000000000
+      internalID: 6945059741757864314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_168
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 138
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417c68612edb7f530800000000000000
+      internalID: 3888785581995902740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_169
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 138
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e2e81f8e55f0310800000000000000
+      internalID: 1373410870344691226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_170
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 138
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfb5ec5b51846ff0800000000000000
+      internalID: -43767866966294582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_171
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 138
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcaca544f94100470800000000000000
+      internalID: 8358703582678797007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_172
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 138
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b94d9557baa9e020800000000000000
+      internalID: 2371614383179385267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_173
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 138
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb223dda76de871d0800000000000000
+      internalID: -3352668893023624513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_174
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 138
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf857ccc6f87e990800000000000000
+      internalID: -7356753768836919358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_175
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 138
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbd61413970776a0800000000000000
+      internalID: -6451679612906316878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_176
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 138
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2db5f027a77ab70800000000000000
+      internalID: 8910225018078352051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_177
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 138
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d726fa629c44afa0800000000000000
+      internalID: -5790419029148162096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_178
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 138
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0440b3929ae4b7e40800000000000000
+      internalID: 5655200245541962816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_179
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 138
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d375596369c4ae0800000000000000
+      internalID: -1563709809426481889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_180
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 112
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2ba51b9bba0b0e0800000000000000
+      internalID: -2256114599279807804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_181
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 112
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3f62e72e3c765d0800000000000000
+      internalID: -3069269243483196467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_182
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 112
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e4154a7157c3700800000000000000
+      internalID: 521420401269624353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_183
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 112
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0fd2eee3dd42e40800000000000000
+      internalID: 5630868696473661632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_184
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 112
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256ba7f6525117030800000000000000
+      internalID: 3490594436717131346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_185
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 112
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fd0a07baf972af0800000000000000
+      internalID: -421192481458036838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_186
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 112
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e26f39deb72d35f0800000000000000
+      internalID: -775419860195777816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_187
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 112
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66a5460a473dd840800000000000000
+      internalID: 5250413531656201836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_188
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 112
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768a9cb9de66abf30800000000000000
+      internalID: 4592095940764608615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_189
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 112
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aeb0761b1b9ccc60800000000000000
+      internalID: 7839811591988100772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_190
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 112
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90315bba2da8c990800000000000000
+      internalID: -7365446791521554275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_191
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 112
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f54d7834023ae720800000000000000
+      internalID: 2876166305738474999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_192
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 87
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c7fcb5150171890800000000000000
+      internalID: -7487497913861440499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_193
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 87
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20302b3b3a117adc0800000000000000
+      internalID: -3627911580031515902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_194
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 87
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73b0552b43bf3fc0800000000000000
+      internalID: -3512892048995732610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_195
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 87
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97fa14038b1cd920800000000000000
+      internalID: 3016316099954931615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_196
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 87
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d83cf52cb4e2bf0800000000000000
+      internalID: -347256823058559611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_197
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 87
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5724136b9f4b5b70800000000000000
+      internalID: 8888785818346596187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_198
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 87
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f943a8a983c484250800000000000000
+      internalID: 5929072715427886239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_199
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 87
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d5916d8accc2310800000000000000
+      internalID: 1381704211214458201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_200
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 87
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ed64a8c441135a0800000000000000
+      internalID: -6543426464622649767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_201
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 87
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3375dac780f4bd310800000000000000
+      internalID: 1430824204490331955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_202
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 87
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379d1da93a5bc0e90800000000000000
+      internalID: -7058066801714669197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_203
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 87
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec2798578eb1fc20800000000000000
+      internalID: 3238579095572262122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_204
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 61
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb14a354c14f5de0800000000000000
+      internalID: -1342281852460459013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_205
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 61
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a321d1c90fd7f200800000000000000
+      internalID: 213884740322796450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_206
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 61
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18192bb987857260800000000000000
+      internalID: 7094725813612386335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_207
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 61
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3486c5c56ea5870800000000000000
+      internalID: 8672497316817028089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_208
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 61
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fa66c96352aa440800000000000000
+      internalID: 4947808057102348127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_209
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 61
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe873391821d48b0800000000000000
+      internalID: -5166452849794117957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_210
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 61
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef47a77e3524f3790800000000000000
+      internalID: -7548241522316380930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_211
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 61
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9052ed183bb08dff0800000000000000
+      internalID: -11246133462555383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_212
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 61
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85733cbdc314f5380800000000000000
+      internalID: -8980387402312632488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_213
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 61
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd190234b2b894940800000000000000
+      internalID: 5280905055994679772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_214
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 61
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533f410dfe3bcd900800000000000000
+      internalID: 710640683787285301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_215
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 61
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7d9f1a465a41cc0800000000000000
+      internalID: -3741183538805221423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_216
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 36
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d339df9ecf3a42b70800000000000000
+      internalID: 8873397472479515453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_217
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 36
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a947af316463f8a70800000000000000
+      internalID: 8831337068907623578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_218
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 36
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b6293496a75a8d0800000000000000
+      internalID: -2835725797836035298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_219
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 36
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40860528265de700800000000000000
+      internalID: 571207458165784652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_220
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 36
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849570237ef9f5040800000000000000
+      internalID: 4638601956540504392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_221
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 36
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67de46c8abc265510800000000000000
+      internalID: 1537465502524566902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_222
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 36
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ec79f701818bbb0800000000000000
+      internalID: -4920156133763068393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_223
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 36
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf28555eb7c67740800000000000000
+      internalID: 5149522844234297311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_224
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 36
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcace2b8b46f271b0800000000000000
+      internalID: -5660190977333212467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_225
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 36
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095b6cf2b3bc757e0800000000000000
+      internalID: -1776728072909310576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_226
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 36
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2168c9eb2338150800000000000000
+      internalID: 5873594133272466135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_227
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 36
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba56db9b2cc147c50800000000000000
+      internalID: 6661981371453236651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_228
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5681796bd2bf08060800000000000000
+      internalID: 6953833998415501413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_229
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b794cdfa329cf470800000000000000
+      internalID: 8429773384594003889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_230
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 10
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86670c8281fcf9e0800000000000000
+      internalID: -1586127425743919475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_231
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf8559ad0ef63e60800000000000000
+      internalID: 7941814327543435207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_232
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35e6d4d1e27fb3d0800000000000000
+      internalID: -3188703696890960580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_233
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 10
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370241611c833aed0800000000000000
+      internalID: -2404015374135451533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_234
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52d01bbf2e16bdc0800000000000000
+      internalID: -3623675659822247333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_235
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788d0657a898e63b0800000000000000
+      internalID: -5517321265714505593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_236
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 10
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f7b210408dd7d00800000000000000
+      internalID: 972170606292991809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_237
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f454b392a20bb9e0800000000000000
+      internalID: -1604685944941423371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_238
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ece72e8dd5300e0800000000000000
+      internalID: -2304895398189281687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelSnakeDots_239
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 10
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d364de0f3177e470800000000000000
+      internalID: 8423826143665480659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FeelSnakeDots_0: -4366236761560183565
+      FeelSnakeDots_1: 2534807406704677770
+      FeelSnakeDots_10: 1543706908707641666
+      FeelSnakeDots_100: -4094566225582977768
+      FeelSnakeDots_101: 8524770410457622243
+      FeelSnakeDots_102: -6270111917132111450
+      FeelSnakeDots_103: 5392492516781251901
+      FeelSnakeDots_104: -1988921635575706009
+      FeelSnakeDots_105: -4147996193768340280
+      FeelSnakeDots_106: -3149305115485243608
+      FeelSnakeDots_107: -980696026319488489
+      FeelSnakeDots_108: -6669439258531979358
+      FeelSnakeDots_109: 1723627881130573986
+      FeelSnakeDots_11: 8139889815874570835
+      FeelSnakeDots_110: -7261560173053087888
+      FeelSnakeDots_111: -704557321872412086
+      FeelSnakeDots_112: -2892211522220870445
+      FeelSnakeDots_113: 3908585745204163704
+      FeelSnakeDots_114: 8141957647618790878
+      FeelSnakeDots_115: 989385371433949851
+      FeelSnakeDots_116: -7517115263419231076
+      FeelSnakeDots_117: 5584160330105080531
+      FeelSnakeDots_118: -3523572483816262908
+      FeelSnakeDots_119: 8892780554948581400
+      FeelSnakeDots_12: -4673051998401295190
+      FeelSnakeDots_120: -1800490674590646141
+      FeelSnakeDots_121: -5622424307666995101
+      FeelSnakeDots_122: 3861335086610351896
+      FeelSnakeDots_123: -632999869872931862
+      FeelSnakeDots_124: -2876050391033127939
+      FeelSnakeDots_125: -1889853581411721519
+      FeelSnakeDots_126: -2064155262126860760
+      FeelSnakeDots_127: -902665380104219391
+      FeelSnakeDots_128: -8759110879259090824
+      FeelSnakeDots_129: 3332031801361341092
+      FeelSnakeDots_13: -8886587041492203246
+      FeelSnakeDots_130: -2166701940917210299
+      FeelSnakeDots_131: 4211965318719797294
+      FeelSnakeDots_132: 8985360520093072086
+      FeelSnakeDots_133: -3418403899543269141
+      FeelSnakeDots_134: 8381225608066538518
+      FeelSnakeDots_135: -405966191467971142
+      FeelSnakeDots_136: 8228961559977068256
+      FeelSnakeDots_137: 6294924269277012888
+      FeelSnakeDots_138: -9000613169213584934
+      FeelSnakeDots_139: -5775063916391227603
+      FeelSnakeDots_14: -6623836567550942512
+      FeelSnakeDots_140: -1829056016735469744
+      FeelSnakeDots_141: 7275496117315396255
+      FeelSnakeDots_142: -7174009293674527362
+      FeelSnakeDots_143: -1753836734484558608
+      FeelSnakeDots_144: 3370464746132704779
+      FeelSnakeDots_145: 3922516612696815798
+      FeelSnakeDots_146: -5322105487797711791
+      FeelSnakeDots_147: 3607702292339001943
+      FeelSnakeDots_148: 1333216022149803530
+      FeelSnakeDots_149: 2456781680342433050
+      FeelSnakeDots_15: 1706223321286508586
+      FeelSnakeDots_150: 3729673763268293953
+      FeelSnakeDots_151: -2262111564585538761
+      FeelSnakeDots_152: 3492276750557502818
+      FeelSnakeDots_153: 7079482465694014435
+      FeelSnakeDots_154: -5490925902082901823
+      FeelSnakeDots_155: -7835236627275344617
+      FeelSnakeDots_156: -2872171314898572979
+      FeelSnakeDots_157: 1994141465244431311
+      FeelSnakeDots_158: 8808754408466354871
+      FeelSnakeDots_159: -313566867704609317
+      FeelSnakeDots_16: -340230989532079208
+      FeelSnakeDots_160: -10450219489805226
+      FeelSnakeDots_161: -1485920005875159014
+      FeelSnakeDots_162: -2088648101388766467
+      FeelSnakeDots_163: 468538703784712774
+      FeelSnakeDots_164: 3020270069852357755
+      FeelSnakeDots_165: 3569059449240133422
+      FeelSnakeDots_166: 4167022939325548533
+      FeelSnakeDots_167: 6945059741757864314
+      FeelSnakeDots_168: 3888785581995902740
+      FeelSnakeDots_169: 1373410870344691226
+      FeelSnakeDots_17: -7105306607476452917
+      FeelSnakeDots_170: -43767866966294582
+      FeelSnakeDots_171: 8358703582678797007
+      FeelSnakeDots_172: 2371614383179385267
+      FeelSnakeDots_173: -3352668893023624513
+      FeelSnakeDots_174: -7356753768836919358
+      FeelSnakeDots_175: -6451679612906316878
+      FeelSnakeDots_176: 8910225018078352051
+      FeelSnakeDots_177: -5790419029148162096
+      FeelSnakeDots_178: 5655200245541962816
+      FeelSnakeDots_179: -1563709809426481889
+      FeelSnakeDots_18: -6965360695450619298
+      FeelSnakeDots_180: -2256114599279807804
+      FeelSnakeDots_181: -3069269243483196467
+      FeelSnakeDots_182: 521420401269624353
+      FeelSnakeDots_183: 5630868696473661632
+      FeelSnakeDots_184: 3490594436717131346
+      FeelSnakeDots_185: -421192481458036838
+      FeelSnakeDots_186: -775419860195777816
+      FeelSnakeDots_187: 5250413531656201836
+      FeelSnakeDots_188: 4592095940764608615
+      FeelSnakeDots_189: 7839811591988100772
+      FeelSnakeDots_19: 6066723443532429215
+      FeelSnakeDots_190: -7365446791521554275
+      FeelSnakeDots_191: 2876166305738474999
+      FeelSnakeDots_192: -7487497913861440499
+      FeelSnakeDots_193: -3627911580031515902
+      FeelSnakeDots_194: -3512892048995732610
+      FeelSnakeDots_195: 3016316099954931615
+      FeelSnakeDots_196: -347256823058559611
+      FeelSnakeDots_197: 8888785818346596187
+      FeelSnakeDots_198: 5929072715427886239
+      FeelSnakeDots_199: 1381704211214458201
+      FeelSnakeDots_2: 6608214329856146861
+      FeelSnakeDots_20: 4390784212823010251
+      FeelSnakeDots_200: -6543426464622649767
+      FeelSnakeDots_201: 1430824204490331955
+      FeelSnakeDots_202: -7058066801714669197
+      FeelSnakeDots_203: 3238579095572262122
+      FeelSnakeDots_204: -1342281852460459013
+      FeelSnakeDots_205: 213884740322796450
+      FeelSnakeDots_206: 7094725813612386335
+      FeelSnakeDots_207: 8672497316817028089
+      FeelSnakeDots_208: 4947808057102348127
+      FeelSnakeDots_209: -5166452849794117957
+      FeelSnakeDots_21: 8166280287861022482
+      FeelSnakeDots_210: -7548241522316380930
+      FeelSnakeDots_211: -11246133462555383
+      FeelSnakeDots_212: -8980387402312632488
+      FeelSnakeDots_213: 5280905055994679772
+      FeelSnakeDots_214: 710640683787285301
+      FeelSnakeDots_215: -3741183538805221423
+      FeelSnakeDots_216: 8873397472479515453
+      FeelSnakeDots_217: 8831337068907623578
+      FeelSnakeDots_218: -2835725797836035298
+      FeelSnakeDots_219: 571207458165784652
+      FeelSnakeDots_22: -2696073327971038496
+      FeelSnakeDots_220: 4638601956540504392
+      FeelSnakeDots_221: 1537465502524566902
+      FeelSnakeDots_222: -4920156133763068393
+      FeelSnakeDots_223: 5149522844234297311
+      FeelSnakeDots_224: -5660190977333212467
+      FeelSnakeDots_225: -1776728072909310576
+      FeelSnakeDots_226: 5873594133272466135
+      FeelSnakeDots_227: 6661981371453236651
+      FeelSnakeDots_228: 6953833998415501413
+      FeelSnakeDots_229: 8429773384594003889
+      FeelSnakeDots_23: -3330470357598659818
+      FeelSnakeDots_230: -1586127425743919475
+      FeelSnakeDots_231: 7941814327543435207
+      FeelSnakeDots_232: -3188703696890960580
+      FeelSnakeDots_233: -2404015374135451533
+      FeelSnakeDots_234: -3623675659822247333
+      FeelSnakeDots_235: -5517321265714505593
+      FeelSnakeDots_236: 972170606292991809
+      FeelSnakeDots_237: -1604685944941423371
+      FeelSnakeDots_238: -2304895398189281687
+      FeelSnakeDots_239: 8423826143665480659
+      FeelSnakeDots_24: 6545806720142381350
+      FeelSnakeDots_25: 1508939916961022856
+      FeelSnakeDots_26: 5734896745676408619
+      FeelSnakeDots_27: -169713944028681973
+      FeelSnakeDots_28: 241344374287089235
+      FeelSnakeDots_29: 2733136076553723444
+      FeelSnakeDots_3: 3634298325101147824
+      FeelSnakeDots_30: -6270513572687000339
+      FeelSnakeDots_31: -7532711101811995206
+      FeelSnakeDots_32: -3826172986962552573
+      FeelSnakeDots_33: 5422353693908677142
+      FeelSnakeDots_34: 274156442591164582
+      FeelSnakeDots_35: -6053211733105837231
+      FeelSnakeDots_36: 4222282057385204255
+      FeelSnakeDots_37: 2911234351966559489
+      FeelSnakeDots_38: -3086748866695289270
+      FeelSnakeDots_39: 8496661374234363315
+      FeelSnakeDots_4: -5612669712198382185
+      FeelSnakeDots_40: -8461507947345097182
+      FeelSnakeDots_41: 3793204830368392980
+      FeelSnakeDots_42: 2201232962654071488
+      FeelSnakeDots_43: 6960853847209902814
+      FeelSnakeDots_44: -6289037125663862666
+      FeelSnakeDots_45: 3302653971004256785
+      FeelSnakeDots_46: 8390284600202509905
+      FeelSnakeDots_47: 986576888351547276
+      FeelSnakeDots_48: 8392376431235639850
+      FeelSnakeDots_49: -7378491236138079340
+      FeelSnakeDots_5: 823759355798935023
+      FeelSnakeDots_50: -1541056211792321873
+      FeelSnakeDots_51: -4999416412369463723
+      FeelSnakeDots_52: 3748320128925948884
+      FeelSnakeDots_53: -1039243649507207252
+      FeelSnakeDots_54: 4847292067730259647
+      FeelSnakeDots_55: -3379837569896041796
+      FeelSnakeDots_56: 7978429229932435402
+      FeelSnakeDots_57: -7068328603915186837
+      FeelSnakeDots_58: -7450599325941699654
+      FeelSnakeDots_59: 1190893545249994721
+      FeelSnakeDots_6: -8447846047881216513
+      FeelSnakeDots_60: -2096691355561283873
+      FeelSnakeDots_61: 5492707486855275085
+      FeelSnakeDots_62: 4624383616017196127
+      FeelSnakeDots_63: -6718591260017510728
+      FeelSnakeDots_64: -2095759374259997106
+      FeelSnakeDots_65: -3922814492760605943
+      FeelSnakeDots_66: -910297842422037477
+      FeelSnakeDots_67: -7980790657896420297
+      FeelSnakeDots_68: 5199408688686758186
+      FeelSnakeDots_69: 8627669428394757938
+      FeelSnakeDots_7: 7705206561683647791
+      FeelSnakeDots_70: 4507489708187203283
+      FeelSnakeDots_71: 3058667119812285769
+      FeelSnakeDots_72: -8041804036659192521
+      FeelSnakeDots_73: -7564900557699114983
+      FeelSnakeDots_74: 1596443237175946444
+      FeelSnakeDots_75: -3163959479755804820
+      FeelSnakeDots_76: -2919648908514395565
+      FeelSnakeDots_77: -5897621019600926338
+      FeelSnakeDots_78: -2653390908238034067
+      FeelSnakeDots_79: 4475201730037277422
+      FeelSnakeDots_8: 2727817356842790742
+      FeelSnakeDots_80: -4923634249963434258
+      FeelSnakeDots_81: 1808925981481086909
+      FeelSnakeDots_82: -6881138810123449799
+      FeelSnakeDots_83: -2847321816432878509
+      FeelSnakeDots_84: 8210401700658578308
+      FeelSnakeDots_85: 3572162644069822298
+      FeelSnakeDots_86: -4403031127856869931
+      FeelSnakeDots_87: -6648560158252507757
+      FeelSnakeDots_88: 880136018692323573
+      FeelSnakeDots_89: -4910695463548964048
+      FeelSnakeDots_9: 3866109071120595825
+      FeelSnakeDots_90: 7940544631455940346
+      FeelSnakeDots_91: 5524918249036457308
+      FeelSnakeDots_92: -1238931782881485768
+      FeelSnakeDots_93: 2385574593154419731
+      FeelSnakeDots_94: 976225053583684319
+      FeelSnakeDots_95: -8266178124786426779
+      FeelSnakeDots_96: -8365986396096469545
+      FeelSnakeDots_97: -3064847097778512399
+      FeelSnakeDots_98: 3713706586152599887
+      FeelSnakeDots_99: -8703035593827832288
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

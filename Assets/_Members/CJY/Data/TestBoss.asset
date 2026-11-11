@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee0e04421d9046998bb3be3d7005f145, type: 3}
+  m_Name: TestBoss
+  m_EditorClassIdentifier: Assembly-CSharp::_Members.CJY.Scripts.BossDataSO
+  Name: "\uD14C\uC2A4\uD2B8 \uBCF4\uC2A4"
+  Desc: "\uD14C\uC2A4\uD2B8\uC6A9 \uBCF4\uC2A4\uC785\uB2C8\uB2E4."
+  AttackTarget:
+    serializedVersion: 2
+    m_Bits: 64
+  HP: 100
+  Speed: 5
+  DetectRange: 7
+  AttackRange: 3
+  AttackPower: 5
+  AttackCool: 3
+  Attack2Cool: 3
+  SPAttackCool: 10
+  ChargeCool: 30

@@ -7,6 +7,7 @@ public enum BossActionType
 	IDLE,
 	CHASE,
 	ATTACK,
+	ATTACK2,
 	SPATTACK,
 	CHARGE,
 	DEAD
