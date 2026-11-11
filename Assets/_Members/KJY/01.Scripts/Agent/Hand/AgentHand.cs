@@ -1,6 +1,5 @@
 ﻿using System;
 using DG.Tweening;
-using NaughtyAttributes;
 using Unity.Cinemachine;
 using UnityEngine;
 
