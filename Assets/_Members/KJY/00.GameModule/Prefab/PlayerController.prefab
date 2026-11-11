@@ -101,14 +101,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1336829425654931708}
   - component: {fileID: 229671992512122823}
-<<<<<<< HEAD
-  m_Layer: 0
-  m_Name: Hand
-=======
   - component: {fileID: 3970880634303741195}
   m_Layer: 0
   m_Name: LHand
->>>>>>> base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,11 +118,7 @@ Transform:
   m_GameObject: {fileID: 1226807690091076819}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
-  m_LocalPosition: {x: 0.66, y: 0.47, z: 0}
-=======
   m_LocalPosition: {x: 0.675, y: 0.3, z: 0}
->>>>>>> base
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -192,8 +183,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
-<<<<<<< HEAD
-=======
 --- !u!114 &3970880634303741195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,7 +200,6 @@ MonoBehaviour:
   duration: 0.4
   raiseEase: 15
   returnEase: 1
->>>>>>> base
 --- !u!1 &4093295685369390116
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,8 +315,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::_Members.KJY._01.Scripts.Player.PlayerController
   <PlayerInput>k__BackingField: {fileID: 11400000, guid: f7bfc732eaa0f8e4b8d91b8d155577f7, type: 2}
   baseSpeed: 8
-<<<<<<< HEAD
-=======
   <LHand>k__BackingField: {fileID: 3970880634303741195}
   <RHand>k__BackingField: {fileID: 6616552319635808909}
 --- !u!1 &7204357658033110814
@@ -440,7 +426,6 @@ MonoBehaviour:
   duration: 0.4
   raiseEase: 15
   returnEase: 1
->>>>>>> base
 --- !u!1 &7474025347305701956
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,10 +457,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1336829425654931708}
-<<<<<<< HEAD
-=======
   - {fileID: 5597351498106387347}
->>>>>>> base
   m_Father: {fileID: 8314728403864839152}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7213958186188890202
@@ -498,8 +480,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8314728403864839152}
     m_Modifications:
-<<<<<<< HEAD
-=======
     - target: {fileID: 79500055424763976, guid: f041b9f2fc5bae34686af02b1638a407, type: 3}
       propertyPath: acceleration
       value: 100
@@ -508,7 +488,6 @@ PrefabInstance:
       propertyPath: useAcceleration
       value: 1
       objectReference: {fileID: 0}
->>>>>>> base
     - target: {fileID: 3710128976434413533, guid: f041b9f2fc5bae34686af02b1638a407, type: 3}
       propertyPath: m_Name
       value: AgentMovement
