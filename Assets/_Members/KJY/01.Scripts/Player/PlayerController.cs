@@ -21,34 +21,20 @@ namespace _Members.KJY._01.Scripts.Player
         [field: SerializeField] public AgentHand RHand { get; private set; }
 
         public IMoveable Mover { get; private set; }
-<<<<<<< HEAD
-        public AgentHandler Handler { get; private set; }
-        public Camera Camera { get; private set; }
-=======
         public Camera Camera { get; private set; }
         public AgentHandler Handler { get; private set; }
 
         private Vector2 _mPosDir;
->>>>>>> base
 
         protected override void InitializeModules()
         {
             base.InitializeModules();
-<<<<<<< HEAD
-            
-            Camera = Camera.main; 
-            
-            Mover = GetModule<IMoveable>();
-            Handler = GetModule<AgentHandler>();
-            
-=======
 
             Camera = Camera.main;
 
             Mover = GetModule<IMoveable>();
             Handler = GetModule<AgentHandler>();
 
->>>>>>> base
             ValidateData();
         }
 
@@ -60,15 +46,6 @@ namespace _Members.KJY._01.Scripts.Player
         private void Update()
         {
             Mover.SetDirection(PlayerInput.InputDir);
-<<<<<<< HEAD
-            
-            Vector2 dir = (Vector3)WorldMousePosition() - transform.position;
-            float zAngle = AgentUtil.GetZAngle(dir);
-            Handler.SetZAngle(zAngle);
-        }
-
-        
-=======
 
             _mPosDir = ((Vector3)WorldMousePosition() - transform.position).normalized;
             float zAngle = AgentUtil.GetZAngle(_mPosDir);
@@ -77,7 +54,6 @@ namespace _Members.KJY._01.Scripts.Player
         }
 
 
->>>>>>> base
         private void OnEnable()
         {
             PlayerInput.SetEnable();
@@ -98,19 +74,15 @@ namespace _Members.KJY._01.Scripts.Player
                     RHand.Attack(WorldMousePosition());
             }
         }
+
         private void OnDisable()
         {
             PlayerInput.OnAttackPressed -= HandleAttack;
 
             PlayerInput.SetDisable();
         }
-<<<<<<< HEAD
-        
-        private Vector2 WorldMousePosition() 
-=======
 
         private Vector2 WorldMousePosition()
->>>>>>> base
             => Camera.ScreenToWorldPoint(PlayerInput.LookPos);
 
     }

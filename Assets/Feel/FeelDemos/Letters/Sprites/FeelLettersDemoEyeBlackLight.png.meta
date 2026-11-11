@@ -1,29 +1,9 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-guid: 334e38149affbef47b78cf88ec2ec78f
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 5363972748340281943
-    second: FeelLettersDemoEyeBlackLight_0
-  - first:
-      213: -8957902599917898959
-    second: FeelLettersDemoEyeBlackLight_1
-  externalObjects: {}
-  serializedVersion: 13
-=======
-=======
->>>>>>> base
 guid: 0f2ad74cae6bafc4dab3c206ac62452a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
-<<<<<<< HEAD
->>>>>>> base
-=======
->>>>>>> base
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -40,24 +20,9 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
-  vTOnly: 0
-  ignoreMipmapLimit: 0
-=======
-  isReadable: 0
-  streamingMipmaps: 0
-  streamingMipmapsPriority: 0
->>>>>>> base
-=======
-  isReadable: 0
-  streamingMipmaps: 0
-  streamingMipmapsPriority: 0
->>>>>>> base
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -66,23 +31,6 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    filterMode: 1
-    aniso: 1
-    mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
-  nPOTScale: 0
-  lightmap: 0
-  compressionQuality: 50
-  spriteMode: 2
-  spriteExtrude: 1
-  spriteMeshType: 1
-=======
-=======
->>>>>>> base
     filterMode: -1
     aniso: -1
     mipBias: -100
@@ -95,10 +43,6 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 0
-<<<<<<< HEAD
->>>>>>> base
-=======
->>>>>>> base
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -110,32 +54,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-  flipbookRows: 1
-  flipbookColumns: 1
-  maxTextureSizeSet: 0
-  compressionQualitySet: 0
-  textureFormatSet: 0
-  ignorePngGamma: 0
-  applyGammaDecoding: 0
-  swizzle: 50462976
-  cookieLightType: 0
-  platformSettings:
-  - serializedVersion: 4
-=======
-=======
->>>>>>> base
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
-<<<<<<< HEAD
->>>>>>> base
-=======
->>>>>>> base
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -145,22 +69,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-=======
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
->>>>>>> base
-=======
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
->>>>>>> base
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -170,12 +81,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    ignorePlatformSupport: 0
-=======
-=======
->>>>>>> base
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -212,103 +117,24 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
->>>>>>> base
-=======
->>>>>>> base
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    sprites:
-    - serializedVersion: 2
-      name: FeelLettersDemoEyeBlackLight_0
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 28
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 752c2b98bc8a07a40800000000000000
-      internalID: 5363972748340281943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FeelLettersDemoEyeBlackLight_1
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 16
-        width: 13
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 133785fdb032fa380800000000000000
-      internalID: -8957902599917898959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    outline: []
-    customData: 
-    physicsShape: []
-    bones: []
-    spriteID: 
-=======
-=======
->>>>>>> base
     sprites: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-<<<<<<< HEAD
->>>>>>> base
-=======
->>>>>>> base
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< HEAD
-<<<<<<< HEAD
-    spriteCustomMetadata:
-      entries: []
-    nameFileIdTable:
-      FeelLettersDemoEyeBlackLight_0: 5363972748340281943
-      FeelLettersDemoEyeBlackLight_1: -8957902599917898959
-  mipmapLimitGroupName: 
-  pSDRemoveMatte: 0
-=======
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
->>>>>>> base
-=======
-  spritePackingTag: 
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
->>>>>>> base
   userData: 
   assetBundleName: 
   assetBundleVariant: 

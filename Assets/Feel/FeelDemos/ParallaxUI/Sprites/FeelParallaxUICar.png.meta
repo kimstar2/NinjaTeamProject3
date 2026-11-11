@@ -1,38 +1,9 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-guid: b950299f7d6059a4081fb89c2d6ce9be
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 7772252135814775050
-    second: FeelParallaxUICar_0
-  - first:
-      213: 2164569426012680381
-    second: FeelParallaxUICar_1
-  - first:
-      213: -5542358641259957180
-    second: FeelParallaxUICar_2
-  - first:
-      213: 3650861014910553842
-    second: FeelParallaxUICar_3
-  - first:
-      213: -6735633677026117596
-    second: FeelParallaxUICar_4
-  externalObjects: {}
-  serializedVersion: 13
-=======
-=======
->>>>>>> base
 guid: 2a5aae9320faa844fb00f0ae30c4e98b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
-<<<<<<< HEAD
->>>>>>> base
-=======
->>>>>>> base
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -49,24 +20,9 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
-  vTOnly: 0
-  ignoreMipmapLimit: 0
-=======
-  isReadable: 0
-  streamingMipmaps: 0
-  streamingMipmapsPriority: 0
->>>>>>> base
-=======
-  isReadable: 0
-  streamingMipmaps: 0
-  streamingMipmapsPriority: 0
->>>>>>> base
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -80,25 +36,11 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-    wrapW: 1
-  nPOTScale: 0
-  lightmap: 0
-  compressionQuality: 50
-  spriteMode: 2
-=======
-=======
->>>>>>> base
     wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
-<<<<<<< HEAD
->>>>>>> base
-=======
->>>>>>> base
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -112,32 +54,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-  flipbookRows: 1
-  flipbookColumns: 1
-  maxTextureSizeSet: 0
-  compressionQualitySet: 0
-  textureFormatSet: 0
-  ignorePngGamma: 0
-  applyGammaDecoding: 0
-  swizzle: 50462976
-  cookieLightType: 0
-  platformSettings:
-  - serializedVersion: 4
-=======
-=======
->>>>>>> base
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
-<<<<<<< HEAD
->>>>>>> base
-=======
->>>>>>> base
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -147,22 +69,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-=======
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
->>>>>>> base
-=======
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
->>>>>>> base
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -172,12 +81,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    ignorePlatformSupport: 0
-=======
-=======
->>>>>>> base
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -202,172 +105,24 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
->>>>>>> base
-=======
->>>>>>> base
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    sprites:
-    - serializedVersion: 2
-      name: FeelParallaxUICar_0
-      rect:
-        serializedVersion: 2
-        x: 206
-        y: 351
-        width: 818
-        height: 435
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a01c20c63269cdb60800000000000000
-      internalID: 7772252135814775050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FeelParallaxUICar_1
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 80
-        width: 638
-        height: 123
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: db03821bc681a0e10800000000000000
-      internalID: 2164569426012680381
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FeelParallaxUICar_2
-      rect:
-        serializedVersion: 2
-        x: 868
-        y: 191
-        width: 9
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44432e13e269513b0800000000000000
-      internalID: -5542358641259957180
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FeelParallaxUICar_3
-      rect:
-        serializedVersion: 2
-        x: 968
-        y: 178
-        width: 56
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2fec01effb67aa230800000000000000
-      internalID: 3650861014910553842
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FeelParallaxUICar_4
-      rect:
-        serializedVersion: 2
-        x: 956
-        y: 135
-        width: 26
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 42833bf8bd83682a0800000000000000
-      internalID: -6735633677026117596
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    outline: []
-    customData: 
-    physicsShape: []
-    bones: []
-    spriteID: 
-=======
-=======
->>>>>>> base
     sprites: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-<<<<<<< HEAD
->>>>>>> base
-=======
->>>>>>> base
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< HEAD
-<<<<<<< HEAD
-    spriteCustomMetadata:
-      entries: []
-    nameFileIdTable:
-      FeelParallaxUICar_0: 7772252135814775050
-      FeelParallaxUICar_1: 2164569426012680381
-      FeelParallaxUICar_2: -5542358641259957180
-      FeelParallaxUICar_3: 3650861014910553842
-      FeelParallaxUICar_4: -6735633677026117596
-  mipmapLimitGroupName: 
-  pSDRemoveMatte: 0
-=======
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
->>>>>>> base
-=======
-  spritePackingTag: 
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
->>>>>>> base
   userData: 
   assetBundleName: 
   assetBundleVariant: 

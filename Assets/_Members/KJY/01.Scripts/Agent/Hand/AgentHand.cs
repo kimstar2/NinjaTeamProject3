@@ -1,26 +1,14 @@
-<<<<<<< HEAD
-﻿using UnityEngine;
-=======
 ﻿using System;
 using DG.Tweening;
 using NaughtyAttributes;
 using Unity.Cinemachine;
 using UnityEngine;
->>>>>>> base
 
 namespace _Members.KJY._01.Scripts.Agent.Hand
 {
     public class AgentHand : MonoBehaviour
     {
         [field:SerializeField] public bool IsRightHand {get; private set;}
-<<<<<<< HEAD
-        
-        
-        
-        public void Attack(Vector2 dir)
-        {
-            
-=======
         [SerializeField , MinMaxRangeSlider(1f,10f)] private Vector2 attackRange;
 
         [Header("Tween Setting")]   
@@ -49,7 +37,6 @@ namespace _Members.KJY._01.Scripts.Agent.Hand
             _attackSequence.Append(transform.
                 DOLocalMove(_originPos ,duration)).
                 SetEase(returnEase);
->>>>>>> base
         }
     }
 }

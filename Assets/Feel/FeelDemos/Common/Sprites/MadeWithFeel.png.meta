@@ -1,74 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-guid: ad8ccbe9e1246874593bec6e6a03d565
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 3658869299627721534
-    second: MadeWithFeel_0
-  - first:
-      213: -8282719764659795136
-    second: MadeWithFeel_1
-  - first:
-      213: 3413099889529125378
-    second: MadeWithFeel_2
-  - first:
-      213: -6094690694365476296
-    second: MadeWithFeel_3
-  - first:
-      213: 2214881324712798680
-    second: MadeWithFeel_4
-  - first:
-      213: -9009772564348134944
-    second: MadeWithFeel_5
-  - first:
-      213: -4021510255633544824
-    second: MadeWithFeel_6
-  - first:
-      213: -3453707717139695981
-    second: MadeWithFeel_7
-  - first:
-      213: -2672579617836608586
-    second: MadeWithFeel_8
-  - first:
-      213: -2468794504304978567
-    second: MadeWithFeel_9
-  - first:
-      213: 5485334831799814502
-    second: MadeWithFeel_10
-  - first:
-      213: -765564386455952578
-    second: MadeWithFeel_11
-  - first:
-      213: -8910911791175906821
-    second: MadeWithFeel_12
-  - first:
-      213: 7320848782728193980
-    second: MadeWithFeel_13
-  - first:
-      213: 626451078256307132
-    second: MadeWithFeel_14
-  - first:
-      213: -9150309846468105231
-    second: MadeWithFeel_15
-  - first:
-      213: -7686845347486598567
-    second: MadeWithFeel_16
-  - first:
-      213: -7580041578952166809
-    second: MadeWithFeel_17
-  - first:
-      213: -2589466429060634856
-    second: MadeWithFeel_18
-  externalObjects: {}
-  serializedVersion: 13
-  mipmaps:
-    mipMapMode: 0
-    enableMipMap: 0
-=======
-=======
->>>>>>> base
 guid: c85e3f1bded2f414e9cd18a5c09171b3
 TextureImporter:
   internalIDToNameTable: []
@@ -77,10 +7,6 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
-<<<<<<< HEAD
->>>>>>> base
-=======
->>>>>>> base
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -94,24 +20,9 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
-  vTOnly: 0
-  ignoreMipmapLimit: 0
-=======
-  isReadable: 0
-  streamingMipmaps: 0
-  streamingMipmapsPriority: 0
->>>>>>> base
-=======
-  isReadable: 0
-  streamingMipmaps: 0
-  streamingMipmapsPriority: 0
->>>>>>> base
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -123,18 +34,6 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
-  nPOTScale: 0
-  lightmap: 0
-  compressionQuality: 50
-  spriteMode: 2
-=======
-=======
->>>>>>> base
     wrapU: 0
     wrapV: 0
     wrapW: 0
@@ -142,10 +41,6 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
-<<<<<<< HEAD
->>>>>>> base
-=======
->>>>>>> base
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -154,27 +49,6 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-  alphaIsTransparency: 1
-  spriteTessellationDetail: -1
-  textureType: 8
-  textureShape: 1
-  singleChannelComponent: 0
-  flipbookRows: 1
-  flipbookColumns: 1
-  maxTextureSizeSet: 0
-  compressionQualitySet: 0
-  textureFormatSet: 0
-  ignorePngGamma: 0
-  applyGammaDecoding: 0
-  swizzle: 50462976
-  cookieLightType: 0
-  platformSettings:
-  - serializedVersion: 4
-=======
-=======
->>>>>>> base
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 0
@@ -186,10 +60,6 @@ TextureImporter:
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
-<<<<<<< HEAD
->>>>>>> base
-=======
->>>>>>> base
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -199,461 +69,12 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-=======
->>>>>>> base
-=======
->>>>>>> base
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    sprites:
-    - serializedVersion: 2
-      name: MadeWithFeel_0
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 749
-        width: 45
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e3384e31e3ae6c230800000000000000
-      internalID: 3658869299627721534
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MadeWithFeel_1
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 751
-        width: 41
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 04b885df14edd0d80800000000000000
-      internalID: -8282719764659795136
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MadeWithFeel_2
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 752
-        width: 33
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 20afe422444cd5f20800000000000000
-      internalID: 3413099889529125378
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MadeWithFeel_3
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 752
-        width: 29
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83a8772ca1f4b6ba0800000000000000
-      internalID: -6094690694365476296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MadeWithFeel_4
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 752
-        width: 48
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d9272374d6dcbe10800000000000000
-      internalID: 2214881324712798680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MadeWithFeel_5
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 754
-        width: 42
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e918faa69bd6f280800000000000000
-      internalID: -9009772564348134944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MadeWithFeel_6
-      rect:
-        serializedVersion: 2
-        x: 463
-        y: 751
-        width: 34
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8894f58bab9b038c0800000000000000
-      internalID: -4021510255633544824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MadeWithFeel_7
-      rect:
-        serializedVersion: 2
-        x: 504
-        y: 753
-        width: 33
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 396fcd93127f110d0800000000000000
-      internalID: -3453707717139695981
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MadeWithFeel_8
-      rect:
-        serializedVersion: 2
-        x: 538
-        y: 752
-        width: 34
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6b356ec5ff619ead0800000000000000
-      internalID: -2672579617836608586
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MadeWithFeel_9
-      rect:
-        serializedVersion: 2
-        x: 570
-        y: 752
-        width: 35
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 97517738a741dbdd0800000000000000
-      internalID: -2468794504304978567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MadeWithFeel_10
-      rect:
-        serializedVersion: 2
-        x: 611
-        y: 752
-        width: 8
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 669418b87f2df1c40800000000000000
-      internalID: 5485334831799814502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MadeWithFeel_11
-      rect:
-        serializedVersion: 2
-        x: 627
-        y: 752
-        width: 35
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e336a942f3b2065f0800000000000000
-      internalID: -765564386455952578
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MadeWithFeel_12
-      rect:
-        serializedVersion: 2
-        x: 667
-        y: 751
-        width: 28
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bf9ce1e10f4165480800000000000000
-      internalID: -8910911791175906821
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MadeWithFeel_13
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 222
-        width: 370
-        height: 507
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cb76ddc2e21e89560800000000000000
-      internalID: 7320848782728193980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MadeWithFeel_14
-      rect:
-        serializedVersion: 2
-        x: 601
-        y: 229
-        width: 402
-        height: 498
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cbba0a4cfe991b800800000000000000
-      internalID: 626451078256307132
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MadeWithFeel_15
-      rect:
-        serializedVersion: 2
-        x: 1059
-        y: 232
-        width: 398
-        height: 493
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1fb6280dca1930180800000000000000
-      internalID: -9150309846468105231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MadeWithFeel_16
-      rect:
-        serializedVersion: 2
-        x: 1494
-        y: 638
-        width: 14
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 95a72b312e6d25590800000000000000
-      internalID: -7686845347486598567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MadeWithFeel_17
-      rect:
-        serializedVersion: 2
-        x: 1505
-        y: 234
-        width: 374
-        height: 490
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7627ddf38584ec690800000000000000
-      internalID: -7580041578952166809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MadeWithFeel_18
-      rect:
-        serializedVersion: 2
-        x: 1451
-        y: 288
-        width: 8
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 817aa0a900e501cd0800000000000000
-      internalID: -2589466429060634856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    outline: []
-    customData: 
-=======
     sprites: []
     outline: []
->>>>>>> base
-=======
-    sprites: []
-    outline: []
->>>>>>> base
     physicsShape: []
     bones: []
     spriteID: 
@@ -663,42 +84,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< HEAD
-<<<<<<< HEAD
-    spriteCustomMetadata:
-      entries: []
-    nameFileIdTable:
-      MadeWithFeel_0: 3658869299627721534
-      MadeWithFeel_1: -8282719764659795136
-      MadeWithFeel_10: 5485334831799814502
-      MadeWithFeel_11: -765564386455952578
-      MadeWithFeel_12: -8910911791175906821
-      MadeWithFeel_13: 7320848782728193980
-      MadeWithFeel_14: 626451078256307132
-      MadeWithFeel_15: -9150309846468105231
-      MadeWithFeel_16: -7686845347486598567
-      MadeWithFeel_17: -7580041578952166809
-      MadeWithFeel_18: -2589466429060634856
-      MadeWithFeel_2: 3413099889529125378
-      MadeWithFeel_3: -6094690694365476296
-      MadeWithFeel_4: 2214881324712798680
-      MadeWithFeel_5: -9009772564348134944
-      MadeWithFeel_6: -4021510255633544824
-      MadeWithFeel_7: -3453707717139695981
-      MadeWithFeel_8: -2672579617836608586
-      MadeWithFeel_9: -2468794504304978567
-  mipmapLimitGroupName: 
-  pSDRemoveMatte: 0
-=======
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
->>>>>>> base
-=======
-  spritePackingTag: 
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
->>>>>>> base
   userData: 
   assetBundleName: 
   assetBundleVariant: 

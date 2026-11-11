@@ -1,20 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-guid: f7457a507331f1644b80da7aeb4b7e82
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 5453403083884756811
-    second: Lightmap-0_comp_light_0
-  externalObjects: {}
-  serializedVersion: 13
-  mipmaps:
-    mipMapMode: 0
-    enableMipMap: 0
-=======
-=======
->>>>>>> base
 guid: b7c958f2a614d6f4fb61597d5c63dae9
 TextureImporter:
   internalIDToNameTable: []
@@ -23,10 +7,6 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
-<<<<<<< HEAD
->>>>>>> base
-=======
->>>>>>> base
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -40,24 +20,9 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    flipGreenChannel: 0
-  isReadable: 0
-  streamingMipmaps: 0
-  streamingMipmapsPriority: 0
-  vTOnly: 0
-  ignoreMipmapLimit: 0
-=======
   isReadable: 0
   streamingMipmaps: 1
   streamingMipmapsPriority: 0
->>>>>>> base
-=======
-  isReadable: 0
-  streamingMipmaps: 1
-  streamingMipmapsPriority: 0
->>>>>>> base
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -67,36 +32,15 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-    aniso: 1
-=======
     aniso: 3
->>>>>>> base
-=======
-    aniso: 3
->>>>>>> base
     mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-  nPOTScale: 0
-  lightmap: 0
-  compressionQuality: 50
-  spriteMode: 2
-=======
-=======
->>>>>>> base
   nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
-<<<<<<< HEAD
->>>>>>> base
-=======
->>>>>>> base
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -104,28 +48,6 @@ TextureImporter:
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-  alphaUsage: 1
-  alphaIsTransparency: 1
-  spriteTessellationDetail: -1
-  textureType: 8
-  textureShape: 1
-  singleChannelComponent: 0
-  flipbookRows: 1
-  flipbookColumns: 1
-  maxTextureSizeSet: 0
-  compressionQualitySet: 0
-  textureFormatSet: 0
-  ignorePngGamma: 0
-  applyGammaDecoding: 0
-  swizzle: 50462976
-  cookieLightType: 0
-  platformSettings:
-  - serializedVersion: 4
-=======
-=======
->>>>>>> base
   alphaUsage: 0
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
@@ -137,10 +59,6 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - serializedVersion: 3
-<<<<<<< HEAD
->>>>>>> base
-=======
->>>>>>> base
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -150,65 +68,12 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-=======
->>>>>>> base
-=======
->>>>>>> base
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    sprites:
-    - serializedVersion: 2
-      name: Lightmap-0_comp_light_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b4f78ff16316eab40800000000000000
-      internalID: 5453403083884756811
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    outline: []
-    customData: 
-=======
     sprites: []
     outline: []
->>>>>>> base
-=======
-    sprites: []
-    outline: []
->>>>>>> base
     physicsShape: []
     bones: []
     spriteID: 
@@ -218,24 +83,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< HEAD
-<<<<<<< HEAD
-    spriteCustomMetadata:
-      entries: []
-    nameFileIdTable:
-      Lightmap-0_comp_light_0: 5453403083884756811
-  mipmapLimitGroupName: 
-  pSDRemoveMatte: 0
-=======
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
->>>>>>> base
-=======
-  spritePackingTag: 
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
->>>>>>> base
   userData: 
   assetBundleName: 
   assetBundleVariant: 

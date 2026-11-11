@@ -1,16 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-guid: d8a3885748aeb3840b39e3ecfcdd37c1
-ModelImporter:
-  serializedVersion: 24200
-  internalIDToNameTable: []
-  externalObjects: {}
-  materials:
-    materialImportMode: 2
-=======
-=======
->>>>>>> base
 guid: 5c0669bd66f517143b7f3a11cbd9c17e
 ModelImporter:
   serializedVersion: 19301
@@ -33,10 +21,6 @@ ModelImporter:
   externalObjects: {}
   materials:
     materialImportMode: 1
-<<<<<<< HEAD
->>>>>>> base
-=======
->>>>>>> base
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -45,20 +29,9 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    removeConstantScaleCurves: 0
-    motionNodeName: 
-=======
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
->>>>>>> base
-=======
-    motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
->>>>>>> base
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -72,12 +45,6 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-<<<<<<< HEAD
-<<<<<<< HEAD
-    clipAnimations: []
-=======
-=======
->>>>>>> base
     clipAnimations:
     - serializedVersion: 16
       name: Attack
@@ -166,10 +133,6 @@ ModelImporter:
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
-<<<<<<< HEAD
->>>>>>> base
-=======
->>>>>>> base
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -178,72 +141,27 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-    importPhysicalCameras: 1
-=======
->>>>>>> base
-=======
->>>>>>> base
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-    nodeNameCollisionStrategy: 1
-=======
->>>>>>> base
-=======
->>>>>>> base
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-    bakeAxisConversion: 0
-=======
->>>>>>> base
-=======
->>>>>>> base
     preserveHierarchy: 0
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
-<<<<<<< HEAD
-<<<<<<< HEAD
-    optimizeBones: 1
-    generateMeshLods: 0
-    meshLodGenerationFlags: 0
-    maximumMeshLod: -1
-=======
->>>>>>> base
-=======
->>>>>>> base
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-<<<<<<< HEAD
-<<<<<<< HEAD
-    secondaryUVMarginMethod: 1
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    strictVertexDataChecks: 0
-=======
-    secondaryUVPackMargin: 4
-    useFileScale: 1
->>>>>>> base
-=======
-    secondaryUVPackMargin: 4
-    useFileScale: 1
->>>>>>> base
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -275,15 +193,6 @@ ModelImporter:
   animationType: 2
   humanoidOversampling: 1
   avatarSetup: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 1
-  remapMaterialsIfMaterialImportModeIsNone: 0
-=======
->>>>>>> base
-=======
->>>>>>> base
   additionalBone: 0
   userData: 
   assetBundleName: 
