@@ -1,20 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: d2e9fe062e251a74892ba9b44a972096
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -3665331443755761278
-    second: BarbarianWhirl_0
-  - first:
-      213: 89893689350145206
-    second: BarbarianWhirl_1
-  externalObjects: {}
-  serializedVersion: 13
-  mipmaps:
-    mipMapMode: 0
-    enableMipMap: 0
-=======
 guid: ddf3b2cb509cb234bb7b7f83fc04364d
 TextureImporter:
   internalIDToNameTable: []
@@ -23,7 +7,6 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
->>>>>>> base
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,18 +20,9 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-<<<<<<< HEAD
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
-  vTOnly: 0
-  ignoreMipmapLimit: 0
-=======
-  isReadable: 0
-  streamingMipmaps: 0
-  streamingMipmapsPriority: 0
->>>>>>> base
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -57,18 +31,6 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
-    filterMode: 1
-    aniso: 1
-    mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
-  nPOTScale: 0
-  lightmap: 0
-  compressionQuality: 50
-  spriteMode: 2
-=======
     filterMode: -1
     aniso: -1
     mipBias: -100
@@ -79,7 +41,6 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
->>>>>>> base
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -88,24 +49,6 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-<<<<<<< HEAD
-  alphaIsTransparency: 1
-  spriteTessellationDetail: -1
-  textureType: 8
-  textureShape: 1
-  singleChannelComponent: 0
-  flipbookRows: 1
-  flipbookColumns: 1
-  maxTextureSizeSet: 0
-  compressionQualitySet: 0
-  textureFormatSet: 0
-  ignorePngGamma: 0
-  applyGammaDecoding: 0
-  swizzle: 50462976
-  cookieLightType: 0
-  platformSettings:
-  - serializedVersion: 4
-=======
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 0
@@ -117,7 +60,6 @@ TextureImporter:
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
->>>>>>> base
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -127,105 +69,12 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-=======
->>>>>>> base
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
-    sprites:
-    - serializedVersion: 2
-      name: BarbarianWhirl_0
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 217
-        width: 207
-        height: 316
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2814edeb870222dc0800000000000000
-      internalID: -3665331443755761278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BarbarianWhirl_1
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 81
-        width: 824
-        height: 862
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6b4c34d85dd5f3100800000000000000
-      internalID: 89893689350145206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    outline: []
-    customData: 
-=======
     sprites: []
     outline: []
->>>>>>> base
     physicsShape: []
     bones: []
     spriteID: 
@@ -235,19 +84,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< HEAD
-    spriteCustomMetadata:
-      entries: []
-    nameFileIdTable:
-      BarbarianWhirl_0: -3665331443755761278
-      BarbarianWhirl_1: 89893689350145206
-  mipmapLimitGroupName: 
-  pSDRemoveMatte: 0
-=======
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
->>>>>>> base
   userData: 
   assetBundleName: 
   assetBundleVariant: 

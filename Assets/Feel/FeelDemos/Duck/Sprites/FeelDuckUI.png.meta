@@ -1,46 +1,15 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 079b569dc5f005a4b9bda1c089656d64
-=======
 guid: 5cd9c308422e52a47b746cd9c2c3ba13
->>>>>>> base
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 9093796065708592562
-<<<<<<< HEAD
-    second: FeelDuckUI_0
-  - first:
-      213: -5041058542237983147
-    second: FeelDuckUI_1
-  - first:
-      213: 3372370013579017827
-    second: FeelDuckUI_2
-  - first:
-      213: 344414444474091200
-    second: FeelDuckUI_3
-  - first:
-      213: -3555660417275308739
-    second: FeelDuckUI_4
-  - first:
-      213: -57537521134739419
-    second: FeelDuckUI_5
-  - first:
-      213: -6550090417566469248
-    second: FeelDuckUI_6
-  - first:
-      213: 5687096202152654007
-    second: FeelDuckUI_7
-  externalObjects: {}
-  serializedVersion: 13
-=======
     second: FeelDuckUI_Left
   - first:
       213: -5041058542237983147
     second: FeelDuckUI_Right
   externalObjects: {}
   serializedVersion: 12
->>>>>>> base
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -57,19 +26,11 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-<<<<<<< HEAD
-    flipGreenChannel: 0
-=======
->>>>>>> base
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-<<<<<<< HEAD
-  ignoreMipmapLimit: 0
-=======
   ignoreMasterTextureLimit: 0
->>>>>>> base
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -78,20 +39,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
-    filterMode: 1
-=======
     filterMode: 0
->>>>>>> base
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-<<<<<<< HEAD
-    wrapW: 1
-=======
     wrapW: 0
->>>>>>> base
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -100,11 +53,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-  spritePixelsToUnits: 100
-=======
   spritePixelsToUnits: 20
->>>>>>> base
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,58 +69,30 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-<<<<<<< HEAD
-  swizzle: 50462976
-  cookieLightType: 0
-  platformSettings:
-  - serializedVersion: 4
-=======
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
->>>>>>> base
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< HEAD
-    textureCompression: 1
-=======
     textureCompression: 0
->>>>>>> base
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-=======
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
->>>>>>> base
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< HEAD
-    textureCompression: 1
-=======
     textureCompression: 0
->>>>>>> base
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-=======
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -187,31 +108,15 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
->>>>>>> base
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< HEAD
-    textureCompression: 1
-=======
     textureCompression: 0
->>>>>>> base
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-=======
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -220,37 +125,16 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
->>>>>>> base
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
-    ignorePlatformSupport: 0
-=======
->>>>>>> base
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<< HEAD
-      name: FeelDuckUI_0
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 107
-        width: 18
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-=======
       name: FeelDuckUI_Left
       rect:
         serializedVersion: 2
@@ -264,7 +148,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
->>>>>>> base
       bones: []
       spriteID: 2bdc76c3757a33e70800000000000000
       internalID: 9093796065708592562
@@ -273,22 +156,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< HEAD
-      name: FeelDuckUI_1
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 107
-        width: 18
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-=======
       name: FeelDuckUI_Right
       rect:
         serializedVersion: 2
@@ -302,7 +169,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
->>>>>>> base
       bones: []
       spriteID: 55ed4f9e6ff8a0ab0800000000000000
       internalID: -5041058542237983147
@@ -310,178 +176,22 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-<<<<<<< HEAD
-    - serializedVersion: 2
-      name: FeelDuckUI_2
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 107
-        width: 18
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 36e7e86e8a01dce20800000000000000
-      internalID: 3372370013579017827
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FeelDuckUI_3
-      rect:
-        serializedVersion: 2
-        x: 236
-        y: 80
-        width: 9
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c6446acc1b97c400800000000000000
-      internalID: 344414444474091200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FeelDuckUI_4
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 95
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d35536e60b1c7aec0800000000000000
-      internalID: -3555660417275308739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FeelDuckUI_5
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 96
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 520e18bede5933ff0800000000000000
-      internalID: -57537521134739419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FeelDuckUI_6
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 96
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 083b24618776915a0800000000000000
-      internalID: -6550090417566469248
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FeelDuckUI_7
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 96
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7b438c44ddf9cee40800000000000000
-      internalID: 5687096202152654007
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    outline: []
-    customData: 
-    physicsShape: []
-    bones: []
-    spriteID: 
-=======
     outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
->>>>>>> base
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< HEAD
-    spriteCustomMetadata:
-      entries: []
-    nameFileIdTable:
-      FeelDuckUI_0: 9093796065708592562
-      FeelDuckUI_1: -5041058542237983147
-      FeelDuckUI_2: 3372370013579017827
-      FeelDuckUI_3: 344414444474091200
-      FeelDuckUI_4: -3555660417275308739
-      FeelDuckUI_5: -57537521134739419
-      FeelDuckUI_6: -6550090417566469248
-      FeelDuckUI_7: 5687096202152654007
-  mipmapLimitGroupName: 
-  pSDRemoveMatte: 0
-=======
     nameFileIdTable:
       FeelDuckUI_Left: 9093796065708592562
       FeelDuckUI_Right: -5041058542237983147
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
->>>>>>> base
   userData: 
   assetBundleName: 
   assetBundleVariant: 
