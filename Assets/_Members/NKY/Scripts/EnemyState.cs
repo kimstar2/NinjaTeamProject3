@@ -1,7 +1,12 @@
-﻿namespace _Members.NKY.Scripts
+using System;
+using Unity.Behavior;
+
+[BlackboardEnum]
+public enum EnemyState
 {
-    public enum EnemyState
-    {
-        
-    }
+	IDLE,
+	CHASE,
+	ATTACK,
+	HIT,
+	DEAD
 }
