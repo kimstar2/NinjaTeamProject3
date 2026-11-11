@@ -1,5 +1,6 @@
 using System;
 using _Members.KJY._01.Scripts.Agent;
+using _Members.KJY._01.Scripts.Agent.Hand;
 using _Members.KJY._01.Scripts.MainSystem;
 using _TevLib.ModuleSystem;
 using UnityEngine;
@@ -10,36 +11,51 @@ namespace _Members.KJY._01.Scripts.Player
     {
         [field:SerializeField] public PlayerInputSO PlayerInput {get; private set;}
 
-        [Header("")]
+        [Header("Movement Setting")]
         [SerializeField] private float baseSpeed;
         
         public IMoveable Mover { get; private set; }
+        public AgentHandler Handler { get; private set; }
+        public Camera Camera { get; private set; }
 
         protected override void InitializeModules()
         {
             base.InitializeModules();
+            
+            Camera = Camera.main; 
+            
             Mover = GetModule<IMoveable>();
+            Handler = GetModule<AgentHandler>();
+            
+            ValidateData();
         }
 
-        public void ValidateData()
+        private void ValidateData()
         {
-            // Mover.SetSpeed();
+            Mover.SetSpeed(baseSpeed);
         }
 
         private void Update()
         {
             Mover.SetDirection(PlayerInput.InputDir);
+            
+            Vector2 dir = (Vector3)WorldMousePosition() - transform.position;
+            float zAngle = AgentUtil.GetZAngle(dir);
+            Handler.SetZAngle(zAngle);
         }
 
+        
         private void OnEnable()
         {
             PlayerInput.SetEnable();
         }
-
         private void OnDisable()
         {
             PlayerInput.SetDisable();
         }
         
+        private Vector2 WorldMousePosition() 
+            => Camera.ScreenToWorldPoint(PlayerInput.LookPos);
+
     }
 }

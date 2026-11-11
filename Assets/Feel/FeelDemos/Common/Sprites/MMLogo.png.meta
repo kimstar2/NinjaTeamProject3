@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 86c3078570ca85741a0a9843255990f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4559308488773468876
+    second: MMLogo_0
+  - first:
+      213: 3377030050783180771
+    second: MMLogo_1
+  - first:
+      213: 5417097662212663756
+    second: MMLogo_2
+  - first:
+      213: 2965421277101589553
+    second: MMLogo_3
+  - first:
+      213: 2435127879536955276
+    second: MMLogo_4
+  - first:
+      213: -5676004868876078516
+    second: MMLogo_5
+  - first:
+      213: -8821626697994962892
+    second: MMLogo_6
+  - first:
+      213: 7006018549572045908
+    second: MMLogo_7
+  - first:
+      213: 2926729456740053596
+    second: MMLogo_8
+  - first:
+      213: -4222885573312175204
+    second: MMLogo_9
+  - first:
+      213: -3784815963299901243
+    second: MMLogo_10
+  - first:
+      213: -1472829206231197509
+    second: MMLogo_11
+  - first:
+      213: -2464747012683820961
+    second: MMLogo_12
+  - first:
+      213: 781869070828111109
+    second: MMLogo_13
+  - first:
+      213: -1233831616339292412
+    second: MMLogo_14
+  - first:
+      213: 6907721507646458296
+    second: MMLogo_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MMLogo_0
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 332
+        width: 637
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc204ce0aeae54f30800000000000000
+      internalID: 4559308488773468876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMLogo_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 248
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e730cc50fe9dde20800000000000000
+      internalID: 3377030050783180771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMLogo_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 213
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9e8cd6f956d2b40800000000000000
+      internalID: 5417097662212663756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMLogo_3
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 214
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1348607a0fa472920800000000000000
+      internalID: 2965421277101589553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMLogo_4
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 215
+        width: 39
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f437297ef4bc120800000000000000
+      internalID: 2435127879536955276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMLogo_5
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 216
+        width: 33
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42f04ff4a7ca31b0800000000000000
+      internalID: -5676004868876078516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMLogo_6
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 216
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43878e4d149439580800000000000000
+      internalID: -8821626697994962892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMLogo_7
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 218
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c0a0950c06a3160800000000000000
+      internalID: 7006018549572045908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMLogo_8
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 214
+        width: 39
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52b9a63fe4dd9820800000000000000
+      internalID: 2926729456740053596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMLogo_9
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 216
+        width: 38
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c932b93e1fb4565c0800000000000000
+      internalID: -4222885573312175204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMLogo_10
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 216
+        width: 40
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c018472fe1a97bc0800000000000000
+      internalID: -3784815963299901243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMLogo_11
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 215
+        width: 40
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8d4cbe3a57f8be0800000000000000
+      internalID: -1472829206231197509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMLogo_12
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 216
+        width: 8
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5096c796a57bcdd0800000000000000
+      internalID: -2464747012683820961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMLogo_13
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 216
+        width: 41
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505039307c1c9da00800000000000000
+      internalID: 781869070828111109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMLogo_14
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 214
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f437b9eac80eee0800000000000000
+      internalID: -1233831616339292412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMLogo_15
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 251
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9c79ecc182ddf50800000000000000
+      internalID: 6907721507646458296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MMLogo_0: 4559308488773468876
+      MMLogo_1: 3377030050783180771
+      MMLogo_10: -3784815963299901243
+      MMLogo_11: -1472829206231197509
+      MMLogo_12: -2464747012683820961
+      MMLogo_13: 781869070828111109
+      MMLogo_14: -1233831616339292412
+      MMLogo_15: 6907721507646458296
+      MMLogo_2: 5417097662212663756
+      MMLogo_3: 2965421277101589553
+      MMLogo_4: 2435127879536955276
+      MMLogo_5: -5676004868876078516
+      MMLogo_6: -8821626697994962892
+      MMLogo_7: 7006018549572045908
+      MMLogo_8: 2926729456740053596
+      MMLogo_9: -4222885573312175204
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
