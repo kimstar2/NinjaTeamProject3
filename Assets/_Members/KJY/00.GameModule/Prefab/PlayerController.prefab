@@ -315,8 +315,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::_Members.KJY._01.Scripts.Player.PlayerController
   <PlayerInput>k__BackingField: {fileID: 11400000, guid: f7bfc732eaa0f8e4b8d91b8d155577f7, type: 2}
-  baseSpeed: 8
-  rotAcc: 10
+  baseSpeed: 6
+  rotAcc: 1
   <LHand>k__BackingField: {fileID: 3970880634303741195}
   <RHand>k__BackingField: {fileID: 6616552319635808909}
 --- !u!1 &7204357658033110814
@@ -587,6 +587,14 @@ PrefabInstance:
     - target: {fileID: 7610977381517195151, guid: ff893b9e8a2414149b65f7b2f3983eec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771581595144410357, guid: ff893b9e8a2414149b65f7b2f3983eec, type: 3}
+      propertyPath: dashEase
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771581595144410357, guid: ff893b9e8a2414149b65f7b2f3983eec, type: 3}
+      propertyPath: dashForce
+      value: 150
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

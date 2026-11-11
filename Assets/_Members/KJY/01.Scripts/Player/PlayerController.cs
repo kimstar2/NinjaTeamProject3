@@ -3,6 +3,7 @@ using _Members.KJY._01.Scripts.Agent;
 using _Members.KJY._01.Scripts.Agent.Hand;
 using _Members.KJY._01.Scripts.MainSystem;
 using _TevLib.ModuleSystem;
+using DG.Tweening.Core.Easing;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -55,7 +56,8 @@ namespace _Members.KJY._01.Scripts.Player
 
             _mPosDir = ((Vector3)WorldMousePosition() - transform.position).normalized;
             float zAngle = AgentUtil.GetZAngle(_mPosDir);
-            float lerpAngle = Mathf.LerpAngle(Handler.transform.localEulerAngles.z, zAngle, Time.fixedDeltaTime * rotAcc);
+            float lerpAngle = Mathf.LerpAngle(Handler.transform.localEulerAngles.z, zAngle,1 - Mathf.Pow(1 - Time.fixedDeltaTime * rotAcc, 3));
+            // 1 - mathf.Pow ~~ 이거는 easeOutCubic 함수임
             Handler.SetZAngle(lerpAngle);
         }
 
