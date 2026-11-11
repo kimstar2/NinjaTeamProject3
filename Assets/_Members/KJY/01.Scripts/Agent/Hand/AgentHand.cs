@@ -9,7 +9,7 @@ namespace _Members.KJY._01.Scripts.Agent.Hand
     public class AgentHand : MonoBehaviour
     {
         [field:SerializeField] public bool IsRightHand {get; private set;}
-        [SerializeField , MinMaxRangeSlider(1f,10f)] private Vector2 attackRange;
+        [SerializeField , MinMaxSlider(1,10)] private Vector2 attackRange;
 
         [Header("Tween Setting")]   
         [SerializeField] private float duration;
