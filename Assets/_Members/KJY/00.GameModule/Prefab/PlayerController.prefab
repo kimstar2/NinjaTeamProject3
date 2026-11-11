@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::_Members.KJY._01.Scripts.Agent.Hand.AgentHand
   <IsRightHand>k__BackingField: 0
-  attackRange: 1
+  attackRange: {x: 0, y: 0}
   duration: 0.4
   raiseEase: 15
   returnEase: 1
@@ -315,6 +315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::_Members.KJY._01.Scripts.Player.PlayerController
   <PlayerInput>k__BackingField: {fileID: 11400000, guid: f7bfc732eaa0f8e4b8d91b8d155577f7, type: 2}
   baseSpeed: 8
+  rotAcc: 10
   <LHand>k__BackingField: {fileID: 3970880634303741195}
   <RHand>k__BackingField: {fileID: 6616552319635808909}
 --- !u!1 &7204357658033110814
@@ -422,8 +423,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::_Members.KJY._01.Scripts.Agent.Hand.AgentHand
   <IsRightHand>k__BackingField: 1
-  attackRange: 1
-  duration: 0.4
+  attackRange: {x: 1, y: 2}
+  duration: 0.1
   raiseEase: 15
   returnEase: 1
 --- !u!1 &7474025347305701956
