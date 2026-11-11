@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3da05e9f66c9f254c8875335e7e9179e
+guid: 6f80f7cf419b0b140804ad41cd5e5949
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -32,8 +32,41 @@ TextureImporter:
   - first:
       213: -8918885832014658072
     second: NVPresetsIcons_9
+  - first:
+      213: -3581664145202877013
+    second: NVPresetsIcons_10
+  - first:
+      213: 8394486911193490698
+    second: NVPresetsIcons_11
+  - first:
+      213: -1597870096708205916
+    second: NVPresetsIcons_12
+  - first:
+      213: -1818288342139252424
+    second: NVPresetsIcons_13
+  - first:
+      213: 7510163756516988605
+    second: NVPresetsIcons_14
+  - first:
+      213: 1478739507232191247
+    second: NVPresetsIcons_15
+  - first:
+      213: 8004589008541804820
+    second: NVPresetsIcons_16
+  - first:
+      213: 4314134049708552971
+    second: NVPresetsIcons_17
+  - first:
+      213: 8056058462239873862
+    second: NVPresetsIcons_18
+  - first:
+      213: -8479429595054650772
+    second: NVPresetsIcons_19
+  - first:
+      213: 1011724304449541296
+    second: NVPresetsIcons_20
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -50,11 +83,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,7 +102,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -92,10 +126,11 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
-  cookieLightType: 1
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -105,9 +140,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -117,21 +153,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -141,18 +166,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -162,18 +176,19 @@ TextureImporter:
       name: NVPresetsIcons_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 768
-        width: 256
-        height: 256
+        x: 38
+        y: 805
+        width: 181
+        height: 181
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9f03a35fbb19c054baa115a0e145db89
+      spriteID: 0d3a2fa9c8cf26b30800000000000000
       internalID: 4279260276780606416
       vertices: []
       indices: 
@@ -183,18 +198,19 @@ TextureImporter:
       name: NVPresetsIcons_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 768
-        width: 256
-        height: 256
+        x: 350
+        y: 920
+        width: 69
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c998f8a5e281a9340b13d94ff576eada
+      spriteID: 50969c3acace6ded0800000000000000
       internalID: -2389462326047053563
       vertices: []
       indices: 
@@ -204,18 +220,19 @@ TextureImporter:
       name: NVPresetsIcons_2
       rect:
         serializedVersion: 2
-        x: 512
-        y: 768
-        width: 256
-        height: 256
+        x: 548
+        y: 857
+        width: 129
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b552659543dbebb4194ce28bb88910e0
+      spriteID: 599aebc08e192cc50800000000000000
       internalID: 6684065222803499413
       vertices: []
       indices: 
@@ -225,18 +242,19 @@ TextureImporter:
       name: NVPresetsIcons_3
       rect:
         serializedVersion: 2
-        x: 768
-        y: 768
-        width: 256
-        height: 256
+        x: 605
+        y: 807
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: eca1cdb25fce6994f9b3dc71a8cb227b
+      spriteID: f05c85a9b75d0bc80800000000000000
       internalID: -8308906585651362545
       vertices: []
       indices: 
@@ -246,18 +264,19 @@ TextureImporter:
       name: NVPresetsIcons_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 512
-        width: 256
-        height: 256
+        x: 788
+        y: 876
+        width: 216
+        height: 110
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ac399416a8fc4554b8911fa991e10e21
+      spriteID: e8bd2bf43f056e190800000000000000
       internalID: -7933564687622153330
       vertices: []
       indices: 
@@ -267,18 +286,19 @@ TextureImporter:
       name: NVPresetsIcons_5
       rect:
         serializedVersion: 2
-        x: 256
-        y: 512
-        width: 256
-        height: 256
+        x: 825
+        y: 806
+        width: 143
+        height: 144
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0009bca4c51e44d428bcb541f9ae39e3
+      spriteID: 23581de48a9a2e420800000000000000
       internalID: 2657873270443967794
       vertices: []
       indices: 
@@ -288,18 +308,19 @@ TextureImporter:
       name: NVPresetsIcons_6
       rect:
         serializedVersion: 2
-        x: 512
-        y: 512
-        width: 256
-        height: 256
+        x: 347
+        y: 879
+        width: 32
+        height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cef485081e26319448ed921f2afc608d
+      spriteID: 506a96b5fdb68f6a0800000000000000
       internalID: -6415259062133742075
       vertices: []
       indices: 
@@ -309,18 +330,19 @@ TextureImporter:
       name: NVPresetsIcons_7
       rect:
         serializedVersion: 2
-        x: 768
-        y: 512
-        width: 256
-        height: 256
+        x: 390
+        y: 879
+        width: 33
+        height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d86d779fa8b4d3b418c43bee02b850f5
+      spriteID: eb269f913f57cfac0800000000000000
       internalID: -3820048696943746370
       vertices: []
       indices: 
@@ -330,18 +352,19 @@ TextureImporter:
       name: NVPresetsIcons_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 256
-        height: 256
+        x: 325
+        y: 842
+        width: 33
+        height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 727e5f77f6c15604f999621ebdd89b01
+      spriteID: f29e572fda2d8abf0800000000000000
       internalID: -312768529563260625
       vertices: []
       indices: 
@@ -351,37 +374,294 @@ TextureImporter:
       name: NVPresetsIcons_9
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
-        width: 256
-        height: 256
+        x: 368
+        y: 842
+        width: 33
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 24457b6072252344e92fa41e033711a3
+      spriteID: 8e5808e0790c93480800000000000000
       internalID: -8918885832014658072
       vertices: []
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: NVPresetsIcons_10
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 842
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baded68bf6f5b4ec0800000000000000
+      internalID: -3581664145202877013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NVPresetsIcons_11
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 805
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05aa5dae553f7470800000000000000
+      internalID: 8394486911193490698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NVPresetsIcons_12
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 805
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a20d78ec9933d9e0800000000000000
+      internalID: -1597870096708205916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NVPresetsIcons_13
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 805
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8315e83f26424c6e0800000000000000
+      internalID: -1818288342139252424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NVPresetsIcons_14
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 805
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db655306526793860800000000000000
+      internalID: 7510163756516988605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NVPresetsIcons_15
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 550
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0339e34fb9858410800000000000000
+      internalID: 1478739507232191247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NVPresetsIcons_16
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 549
+        width: 180
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419612b0b43061f60800000000000000
+      internalID: 8004589008541804820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NVPresetsIcons_17
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 549
+        width: 105
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03bb4a9f02eedb30800000000000000
+      internalID: 4314134049708552971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NVPresetsIcons_18
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 551
+        width: 178
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b56931d7edccf60800000000000000
+      internalID: 8056058462239873862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NVPresetsIcons_19
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 305
+        width: 181
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a45d095b3035a80800000000000000
+      internalID: -8479429595054650772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NVPresetsIcons_20
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 294
+        width: 179
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4185105ed5a0e00800000000000000
+      internalID: 1011724304449541296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: 3ef685cd4dc3bb34aa4c1d017b4d62c0
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       NVPresetsIcons_0: 4279260276780606416
       NVPresetsIcons_1: -2389462326047053563
+      NVPresetsIcons_10: -3581664145202877013
+      NVPresetsIcons_11: 8394486911193490698
+      NVPresetsIcons_12: -1597870096708205916
+      NVPresetsIcons_13: -1818288342139252424
+      NVPresetsIcons_14: 7510163756516988605
+      NVPresetsIcons_15: 1478739507232191247
+      NVPresetsIcons_16: 8004589008541804820
+      NVPresetsIcons_17: 4314134049708552971
+      NVPresetsIcons_18: 8056058462239873862
+      NVPresetsIcons_19: -8479429595054650772
       NVPresetsIcons_2: 6684065222803499413
+      NVPresetsIcons_20: 1011724304449541296
       NVPresetsIcons_3: -8308906585651362545
       NVPresetsIcons_4: -7933564687622153330
       NVPresetsIcons_5: 2657873270443967794
@@ -389,9 +669,8 @@ TextureImporter:
       NVPresetsIcons_7: -3820048696943746370
       NVPresetsIcons_8: -312768529563260625
       NVPresetsIcons_9: -8918885832014658072
-  spritePackingTag: 
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

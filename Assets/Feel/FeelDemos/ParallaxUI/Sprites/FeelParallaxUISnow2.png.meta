@@ -1,9 +1,240 @@
 fileFormatVersion: 2
-guid: 0d638d1d0bd5acb4094aec795e12958f
+guid: e5f770aeb3e59ba4bace21d75e276c12
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2569399902249876219
+    second: FeelParallaxUISnow2_0
+  - first:
+      213: -9104565449049050077
+    second: FeelParallaxUISnow2_1
+  - first:
+      213: -4779120679369908922
+    second: FeelParallaxUISnow2_2
+  - first:
+      213: 3359320400461973520
+    second: FeelParallaxUISnow2_3
+  - first:
+      213: -7057556128024448443
+    second: FeelParallaxUISnow2_4
+  - first:
+      213: -5997608228868601701
+    second: FeelParallaxUISnow2_5
+  - first:
+      213: 6776223703378079053
+    second: FeelParallaxUISnow2_6
+  - first:
+      213: 1663491893154890855
+    second: FeelParallaxUISnow2_7
+  - first:
+      213: 8425238922533952358
+    second: FeelParallaxUISnow2_8
+  - first:
+      213: 9143147562638057517
+    second: FeelParallaxUISnow2_9
+  - first:
+      213: 1390922519867387997
+    second: FeelParallaxUISnow2_10
+  - first:
+      213: 3870486372397077171
+    second: FeelParallaxUISnow2_11
+  - first:
+      213: -1721365847346094812
+    second: FeelParallaxUISnow2_12
+  - first:
+      213: -316778846413426503
+    second: FeelParallaxUISnow2_13
+  - first:
+      213: -3185905015170472080
+    second: FeelParallaxUISnow2_14
+  - first:
+      213: 7389551692063048144
+    second: FeelParallaxUISnow2_15
+  - first:
+      213: 8222711258100909855
+    second: FeelParallaxUISnow2_16
+  - first:
+      213: 7956796776202892899
+    second: FeelParallaxUISnow2_17
+  - first:
+      213: -7071131204738750885
+    second: FeelParallaxUISnow2_18
+  - first:
+      213: -6704493178163766887
+    second: FeelParallaxUISnow2_19
+  - first:
+      213: -3072496793664914803
+    second: FeelParallaxUISnow2_20
+  - first:
+      213: -135205176050724395
+    second: FeelParallaxUISnow2_21
+  - first:
+      213: -3482988491631568757
+    second: FeelParallaxUISnow2_22
+  - first:
+      213: 1023261279012055908
+    second: FeelParallaxUISnow2_23
+  - first:
+      213: -4627951943880273842
+    second: FeelParallaxUISnow2_24
+  - first:
+      213: 5928251996125907853
+    second: FeelParallaxUISnow2_25
+  - first:
+      213: -3537171885822286571
+    second: FeelParallaxUISnow2_26
+  - first:
+      213: 1291342865542402328
+    second: FeelParallaxUISnow2_27
+  - first:
+      213: -1682889023397148915
+    second: FeelParallaxUISnow2_28
+  - first:
+      213: -4705357130506911645
+    second: FeelParallaxUISnow2_29
+  - first:
+      213: 896476457554347828
+    second: FeelParallaxUISnow2_30
+  - first:
+      213: 8498941491161712237
+    second: FeelParallaxUISnow2_31
+  - first:
+      213: 4367809307445586692
+    second: FeelParallaxUISnow2_32
+  - first:
+      213: -5211705671334839721
+    second: FeelParallaxUISnow2_33
+  - first:
+      213: -8439504852499521040
+    second: FeelParallaxUISnow2_34
+  - first:
+      213: 1789488667092661399
+    second: FeelParallaxUISnow2_35
+  - first:
+      213: 4206702532032804901
+    second: FeelParallaxUISnow2_36
+  - first:
+      213: 4062611169582256110
+    second: FeelParallaxUISnow2_37
+  - first:
+      213: 7362154224695042478
+    second: FeelParallaxUISnow2_38
+  - first:
+      213: 3914884331279408694
+    second: FeelParallaxUISnow2_39
+  - first:
+      213: 6792546316172989183
+    second: FeelParallaxUISnow2_40
+  - first:
+      213: -6044333543060604689
+    second: FeelParallaxUISnow2_41
+  - first:
+      213: -7452476253616194568
+    second: FeelParallaxUISnow2_42
+  - first:
+      213: -1529595662366037108
+    second: FeelParallaxUISnow2_43
+  - first:
+      213: 2106943191062583662
+    second: FeelParallaxUISnow2_44
+  - first:
+      213: -6935864435243363475
+    second: FeelParallaxUISnow2_45
+  - first:
+      213: 9149196110781053069
+    second: FeelParallaxUISnow2_46
+  - first:
+      213: -4018086301397533480
+    second: FeelParallaxUISnow2_47
+  - first:
+      213: 5191077942667736670
+    second: FeelParallaxUISnow2_48
+  - first:
+      213: 3187712936368585141
+    second: FeelParallaxUISnow2_49
+  - first:
+      213: -5875921094986196993
+    second: FeelParallaxUISnow2_50
+  - first:
+      213: 6350426556594853537
+    second: FeelParallaxUISnow2_51
+  - first:
+      213: -8638660379543031632
+    second: FeelParallaxUISnow2_52
+  - first:
+      213: 516019495962960368
+    second: FeelParallaxUISnow2_53
+  - first:
+      213: -5787727799330438282
+    second: FeelParallaxUISnow2_54
+  - first:
+      213: 1263151514183787082
+    second: FeelParallaxUISnow2_55
+  - first:
+      213: 1534317452717163171
+    second: FeelParallaxUISnow2_56
+  - first:
+      213: -1135637287892800150
+    second: FeelParallaxUISnow2_57
+  - first:
+      213: -2213171709086860085
+    second: FeelParallaxUISnow2_58
+  - first:
+      213: 1494171019099170235
+    second: FeelParallaxUISnow2_59
+  - first:
+      213: 5540239092365880988
+    second: FeelParallaxUISnow2_60
+  - first:
+      213: -3884504916065476510
+    second: FeelParallaxUISnow2_61
+  - first:
+      213: 6592528829023762263
+    second: FeelParallaxUISnow2_62
+  - first:
+      213: -7601117709002817940
+    second: FeelParallaxUISnow2_63
+  - first:
+      213: 3408514097676514179
+    second: FeelParallaxUISnow2_64
+  - first:
+      213: 4671543570775337889
+    second: FeelParallaxUISnow2_65
+  - first:
+      213: 809526534941354546
+    second: FeelParallaxUISnow2_66
+  - first:
+      213: 3039205627723632940
+    second: FeelParallaxUISnow2_67
+  - first:
+      213: 3912039029148013420
+    second: FeelParallaxUISnow2_68
+  - first:
+      213: 1744014178381584993
+    second: FeelParallaxUISnow2_69
+  - first:
+      213: 8664964379126558640
+    second: FeelParallaxUISnow2_70
+  - first:
+      213: -7936057935869924181
+    second: FeelParallaxUISnow2_71
+  - first:
+      213: -8644304395527740107
+    second: FeelParallaxUISnow2_72
+  - first:
+      213: 2791147927300985864
+    second: FeelParallaxUISnow2_73
+  - first:
+      213: -5701676503173499997
+    second: FeelParallaxUISnow2_74
+  - first:
+      213: 6710224842657673066
+    second: FeelParallaxUISnow2_75
+  - first:
+      213: -8141242102067847054
+    second: FeelParallaxUISnow2_76
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,9 +251,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -36,11 +270,11 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -54,12 +288,17 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -69,9 +308,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -81,9 +321,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -93,36 +334,1799 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_0
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1008
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5050974f668a75cd0800000000000000
+      internalID: -2569399902249876219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 994
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324f22f46f516a180800000000000000
+      internalID: -9104565449049050077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_2
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1008
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64dde6f10172dadb0800000000000000
+      internalID: -4779120679369908922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_3
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 993
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01842441b14be9e20800000000000000
+      internalID: 3359320400461973520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_4
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 992
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542b8b618168e0e90800000000000000
+      internalID: -7057556128024448443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_5
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1014
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98c350b71734cca0800000000000000
+      internalID: -5997608228868601701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 962
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4dae666e8bf90e50800000000000000
+      internalID: 6776223703378079053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 959
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7644d323019e51710800000000000000
+      internalID: 1663491893154890855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_8
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 960
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b5e6549267ce470800000000000000
+      internalID: 8425238922533952358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_9
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 982
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d202508044cf2ee70800000000000000
+      internalID: 9143147562638057517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_10
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 968
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5079c299ac8d4310800000000000000
+      internalID: 1390922519867387997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_11
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 981
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2d7b659dab6b530800000000000000
+      internalID: 3870486372397077171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_12
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 933
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d527cc1ea7c18e0800000000000000
+      internalID: -1721365847346094812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_13
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 945
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b07b2b41539a9bf0800000000000000
+      internalID: -316778846413426503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_14
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 955
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077e0a2b44469c3d0800000000000000
+      internalID: -3185905015170472080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 917
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d10ec6cc16fc8660800000000000000
+      internalID: 7389551692063048144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_16
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 911
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17c5bdc250fc1270800000000000000
+      internalID: 8222711258100909855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_17
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 918
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366fb83d2883c6e60800000000000000
+      internalID: 7956796776202892899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_18
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 927
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56ed5d32ab4edd90800000000000000
+      internalID: -7071131204738750885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_19
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 897
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999d484f9fad4f2a0800000000000000
+      internalID: -6704493178163766887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_20
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 878
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a7318e17c4c55d0800000000000000
+      internalID: -3072496793664914803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_21
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 895
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1d3b5db97af1ef0800000000000000
+      internalID: -135205176050724395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_22
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 862
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88d687ab60f9afc0800000000000000
+      internalID: -3482988491631568757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_23
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 841
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bece736ba533e00800000000000000
+      internalID: 1023261279012055908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_24
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 844
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40107b1a3636cfb0800000000000000
+      internalID: -4627951943880273842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_25
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 803
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bc51008c1654250800000000000000
+      internalID: 5928251996125907853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_26
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 828
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515601c19e079eec0800000000000000
+      internalID: -3537171885822286571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_27
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 809
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811d3ef8e75cbe110800000000000000
+      internalID: 1291342865542402328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_28
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 792
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07420c795d25a8e0800000000000000
+      internalID: -1682889023397148915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_29
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 802
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360c8ceae9633beb0800000000000000
+      internalID: -4705357130506911645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_30
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 756
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4370702a69ce07c00800000000000000
+      internalID: 896476457554347828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_31
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 756
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66c583c14e42f570800000000000000
+      internalID: 8498941491161712237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_32
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 767
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b60f86c639d9c30800000000000000
+      internalID: 4367809307445586692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_33
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 777
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ab2320e4d4ca7b0800000000000000
+      internalID: -5211705671334839721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_34
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 747
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1a4921d0bd0ea80800000000000000
+      internalID: -8439504852499521040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_35
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 679
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79435ab267a85d810800000000000000
+      internalID: 1789488667092661399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_36
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 696
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5283d813aa5316a30800000000000000
+      internalID: 4206702532032804901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_37
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 672
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef0c77855b416830800000000000000
+      internalID: 4062611169582256110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_38
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 662
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1e690d240ab2660800000000000000
+      internalID: 7362154224695042478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_39
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 656
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ed6aeae86745630800000000000000
+      internalID: 3914884331279408694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_40
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 660
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff211e7d2e8f34e50800000000000000
+      internalID: 6792546316172989183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_41
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 635
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8f4e5baa63e1ca0800000000000000
+      internalID: -6044333543060604689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_42
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 647
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb3c2e055c739890800000000000000
+      internalID: -7452476253616194568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_43
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 606
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ba1b669d8c5cae0800000000000000
+      internalID: -1529595662366037108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_44
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 620
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6996315bad5d3d10800000000000000
+      internalID: 2106943191062583662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_45
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 571
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63dd0f3b0cdebf90800000000000000
+      internalID: -6935864435243363475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_46
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d887d73636978fe70800000000000000
+      internalID: 9149196110781053069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_47
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 535
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc36503cc3ec38c0800000000000000
+      internalID: -4018086301397533480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_48
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 546
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e567316a2e96a0840800000000000000
+      internalID: 5191077942667736670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 517
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9ba22c6080d3c20800000000000000
+      internalID: 3187712936368585141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_50
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 509
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff79f1565e8847ea0800000000000000
+      internalID: -5875921094986196993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_51
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 522
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a61b06ae4f312850800000000000000
+      internalID: 6350426556594853537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_52
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 474
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0b81687205d1880800000000000000
+      internalID: -8638660379543031632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_53
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 468
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f16c026ff4492700800000000000000
+      internalID: 516019495962960368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_54
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 461
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67381403b3cddafa0800000000000000
+      internalID: -5787727799330438282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_55
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 485
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42eb641c9d978110800000000000000
+      internalID: 1263151514183787082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_56
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 450
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a283e5189dfa4510800000000000000
+      internalID: 1534317452717163171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_57
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 435
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d267d47e76d30f0800000000000000
+      internalID: -1135637287892800150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_58
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 390
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bccfee47e0c3941e0800000000000000
+      internalID: -2213171709086860085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_59
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 417
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5e61b10ac5cb410800000000000000
+      internalID: 1494171019099170235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_60
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 418
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e633fd912e2ec40800000000000000
+      internalID: 5540239092365880988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_61
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 393
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260a8ad1c57771ac0800000000000000
+      internalID: -3884504916065476510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_62
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 394
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757bb719a0e5d7b50800000000000000
+      internalID: 6592528829023762263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_63
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 368
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6eb4f257b7638690800000000000000
+      internalID: -7601117709002817940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_64
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 369
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3837be343897d4f20800000000000000
+      internalID: 3408514097676514179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_65
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 316
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1abe2d07028a4d040800000000000000
+      internalID: 4671543570775337889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_66
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 219
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23aae6f28140c3b00800000000000000
+      internalID: 809526534941354546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_67
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 235
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21d5df7a6d6d2a20800000000000000
+      internalID: 3039205627723632940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_68
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 207
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63d4d725ca5a4630800000000000000
+      internalID: 3912039029148013420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_69
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 186
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16adda1b7abf33810800000000000000
+      internalID: 1744014178381584993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_70
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 177
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf6041a133204870800000000000000
+      internalID: 8664964379126558640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_71
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 154
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bacad87ba557dd190800000000000000
+      internalID: -7936057935869924181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_72
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 106
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535a836a3f2490880800000000000000
+      internalID: -8644304395527740107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_73
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 128
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804d75270462cb620800000000000000
+      internalID: 2791147927300985864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_74
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 80
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3f62cdd639fd0b0800000000000000
+      internalID: -5701676503173499997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_75
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 121
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fac9d21f18f1d50800000000000000
+      internalID: 6710224842657673066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeelParallaxUISnow2_76
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 80
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270aacb317f740f80800000000000000
+      internalID: -8141242102067847054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FeelParallaxUISnow2_0: -2569399902249876219
+      FeelParallaxUISnow2_1: -9104565449049050077
+      FeelParallaxUISnow2_10: 1390922519867387997
+      FeelParallaxUISnow2_11: 3870486372397077171
+      FeelParallaxUISnow2_12: -1721365847346094812
+      FeelParallaxUISnow2_13: -316778846413426503
+      FeelParallaxUISnow2_14: -3185905015170472080
+      FeelParallaxUISnow2_15: 7389551692063048144
+      FeelParallaxUISnow2_16: 8222711258100909855
+      FeelParallaxUISnow2_17: 7956796776202892899
+      FeelParallaxUISnow2_18: -7071131204738750885
+      FeelParallaxUISnow2_19: -6704493178163766887
+      FeelParallaxUISnow2_2: -4779120679369908922
+      FeelParallaxUISnow2_20: -3072496793664914803
+      FeelParallaxUISnow2_21: -135205176050724395
+      FeelParallaxUISnow2_22: -3482988491631568757
+      FeelParallaxUISnow2_23: 1023261279012055908
+      FeelParallaxUISnow2_24: -4627951943880273842
+      FeelParallaxUISnow2_25: 5928251996125907853
+      FeelParallaxUISnow2_26: -3537171885822286571
+      FeelParallaxUISnow2_27: 1291342865542402328
+      FeelParallaxUISnow2_28: -1682889023397148915
+      FeelParallaxUISnow2_29: -4705357130506911645
+      FeelParallaxUISnow2_3: 3359320400461973520
+      FeelParallaxUISnow2_30: 896476457554347828
+      FeelParallaxUISnow2_31: 8498941491161712237
+      FeelParallaxUISnow2_32: 4367809307445586692
+      FeelParallaxUISnow2_33: -5211705671334839721
+      FeelParallaxUISnow2_34: -8439504852499521040
+      FeelParallaxUISnow2_35: 1789488667092661399
+      FeelParallaxUISnow2_36: 4206702532032804901
+      FeelParallaxUISnow2_37: 4062611169582256110
+      FeelParallaxUISnow2_38: 7362154224695042478
+      FeelParallaxUISnow2_39: 3914884331279408694
+      FeelParallaxUISnow2_4: -7057556128024448443
+      FeelParallaxUISnow2_40: 6792546316172989183
+      FeelParallaxUISnow2_41: -6044333543060604689
+      FeelParallaxUISnow2_42: -7452476253616194568
+      FeelParallaxUISnow2_43: -1529595662366037108
+      FeelParallaxUISnow2_44: 2106943191062583662
+      FeelParallaxUISnow2_45: -6935864435243363475
+      FeelParallaxUISnow2_46: 9149196110781053069
+      FeelParallaxUISnow2_47: -4018086301397533480
+      FeelParallaxUISnow2_48: 5191077942667736670
+      FeelParallaxUISnow2_49: 3187712936368585141
+      FeelParallaxUISnow2_5: -5997608228868601701
+      FeelParallaxUISnow2_50: -5875921094986196993
+      FeelParallaxUISnow2_51: 6350426556594853537
+      FeelParallaxUISnow2_52: -8638660379543031632
+      FeelParallaxUISnow2_53: 516019495962960368
+      FeelParallaxUISnow2_54: -5787727799330438282
+      FeelParallaxUISnow2_55: 1263151514183787082
+      FeelParallaxUISnow2_56: 1534317452717163171
+      FeelParallaxUISnow2_57: -1135637287892800150
+      FeelParallaxUISnow2_58: -2213171709086860085
+      FeelParallaxUISnow2_59: 1494171019099170235
+      FeelParallaxUISnow2_6: 6776223703378079053
+      FeelParallaxUISnow2_60: 5540239092365880988
+      FeelParallaxUISnow2_61: -3884504916065476510
+      FeelParallaxUISnow2_62: 6592528829023762263
+      FeelParallaxUISnow2_63: -7601117709002817940
+      FeelParallaxUISnow2_64: 3408514097676514179
+      FeelParallaxUISnow2_65: 4671543570775337889
+      FeelParallaxUISnow2_66: 809526534941354546
+      FeelParallaxUISnow2_67: 3039205627723632940
+      FeelParallaxUISnow2_68: 3912039029148013420
+      FeelParallaxUISnow2_69: 1744014178381584993
+      FeelParallaxUISnow2_7: 1663491893154890855
+      FeelParallaxUISnow2_70: 8664964379126558640
+      FeelParallaxUISnow2_71: -7936057935869924181
+      FeelParallaxUISnow2_72: -8644304395527740107
+      FeelParallaxUISnow2_73: 2791147927300985864
+      FeelParallaxUISnow2_74: -5701676503173499997
+      FeelParallaxUISnow2_75: 6710224842657673066
+      FeelParallaxUISnow2_76: -8141242102067847054
+      FeelParallaxUISnow2_8: 8425238922533952358
+      FeelParallaxUISnow2_9: 9143147562638057517
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,9 +1,69 @@
 fileFormatVersion: 2
-guid: 6582f34ddd5f686408c019550cd94c9d
+guid: c0e4c81812a4371479ca8ec09f6122be
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4402695464199604867
+    second: FeelSpringsDemoLittleDudes_0
+  - first:
+      213: -6754950984850624913
+    second: FeelSpringsDemoLittleDudes_1
+  - first:
+      213: 7275409380357188553
+    second: FeelSpringsDemoLittleDudes_2
+  - first:
+      213: 4242330823615172787
+    second: FeelSpringsDemoLittleDudes_3
+  - first:
+      213: -2692010737209425528
+    second: FeelSpringsDemoLittleDudes_4
+  - first:
+      213: 6205435332277676753
+    second: FeelSpringsDemoLittleDudes_5
+  - first:
+      213: -1868744662454422930
+    second: FeelSpringsDemoLittleDudes_6
+  - first:
+      213: -1713261295356022157
+    second: FeelSpringsDemoLittleDudes_7
+  - first:
+      213: -9053653322170960562
+    second: FeelSpringsDemoLittleDudes_8
+  - first:
+      213: -3104531530604723295
+    second: FeelSpringsDemoLittleDudes_9
+  - first:
+      213: 2116784217086108061
+    second: FeelSpringsDemoLittleDudes_10
+  - first:
+      213: -4822817843926700388
+    second: FeelSpringsDemoLittleDudes_11
+  - first:
+      213: -4706395611971170935
+    second: FeelSpringsDemoLittleDudes_12
+  - first:
+      213: 9185008761667350990
+    second: FeelSpringsDemoLittleDudes_13
+  - first:
+      213: 2285423770760240494
+    second: FeelSpringsDemoLittleDudes_14
+  - first:
+      213: 8946463527117103729
+    second: FeelSpringsDemoLittleDudes_15
+  - first:
+      213: -4510870838772045177
+    second: FeelSpringsDemoLittleDudes_16
+  - first:
+      213: 244699926873494985
+    second: FeelSpringsDemoLittleDudes_17
+  - first:
+      213: 5887699692518076400
+    second: FeelSpringsDemoLittleDudes_18
+  - first:
+      213: -8718088416044150051
+    second: FeelSpringsDemoLittleDudes_19
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -39,7 +99,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -48,7 +108,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 140
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +127,7 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -80,7 +140,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -93,8 +153,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
+  - serializedVersion: 4
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -113,19 +173,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1024
-        width: 256
-        height: 256
+        x: 30
+        y: 1045
+        width: 204
+        height: 217
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ffdf501741c79f04d95051f92ffefed5
-      internalID: 1978829596
+      spriteID: 38a47ddb234891d30800000000000000
+      internalID: 4402695464199604867
       vertices: []
       indices: 
       edges: []
@@ -134,19 +195,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 1024
-        width: 256
-        height: 256
+        x: 289
+        y: 1062
+        width: 178
+        height: 169
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 53b4853715866d042bb204fc315a0c81
-      internalID: -918889415
+      spriteID: f6eadc85ed79142a0800000000000000
+      internalID: -6754950984850624913
       vertices: []
       indices: 
       edges: []
@@ -155,19 +217,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_2
       rect:
         serializedVersion: 2
-        x: 512
-        y: 1024
-        width: 256
-        height: 256
+        x: 544
+        y: 1054
+        width: 178
+        height: 185
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3d0846a21421b5e4883ad77bcc815729
-      internalID: 575148594
+      spriteID: 9cb2cbfd84277f460800000000000000
+      internalID: 7275409380357188553
       vertices: []
       indices: 
       edges: []
@@ -176,19 +239,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_3
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1024
-        width: 256
-        height: 256
+        x: 795
+        y: 1037
+        width: 188
+        height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: bac60d4531694054c8f5c4883d49c7bd
-      internalID: 184926547
+      spriteID: 3b0d5414869cfda30800000000000000
+      internalID: 4242330823615172787
       vertices: []
       indices: 
       edges: []
@@ -197,19 +261,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_4
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 1024
-        width: 256
-        height: 256
+        x: 1034
+        y: 1025
+        width: 225
+        height: 213
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3ba42bfb76336b142b4d882242d611ae
-      internalID: 1138137278
+      spriteID: 88148155f7e04aad0800000000000000
+      internalID: -2692010737209425528
       vertices: []
       indices: 
       edges: []
@@ -218,19 +283,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 768
-        width: 256
-        height: 256
+        x: 24
+        y: 771
+        width: 194
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fe9e995ef13a1d74a8d78db1fe6e5fad
-      internalID: 124857761
+      spriteID: 1daa1119e822e1650800000000000000
+      internalID: 6205435332277676753
       vertices: []
       indices: 
       edges: []
@@ -239,19 +305,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_6
       rect:
         serializedVersion: 2
-        x: 256
-        y: 768
-        width: 256
-        height: 256
+        x: 280
+        y: 803
+        width: 202
+        height: 173
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4f1370e36b388fa4b88aba1ae223e147
-      internalID: 1178595843
+      spriteID: e623f7a61a2e016e0800000000000000
+      internalID: -1868744662454422930
       vertices: []
       indices: 
       edges: []
@@ -260,19 +327,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_7
       rect:
         serializedVersion: 2
-        x: 512
-        y: 768
-        width: 256
-        height: 256
+        x: 547
+        y: 791
+        width: 170
+        height: 207
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: aeb50f3bdf34b934198cc00ec4c69805
-      internalID: 1396070358
+      spriteID: 372f0eadde54938e0800000000000000
+      internalID: -1713261295356022157
       vertices: []
       indices: 
       edges: []
@@ -281,19 +349,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_8
       rect:
         serializedVersion: 2
-        x: 768
-        y: 768
-        width: 256
-        height: 256
+        x: 786
+        y: 793
+        width: 207
+        height: 193
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 41a2471c308276146ab3057ebdbf0005
-      internalID: -1994478078
+      spriteID: e45f6749546fa5280800000000000000
+      internalID: -9053653322170960562
       vertices: []
       indices: 
       edges: []
@@ -302,19 +371,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_9
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 768
-        width: 256
-        height: 256
+        x: 1051
+        y: 784
+        width: 185
+        height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 181f798466733e145827ea6af0aed0ed
-      internalID: 672839533
+      spriteID: 1a34e4c750d7ae4d0800000000000000
+      internalID: -3104531530604723295
       vertices: []
       indices: 
       edges: []
@@ -323,19 +393,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 512
-        width: 256
-        height: 256
+        x: 22
+        y: 519
+        width: 200
+        height: 226
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e67fd2959a9b17648ad324b7c2246cd1
-      internalID: 496806899
+      spriteID: d91229db704506d10800000000000000
+      internalID: 2116784217086108061
       vertices: []
       indices: 
       edges: []
@@ -344,19 +415,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_11
       rect:
         serializedVersion: 2
-        x: 256
-        y: 512
-        width: 256
-        height: 256
+        x: 284
+        y: 546
+        width: 184
+        height: 178
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3ef5449c8212f4b4bafd6930862ceb4a
-      internalID: -2027504960
+      spriteID: c9e655c29b8e11db0800000000000000
+      internalID: -4822817843926700388
       vertices: []
       indices: 
       edges: []
@@ -365,19 +437,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_12
       rect:
         serializedVersion: 2
-        x: 512
-        y: 512
-        width: 256
-        height: 256
+        x: 527
+        y: 529
+        width: 201
+        height: 217
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: df25e3e987894f045bec8370d7ec6335
-      internalID: -1331788603
+      spriteID: 98d400060268faeb0800000000000000
+      internalID: -4706395611971170935
       vertices: []
       indices: 
       edges: []
@@ -386,19 +459,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_13
       rect:
         serializedVersion: 2
-        x: 768
-        y: 512
-        width: 256
-        height: 256
+        x: 774
+        y: 518
+        width: 227
+        height: 230
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 034dbc0a9fca480448cd6cc2f8084377
-      internalID: 1705615154
+      spriteID: ec17802fdc4b77f70800000000000000
+      internalID: 9185008761667350990
       vertices: []
       indices: 
       edges: []
@@ -407,19 +481,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_14
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 512
-        width: 256
-        height: 256
+        x: 1067
+        y: 527
+        width: 157
+        height: 217
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 10d212c40741bc04d876872f4363d447
-      internalID: 2128112624
+      spriteID: e6dd5619fc477bf10800000000000000
+      internalID: 2285423770760240494
       vertices: []
       indices: 
       edges: []
@@ -428,19 +503,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 256
-        height: 256
+        x: 36
+        y: 266
+        width: 173
+        height: 226
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9c1e0d1b117822149bbd765346058640
-      internalID: 1463657965
+      spriteID: 172adc17d29382c70800000000000000
+      internalID: 8946463527117103729
       vertices: []
       indices: 
       edges: []
@@ -449,19 +525,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_16
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
-        width: 256
-        height: 256
+        x: 286
+        y: 260
+        width: 183
+        height: 224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2a4edc251809d6044b592f32b07ba25e
-      internalID: -1565944252
+      spriteID: 78ae25b2fda2661c0800000000000000
+      internalID: -4510870838772045177
       vertices: []
       indices: 
       edges: []
@@ -470,19 +547,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_17
       rect:
         serializedVersion: 2
-        x: 512
-        y: 256
-        width: 256
-        height: 256
+        x: 537
+        y: 278
+        width: 198
+        height: 198
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f9bb30885fc6d9347844336de20cf76a
-      internalID: 1633796411
+      spriteID: 9c5dbd97949556300800000000000000
+      internalID: 244699926873494985
       vertices: []
       indices: 
       edges: []
@@ -491,19 +569,20 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_18
       rect:
         serializedVersion: 2
-        x: 768
-        y: 256
-        width: 256
-        height: 256
+        x: 779
+        y: 275
+        width: 217
+        height: 208
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a11c3411fa7d8d341b0f3d5bea4001e3
-      internalID: -607652506
+      spriteID: 0ff67bc0daf45b150800000000000000
+      internalID: 5887699692518076400
       vertices: []
       indices: 
       edges: []
@@ -512,54 +591,58 @@ TextureImporter:
       name: FeelSpringsDemoLittleDudes_19
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 256
-        width: 256
-        height: 256
+        x: 1049
+        y: 270
+        width: 196
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1cd05c60750705a45adf0c6fecd3aa89
-      internalID: -1595002427
+      spriteID: dd29d39a6c0230780800000000000000
+      internalID: -8718088416044150051
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: 5b32bf1ed8eee4a47ae197f1b6c0f4d8
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
-      FeelSpringsDemoLittleDudes_0: 1978829596
-      FeelSpringsDemoLittleDudes_1: -918889415
-      FeelSpringsDemoLittleDudes_10: 496806899
-      FeelSpringsDemoLittleDudes_11: -2027504960
-      FeelSpringsDemoLittleDudes_12: -1331788603
-      FeelSpringsDemoLittleDudes_13: 1705615154
-      FeelSpringsDemoLittleDudes_14: 2128112624
-      FeelSpringsDemoLittleDudes_15: 1463657965
-      FeelSpringsDemoLittleDudes_16: -1565944252
-      FeelSpringsDemoLittleDudes_17: 1633796411
-      FeelSpringsDemoLittleDudes_18: -607652506
-      FeelSpringsDemoLittleDudes_19: -1595002427
-      FeelSpringsDemoLittleDudes_2: 575148594
-      FeelSpringsDemoLittleDudes_3: 184926547
-      FeelSpringsDemoLittleDudes_4: 1138137278
-      FeelSpringsDemoLittleDudes_5: 124857761
-      FeelSpringsDemoLittleDudes_6: 1178595843
-      FeelSpringsDemoLittleDudes_7: 1396070358
-      FeelSpringsDemoLittleDudes_8: -1994478078
-      FeelSpringsDemoLittleDudes_9: 672839533
+      FeelSpringsDemoLittleDudes_0: 4402695464199604867
+      FeelSpringsDemoLittleDudes_1: -6754950984850624913
+      FeelSpringsDemoLittleDudes_10: 2116784217086108061
+      FeelSpringsDemoLittleDudes_11: -4822817843926700388
+      FeelSpringsDemoLittleDudes_12: -4706395611971170935
+      FeelSpringsDemoLittleDudes_13: 9185008761667350990
+      FeelSpringsDemoLittleDudes_14: 2285423770760240494
+      FeelSpringsDemoLittleDudes_15: 8946463527117103729
+      FeelSpringsDemoLittleDudes_16: -4510870838772045177
+      FeelSpringsDemoLittleDudes_17: 244699926873494985
+      FeelSpringsDemoLittleDudes_18: 5887699692518076400
+      FeelSpringsDemoLittleDudes_19: -8718088416044150051
+      FeelSpringsDemoLittleDudes_2: 7275409380357188553
+      FeelSpringsDemoLittleDudes_3: 4242330823615172787
+      FeelSpringsDemoLittleDudes_4: -2692010737209425528
+      FeelSpringsDemoLittleDudes_5: 6205435332277676753
+      FeelSpringsDemoLittleDudes_6: -1868744662454422930
+      FeelSpringsDemoLittleDudes_7: -1713261295356022157
+      FeelSpringsDemoLittleDudes_8: -9053653322170960562
+      FeelSpringsDemoLittleDudes_9: -3104531530604723295
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
