@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: eddcd80873b01b4488a01231acd4d460
 AudioImporter:
   externalObjects: {}
@@ -7,11 +8,16 @@ AudioImporter:
   defaultSettings:
     serializedVersion: 2
 =======
+=======
+>>>>>>> base
 guid: 81aa19699455c0c4f9dd8d95ec0de826
 AudioImporter:
   externalObjects: {}
   serializedVersion: 6
   defaultSettings:
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     loadType: 0
     sampleRateSetting: 0
@@ -20,15 +26,21 @@ AudioImporter:
     quality: 1
     conversionMode: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     preloadAudioData: 0
   platformSettingOverrides: {}
   forceToMono: 0
   normalize: 1
 =======
+=======
+>>>>>>> base
   platformSettingOverrides: {}
   forceToMono: 0
   normalize: 1
   preloadAudioData: 1
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
   loadInBackground: 0
   ambisonic: 0

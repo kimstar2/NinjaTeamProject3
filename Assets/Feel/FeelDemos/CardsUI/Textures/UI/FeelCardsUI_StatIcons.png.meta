@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 1fb61cca057f7dc49b8e015ce1e6ad93
 TextureImporter:
   internalIDToNameTable:
@@ -15,6 +16,8 @@ TextureImporter:
   externalObjects: {}
   serializedVersion: 13
 =======
+=======
+>>>>>>> base
 guid: f7043b7291f49844b9671b3d3dedcbb5
 TextureImporter:
   internalIDToNameTable:
@@ -38,6 +41,9 @@ TextureImporter:
     second: CardsUI_StatIconsRed
   externalObjects: {}
   serializedVersion: 12
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
   mipmaps:
     mipMapMode: 0
@@ -56,7 +62,10 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     flipGreenChannel: 0
+=======
+>>>>>>> base
 =======
 >>>>>>> base
   isReadable: 0
@@ -64,7 +73,11 @@ TextureImporter:
   streamingMipmapsPriority: 0
   vTOnly: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   ignoreMipmapLimit: 0
+=======
+  ignoreMasterTextureLimit: 0
+>>>>>>> base
 =======
   ignoreMasterTextureLimit: 0
 >>>>>>> base
@@ -82,7 +95,11 @@ TextureImporter:
     wrapU: 1
     wrapV: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     wrapW: 1
+=======
+    wrapW: 0
+>>>>>>> base
 =======
     wrapW: 0
 >>>>>>> base
@@ -111,10 +128,16 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
+=======
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+>>>>>>> base
 =======
   cookieLightType: 1
   platformSettings:
@@ -130,10 +153,16 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+=======
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+>>>>>>> base
 =======
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -149,8 +178,11 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     ignorePlatformSupport: 0
 =======
+=======
+>>>>>>> base
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -175,6 +207,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -182,6 +217,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       name: FeelCardsUI_StatIcons_0
       rect:
@@ -223,6 +259,8 @@ TextureImporter:
       spriteID: 9947154bc64d74e70800000000000000
       internalID: 9099475135472170137
 =======
+=======
+>>>>>>> base
       name: CardsUI_StatIconsBlue
       rect:
         serializedVersion: 2
@@ -239,12 +277,16 @@ TextureImporter:
       bones: []
       spriteID: 48a50659d14983290800000000000000
       internalID: 5524590292671962877
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       name: FeelCardsUI_StatIcons_2
       rect:
@@ -264,6 +306,8 @@ TextureImporter:
       spriteID: 3a22f9609bcd94fb0800000000000000
       internalID: -4662953251927285085
 =======
+=======
+>>>>>>> base
       name: CardsUI_StatIconsYellow
       rect:
         serializedVersion: 2
@@ -301,6 +345,9 @@ TextureImporter:
       bones: []
       spriteID: 1328f752119ebc770800000000000000
       internalID: -3168733581550749585
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       vertices: []
       indices: 
@@ -308,10 +355,16 @@ TextureImporter:
       weights: []
     outline: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     customData: 
     physicsShape: []
     bones: []
     spriteID: 
+=======
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+>>>>>>> base
 =======
     physicsShape: []
     bones: []
@@ -324,6 +377,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
@@ -333,6 +387,8 @@ TextureImporter:
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
 =======
+=======
+>>>>>>> base
     nameFileIdTable:
       CardsUI_StatIconsBlue: 5524590292671962877
       CardsUI_StatIconsRed: -3168733581550749585
@@ -340,6 +396,9 @@ TextureImporter:
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
   userData: 
   assetBundleName: 

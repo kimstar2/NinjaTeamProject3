@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 750dad2367cedc34999701f1d8ebe613
 TextureImporter:
   internalIDToNameTable:
@@ -13,6 +14,8 @@ TextureImporter:
     enableMipMap: 0
     sRGBTexture: 1
 =======
+=======
+>>>>>>> base
 guid: b597e9d00f1750f4a9d79c90c49ce306
 TextureImporter:
   internalIDToNameTable: []
@@ -22,6 +25,9 @@ TextureImporter:
     mipMapMode: 0
     enableMipMap: 1
     sRGBTexture: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     linearTexture: 0
     fadeOut: 0
@@ -36,12 +42,18 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
   ignoreMipmapLimit: 0
+=======
+  isReadable: 0
+  streamingMipmaps: 1
+  streamingMipmapsPriority: 0
+>>>>>>> base
 =======
   isReadable: 0
   streamingMipmaps: 1
@@ -57,7 +69,11 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     aniso: 1
+=======
+    aniso: 3
+>>>>>>> base
 =======
     aniso: 3
 >>>>>>> base
@@ -66,15 +82,21 @@ TextureImporter:
     wrapV: 1
     wrapW: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
 =======
+=======
+>>>>>>> base
   nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
   spriteExtrude: 1
   spriteMeshType: 1
@@ -84,6 +106,7 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -107,6 +130,8 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 1
 =======
+=======
+>>>>>>> base
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 0
@@ -122,11 +147,15 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: 2
     textureCompression: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
@@ -144,10 +173,13 @@ TextureImporter:
     ignorePlatformSupport: 0
 =======
 >>>>>>> base
+=======
+>>>>>>> base
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     sprites:
     - serializedVersion: 2
@@ -178,6 +210,10 @@ TextureImporter:
     sprites: []
     outline: []
 >>>>>>> base
+=======
+    sprites: []
+    outline: []
+>>>>>>> base
     physicsShape: []
     bones: []
     spriteID: 
@@ -188,12 +224,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
       Lightmap-0_comp_shadowmask_0: -8194344238238539458
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
+=======
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+>>>>>>> base
 =======
   spritePackingTag: 
   pSDRemoveMatte: 0

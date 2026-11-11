@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: c77a63064dacca04c910ca61c5de359f
 TextureImporter:
   internalIDToNameTable:
@@ -9,11 +10,16 @@ TextureImporter:
   externalObjects: {}
   serializedVersion: 13
 =======
+=======
+>>>>>>> base
 guid: 7307a36212ef9734897aaaca7fa0bcce
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
   mipmaps:
     mipMapMode: 0
@@ -32,12 +38,18 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
   ignoreMipmapLimit: 0
+=======
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+>>>>>>> base
 =======
   isReadable: 0
   streamingMipmaps: 0
@@ -52,6 +64,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -63,6 +76,8 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
 =======
+=======
+>>>>>>> base
     filterMode: 0
     aniso: -1
     mipBias: -100
@@ -73,6 +88,9 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
   spriteExtrude: 1
   spriteMeshType: 1
@@ -88,6 +106,7 @@ TextureImporter:
   textureShape: 1
   singleChannelComponent: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   flipbookRows: 1
   flipbookColumns: 1
   maxTextureSizeSet: 0
@@ -100,19 +119,28 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
 =======
+=======
+>>>>>>> base
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
 <<<<<<< HEAD
+<<<<<<< HEAD
     textureCompression: 1
+=======
+    textureCompression: 0
+>>>>>>> base
 =======
     textureCompression: 0
 >>>>>>> base
@@ -120,6 +148,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
@@ -130,13 +159,21 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
 >>>>>>> base
+=======
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+>>>>>>> base
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
 <<<<<<< HEAD
+<<<<<<< HEAD
     textureCompression: 1
 =======
+=======
+>>>>>>> base
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -174,19 +211,26 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     ignorePlatformSupport: 0
+=======
+>>>>>>> base
 =======
 >>>>>>> base
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     sprites:
     - serializedVersion: 2
@@ -217,11 +261,16 @@ TextureImporter:
     bones: []
     spriteID: 
 =======
+=======
+>>>>>>> base
     sprites: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     internalID: 0
     vertices: []
@@ -230,12 +279,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
       FeelDuckBackground_0: 5564015700085412395
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
+=======
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+>>>>>>> base
 =======
   spritePackingTag: 
   pSDRemoveMatte: 0

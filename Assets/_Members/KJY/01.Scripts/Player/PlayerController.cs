@@ -4,29 +4,51 @@ using _Members.KJY._01.Scripts.Agent.Hand;
 using _Members.KJY._01.Scripts.MainSystem;
 using _TevLib.ModuleSystem;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace _Members.KJY._01.Scripts.Player
 {
     public class PlayerController : ModuleOwner
     {
-        [field:SerializeField] public PlayerInputSO PlayerInput {get; private set;}
+        [field: SerializeField] public PlayerInputSO PlayerInput { get; private set; }
 
         [Header("Movement Setting")]
         [SerializeField] private float baseSpeed;
-        
+
+        [field: Header("Hand Setting")] 
+        [field: SerializeField] public float rotAcc;
+        [field: SerializeField] public AgentHand LHand { get; private set; }
+        [field: SerializeField] public AgentHand RHand { get; private set; }
+
         public IMoveable Mover { get; private set; }
+<<<<<<< HEAD
         public AgentHandler Handler { get; private set; }
         public Camera Camera { get; private set; }
+=======
+        public Camera Camera { get; private set; }
+        public AgentHandler Handler { get; private set; }
+
+        private Vector2 _mPosDir;
+>>>>>>> base
 
         protected override void InitializeModules()
         {
             base.InitializeModules();
+<<<<<<< HEAD
             
             Camera = Camera.main; 
             
             Mover = GetModule<IMoveable>();
             Handler = GetModule<AgentHandler>();
             
+=======
+
+            Camera = Camera.main;
+
+            Mover = GetModule<IMoveable>();
+            Handler = GetModule<AgentHandler>();
+
+>>>>>>> base
             ValidateData();
         }
 
@@ -38,6 +60,7 @@ namespace _Members.KJY._01.Scripts.Player
         private void Update()
         {
             Mover.SetDirection(PlayerInput.InputDir);
+<<<<<<< HEAD
             
             Vector2 dir = (Vector3)WorldMousePosition() - transform.position;
             float zAngle = AgentUtil.GetZAngle(dir);
@@ -45,16 +68,49 @@ namespace _Members.KJY._01.Scripts.Player
         }
 
         
+=======
+
+            _mPosDir = ((Vector3)WorldMousePosition() - transform.position).normalized;
+            float zAngle = AgentUtil.GetZAngle(_mPosDir);
+            float lerpAngle = Mathf.LerpAngle(Handler.transform.localEulerAngles.z, zAngle, Time.fixedDeltaTime * rotAcc);
+            Handler.SetZAngle(lerpAngle);
+        }
+
+
+>>>>>>> base
         private void OnEnable()
         {
             PlayerInput.SetEnable();
+
+            PlayerInput.OnAttackPressed += HandleAttack;
+        }
+
+
+        private bool _lastIsRight = true;
+        private void HandleAttack(bool attacking)
+        {
+            if (attacking)
+            {
+                _lastIsRight = !_lastIsRight;
+                if (_lastIsRight)
+                    LHand.Attack(WorldMousePosition());
+                else
+                    RHand.Attack(WorldMousePosition());
+            }
         }
         private void OnDisable()
         {
+            PlayerInput.OnAttackPressed -= HandleAttack;
+
             PlayerInput.SetDisable();
         }
+<<<<<<< HEAD
         
         private Vector2 WorldMousePosition() 
+=======
+
+        private Vector2 WorldMousePosition()
+>>>>>>> base
             => Camera.ScreenToWorldPoint(PlayerInput.LookPos);
 
     }

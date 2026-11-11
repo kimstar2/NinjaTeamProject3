@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: d3c46296c4996de4d93a6fa470ecba90
 TextureImporter:
   internalIDToNameTable:
@@ -12,6 +13,8 @@ TextureImporter:
     mipMapMode: 0
     enableMipMap: 0
 =======
+=======
+>>>>>>> base
 guid: af71d4465ebfa49499ab772dfe48c67b
 TextureImporter:
   internalIDToNameTable: []
@@ -20,6 +23,9 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     sRGBTexture: 1
     linearTexture: 0
@@ -35,6 +41,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
@@ -46,6 +53,8 @@ TextureImporter:
   cubemapConvolution: 0
   seamlessCubemap: 0
 =======
+=======
+>>>>>>> base
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -53,14 +62,22 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 1
   seamlessCubemap: 1
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     filterMode: 1
     aniso: 1
+=======
+    filterMode: 2
+    aniso: 0
+>>>>>>> base
 =======
     filterMode: 2
     aniso: 0
@@ -70,15 +87,21 @@ TextureImporter:
     wrapV: 1
     wrapW: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
 =======
+=======
+>>>>>>> base
   nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
   spriteExtrude: 1
   spriteMeshType: 1
@@ -88,6 +111,7 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -106,6 +130,8 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
 =======
+=======
+>>>>>>> base
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 0
@@ -116,11 +142,15 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - serializedVersion: 3
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
 <<<<<<< HEAD
     textureCompression: 1
     compressionQuality: 50
@@ -142,16 +172,22 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
 =======
+=======
+>>>>>>> base
     textureCompression: 0
     compressionQuality: 100
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     sprites:
     - serializedVersion: 2
@@ -182,6 +218,10 @@ TextureImporter:
     sprites: []
     outline: []
 >>>>>>> base
+=======
+    sprites: []
+    outline: []
+>>>>>>> base
     physicsShape: []
     bones: []
     spriteID: 
@@ -192,12 +232,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
       ReflectionProbe-0_0: -6178708042526665401
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
+=======
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+>>>>>>> base
 =======
   spritePackingTag: 
   pSDRemoveMatte: 0

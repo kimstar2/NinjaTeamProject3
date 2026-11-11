@@ -1,6 +1,10 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 1b10b987e1741ad45b56d5aeb1643f69
+=======
+guid: 8a1f96c93a153e34a98b5f6dd6bbfebd
+>>>>>>> base
 =======
 guid: 8a1f96c93a153e34a98b5f6dd6bbfebd
 >>>>>>> base
@@ -56,6 +60,7 @@ TextureImporter:
     second: FeelDuck_15
   - first:
 <<<<<<< HEAD
+<<<<<<< HEAD
       213: -2520759210819888809
     second: FeelDuck_16
   - first:
@@ -67,6 +72,8 @@ TextureImporter:
   externalObjects: {}
   serializedVersion: 13
 =======
+=======
+>>>>>>> base
       213: 889054522252835898
     second: FeelDuck_12
   - first:
@@ -83,6 +90,9 @@ TextureImporter:
     second: FeelDuck_16
   externalObjects: {}
   serializedVersion: 12
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
   mipmaps:
     mipMapMode: 0
@@ -101,7 +111,10 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     flipGreenChannel: 0
+=======
+>>>>>>> base
 =======
 >>>>>>> base
   isReadable: 0
@@ -109,7 +122,11 @@ TextureImporter:
   streamingMipmapsPriority: 0
   vTOnly: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   ignoreMipmapLimit: 0
+=======
+  ignoreMasterTextureLimit: 0
+>>>>>>> base
 =======
   ignoreMasterTextureLimit: 0
 >>>>>>> base
@@ -122,7 +139,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     filterMode: 1
+=======
+    filterMode: 0
+>>>>>>> base
 =======
     filterMode: 0
 >>>>>>> base
@@ -131,7 +152,11 @@ TextureImporter:
     wrapU: 1
     wrapV: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     wrapW: 1
+=======
+    wrapW: 0
+>>>>>>> base
 =======
     wrapW: 0
 >>>>>>> base
@@ -160,10 +185,16 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
+=======
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+>>>>>>> base
 =======
   cookieLightType: 1
   platformSettings:
@@ -174,7 +205,11 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
 <<<<<<< HEAD
+<<<<<<< HEAD
     textureCompression: 1
+=======
+    textureCompression: 0
+>>>>>>> base
 =======
     textureCompression: 0
 >>>>>>> base
@@ -182,6 +217,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
@@ -192,13 +228,21 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
 >>>>>>> base
+=======
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+>>>>>>> base
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
 <<<<<<< HEAD
+<<<<<<< HEAD
     textureCompression: 1
 =======
+=======
+>>>>>>> base
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -236,13 +280,19 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     ignorePlatformSupport: 0
+=======
+>>>>>>> base
 =======
 >>>>>>> base
     androidETC2FallbackOverride: 0
@@ -254,6 +304,7 @@ TextureImporter:
       name: FeelDuck_0
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
         x: 7
         y: 0
@@ -267,6 +318,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
 =======
+=======
+>>>>>>> base
         x: 0
         y: 0
         width: 64
@@ -277,6 +330,9 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       bones: []
       spriteID: c878b12936643a930800000000000000
@@ -290,6 +346,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
         x: 72
         y: 0
         width: 51
@@ -302,6 +359,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
 =======
+=======
+>>>>>>> base
         x: 66
         y: 0
         width: 64
@@ -312,6 +371,9 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       bones: []
       spriteID: d272c98db46f3cbc0800000000000000
@@ -325,6 +387,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
         x: 138
         y: 0
         width: 51
@@ -337,6 +400,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
 =======
+=======
+>>>>>>> base
         x: 132
         y: 0
         width: 64
@@ -347,6 +412,9 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       bones: []
       spriteID: 786e16e3d3c731b90800000000000000
@@ -360,6 +428,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
         x: 204
         y: 0
         width: 51
@@ -372,6 +441,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
 =======
+=======
+>>>>>>> base
         x: 198
         y: 0
         width: 64
@@ -382,6 +453,9 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       bones: []
       spriteID: 80e52499844f82a70800000000000000
@@ -395,6 +469,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
         x: 271
         y: 0
         width: 49
@@ -407,6 +482,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
 =======
+=======
+>>>>>>> base
         x: 264
         y: 0
         width: 64
@@ -417,6 +494,9 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       bones: []
       spriteID: 06218210b3c985c60800000000000000
@@ -430,6 +510,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
         x: 334
         y: 0
         width: 55
@@ -442,6 +523,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
 =======
+=======
+>>>>>>> base
         x: 330
         y: 0
         width: 64
@@ -452,6 +535,9 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       bones: []
       spriteID: 736e2bd0ae30f2210800000000000000
@@ -465,6 +551,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
         x: 397
         y: 0
         width: 61
@@ -477,6 +564,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
 =======
+=======
+>>>>>>> base
         x: 396
         y: 0
         width: 64
@@ -487,6 +576,9 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       bones: []
       spriteID: bf2844ff83a188e80800000000000000
@@ -500,6 +592,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
         x: 538
         y: 0
         width: 42
@@ -512,6 +605,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
 =======
+=======
+>>>>>>> base
         x: 462
         y: 0
         width: 64
@@ -522,6 +617,9 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       bones: []
       spriteID: 33689890d9bb6dea0800000000000000
@@ -535,6 +633,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
         x: 604
         y: 7
         width: 42
@@ -547,6 +646,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
 =======
+=======
+>>>>>>> base
         x: 528
         y: 0
         width: 64
@@ -557,6 +658,9 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       bones: []
       spriteID: 05bd76695c5528e40800000000000000
@@ -570,6 +674,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
         x: 663
         y: 21
         width: 56
@@ -582,6 +687,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
 =======
+=======
+>>>>>>> base
         x: 594
         y: 0
         width: 64
@@ -592,6 +699,9 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       bones: []
       spriteID: cb74c6af543ca0c30800000000000000
@@ -605,6 +715,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
         x: 729
         y: 21
         width: 56
@@ -617,6 +728,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
 =======
+=======
+>>>>>>> base
         x: 660
         y: 0
         width: 64
@@ -627,6 +740,9 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       bones: []
       spriteID: 74966712d383650f0800000000000000
@@ -640,6 +756,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
         x: 795
         y: 21
         width: 56
@@ -652,6 +769,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
 =======
+=======
+>>>>>>> base
         x: 726
         y: 0
         width: 64
@@ -662,6 +781,9 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       bones: []
       spriteID: 2f21f21b635968430800000000000000
@@ -674,6 +796,7 @@ TextureImporter:
       name: FeelDuck_12
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
         x: 868
         y: 7
@@ -689,6 +812,8 @@ TextureImporter:
       bones: []
       spriteID: 22d53d7fd7ed542c0800000000000000
 =======
+=======
+>>>>>>> base
         x: 792
         y: 0
         width: 64
@@ -701,6 +826,9 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a3cb5d8a06e865c00800000000000000
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       internalID: -4447904424348394206
       vertices: []
@@ -711,6 +839,7 @@ TextureImporter:
       name: FeelDuck_13
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
         x: 946
         y: 48
@@ -726,6 +855,8 @@ TextureImporter:
       bones: []
       spriteID: 01e94e6ba4e76a170800000000000000
 =======
+=======
+>>>>>>> base
         x: 858
         y: 0
         width: 64
@@ -738,6 +869,9 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: da543c3a54094e6d0800000000000000
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       internalID: 8189371831780941328
       vertices: []
@@ -748,6 +882,7 @@ TextureImporter:
       name: FeelDuck_14
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
         x: 1012
         y: 43
@@ -763,6 +898,8 @@ TextureImporter:
       bones: []
       spriteID: 0cd8e7a3413bddae0800000000000000
 =======
+=======
+>>>>>>> base
         x: 924
         y: 0
         width: 64
@@ -775,6 +912,9 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 16d752b4d649cf280800000000000000
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       internalID: -1522864199519269440
       vertices: []
@@ -785,6 +925,7 @@ TextureImporter:
       name: FeelDuck_15
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
         x: 1060
         y: 0
@@ -800,6 +941,8 @@ TextureImporter:
       bones: []
       spriteID: 9b8b4341e0e90f820800000000000000
 =======
+=======
+>>>>>>> base
         x: 990
         y: 0
         width: 64
@@ -812,6 +955,9 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c5a4c79f064276020800000000000000
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       internalID: 2950031539233405113
       vertices: []
@@ -822,6 +968,7 @@ TextureImporter:
       name: FeelDuck_16
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
         x: 463
         y: 0
@@ -835,6 +982,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
 =======
+=======
+>>>>>>> base
         x: 1056
         y: 0
         width: 64
@@ -845,6 +994,9 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
       bones: []
       spriteID: 75959c27ad6740dd0800000000000000
@@ -853,6 +1005,7 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+<<<<<<< HEAD
 <<<<<<< HEAD
     - serializedVersion: 2
       name: FeelDuck_17
@@ -904,10 +1057,15 @@ TextureImporter:
     bones: []
     spriteID: 
 =======
+=======
+>>>>>>> base
     outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     internalID: 0
     vertices: []
@@ -916,8 +1074,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     spriteCustomMetadata:
       entries: []
+=======
+>>>>>>> base
 =======
 >>>>>>> base
     nameFileIdTable:
@@ -931,8 +1092,11 @@ TextureImporter:
       FeelDuck_15: 2950031539233405113
       FeelDuck_16: -2520759210819888809
 <<<<<<< HEAD
+<<<<<<< HEAD
       FeelDuck_17: -354406966733238644
       FeelDuck_18: 5530205773895396320
+=======
+>>>>>>> base
 =======
 >>>>>>> base
       FeelDuck_2: -7272332370791766393
@@ -944,8 +1108,14 @@ TextureImporter:
       FeelDuck_8: 5657178389051071312
       FeelDuck_9: 4326485097364342716
 <<<<<<< HEAD
+<<<<<<< HEAD
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
+=======
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+>>>>>>> base
 =======
   spritePackingTag: 
   pSDRemoveMatte: 0

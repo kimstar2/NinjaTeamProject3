@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 3386963436a2f784a9008a18b8f070db
 ModelImporter:
   serializedVersion: 24200
@@ -11,6 +12,8 @@ ModelImporter:
     materialSearch: 1
     materialLocation: 1
 =======
+=======
+>>>>>>> base
 guid: 2e5dc414d2e25404ca15e4d9d6dda78d
 ModelImporter:
   serializedVersion: 19301
@@ -21,6 +24,9 @@ ModelImporter:
     materialName: 0
     materialSearch: 1
     materialLocation: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
   animations:
     legacyGenerateAnimations: 4
@@ -28,8 +34,14 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     removeConstantScaleCurves: 0
     motionNodeName: 
+=======
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+>>>>>>> base
 =======
     motionNodeName: 
     rigImportErrors: 
@@ -58,7 +70,10 @@ ModelImporter:
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     importPhysicalCameras: 1
+=======
+>>>>>>> base
 =======
 >>>>>>> base
     importVisibility: 1
@@ -66,7 +81,10 @@ ModelImporter:
     importCameras: 1
     importLights: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     nodeNameCollisionStrategy: 1
+=======
+>>>>>>> base
 =======
 >>>>>>> base
     fileIdsGeneration: 2
@@ -76,7 +94,10 @@ ModelImporter:
     keepQuads: 0
     weldVertices: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     bakeAxisConversion: 0
+=======
+>>>>>>> base
 =======
 >>>>>>> base
     preserveHierarchy: 0
@@ -84,10 +105,13 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
 <<<<<<< HEAD
+<<<<<<< HEAD
     optimizeBones: 1
     generateMeshLods: 0
     meshLodGenerationFlags: 0
     maximumMeshLod: -1
+=======
+>>>>>>> base
 =======
 >>>>>>> base
     meshOptimizationFlags: -1
@@ -96,12 +120,17 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
 <<<<<<< HEAD
+<<<<<<< HEAD
     secondaryUVMarginMethod: 1
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
     strictVertexDataChecks: 0
+=======
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+>>>>>>> base
 =======
     secondaryUVPackMargin: 4
     useFileScale: 1
@@ -138,9 +167,12 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
+=======
+>>>>>>> base
 =======
 >>>>>>> base
   additionalBone: 0

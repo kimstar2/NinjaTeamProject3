@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 2064106950b57f44ba0a16cb9aca46d1
 ModelImporter:
   serializedVersion: 24200
@@ -8,6 +9,8 @@ ModelImporter:
   materials:
     materialImportMode: 2
 =======
+=======
+>>>>>>> base
 guid: 6b045d86234fb62479b688760e514f43
 ModelImporter:
   serializedVersion: 23
@@ -54,6 +57,9 @@ ModelImporter:
     second: {fileID: 2100000, guid: 83af047daa181cd45aa601514380877a, type: 2}
   materials:
     importMaterials: 1
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     materialName: 0
     materialSearch: 1
@@ -64,8 +70,14 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     removeConstantScaleCurves: 0
     motionNodeName: 
+=======
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+>>>>>>> base
 =======
     motionNodeName: 
     rigImportErrors: 
@@ -86,7 +98,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     isReadable: 0
+=======
+    isReadable: 1
+>>>>>>> base
 =======
     isReadable: 1
 >>>>>>> base
@@ -96,15 +112,19 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1
+=======
+>>>>>>> base
 =======
 >>>>>>> base
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
@@ -124,6 +144,8 @@ ModelImporter:
     maximumMeshLod: -1
     meshOptimizationFlags: -1
 =======
+=======
+>>>>>>> base
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -131,11 +153,15 @@ ModelImporter:
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+<<<<<<< HEAD
 <<<<<<< HEAD
     secondaryUVMarginMethod: 1
     secondaryUVMinLightmapResolution: 40
@@ -144,16 +170,22 @@ ModelImporter:
     useFileScale: 1
     strictVertexDataChecks: 0
 =======
+=======
+>>>>>>> base
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+<<<<<<< HEAD
 <<<<<<< HEAD
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
@@ -163,10 +195,15 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
 =======
+=======
+>>>>>>> base
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     human: []
     skeleton: []
@@ -178,8 +215,13 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     globalScale: 1
     rootMotionBoneName: 
+=======
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+>>>>>>> base
 =======
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -189,6 +231,7 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
@@ -196,6 +239,10 @@ ModelImporter:
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
+=======
+  animationType: 0
+  humanoidOversampling: 1
+>>>>>>> base
 =======
   animationType: 0
   humanoidOversampling: 1

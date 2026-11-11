@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 8ded5b811db0e0840927eb7df7fbdd63
 TextureImporter:
   internalIDToNameTable:
@@ -12,6 +13,8 @@ TextureImporter:
     mipMapMode: 0
     enableMipMap: 0
 =======
+=======
+>>>>>>> base
 guid: fc55c8af6f8df0c4c8143b592fc01603
 TextureImporter:
   internalIDToNameTable: []
@@ -20,6 +23,9 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     sRGBTexture: 1
     linearTexture: 0
@@ -35,12 +41,18 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
   ignoreMipmapLimit: 0
+=======
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+>>>>>>> base
 =======
   isReadable: 0
   streamingMipmaps: 0
@@ -55,6 +67,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -66,6 +79,8 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
 =======
+=======
+>>>>>>> base
     filterMode: -1
     aniso: -1
     mipBias: -100
@@ -76,6 +91,9 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
   spriteExtrude: 1
   spriteMeshType: 1
@@ -85,6 +103,7 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -103,6 +122,8 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
 =======
+=======
+>>>>>>> base
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 0
@@ -113,6 +134,9 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - serializedVersion: 3
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
@@ -123,6 +147,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
@@ -140,10 +165,13 @@ TextureImporter:
     ignorePlatformSupport: 0
 =======
 >>>>>>> base
+=======
+>>>>>>> base
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     sprites:
     - serializedVersion: 2
@@ -174,6 +202,10 @@ TextureImporter:
     sprites: []
     outline: []
 >>>>>>> base
+=======
+    sprites: []
+    outline: []
+>>>>>>> base
     physicsShape: []
     bones: []
     spriteID: 
@@ -184,12 +216,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
       FeelBounceGrass_0: 5119587890226851178
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
+=======
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+>>>>>>> base
 =======
   spritePackingTag: 
   pSDRemoveMatte: 0

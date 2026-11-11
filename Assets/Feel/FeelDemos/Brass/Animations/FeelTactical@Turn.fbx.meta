@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: f0b9d0da3d4a4814bb5da767342ca5bf
 ModelImporter:
   serializedVersion: 24200
@@ -8,6 +9,8 @@ ModelImporter:
   materials:
     materialImportMode: 2
 =======
+=======
+>>>>>>> base
 guid: d9dd7ddf844bda743a03b85e7550a9d8
 ModelImporter:
   serializedVersion: 19301
@@ -21,6 +24,9 @@ ModelImporter:
   externalObjects: {}
   materials:
     materialImportMode: 1
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     materialName: 0
     materialSearch: 1
@@ -31,8 +37,14 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     removeConstantScaleCurves: 0
     motionNodeName: 
+=======
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+>>>>>>> base
 =======
     motionNodeName: 
     rigImportErrors: 
@@ -45,7 +57,11 @@ ModelImporter:
     importAnimatedCustomProperties: 0
     importConstraints: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     animationCompression: 1
+=======
+    animationCompression: 3
+>>>>>>> base
 =======
     animationCompression: 3
 >>>>>>> base
@@ -56,8 +72,11 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     clipAnimations: []
 =======
+=======
+>>>>>>> base
     clipAnimations:
     - serializedVersion: 16
       name: Tactical@Turn
@@ -88,6 +107,9 @@ ModelImporter:
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     isReadable: 0
   meshes:
@@ -98,7 +120,10 @@ ModelImporter:
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     importPhysicalCameras: 1
+=======
+>>>>>>> base
 =======
 >>>>>>> base
     importVisibility: 1
@@ -106,7 +131,10 @@ ModelImporter:
     importCameras: 1
     importLights: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     nodeNameCollisionStrategy: 1
+=======
+>>>>>>> base
 =======
 >>>>>>> base
     fileIdsGeneration: 2
@@ -116,7 +144,10 @@ ModelImporter:
     keepQuads: 0
     weldVertices: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     bakeAxisConversion: 0
+=======
+>>>>>>> base
 =======
 >>>>>>> base
     preserveHierarchy: 0
@@ -124,10 +155,13 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
 <<<<<<< HEAD
+<<<<<<< HEAD
     optimizeBones: 1
     generateMeshLods: 0
     meshLodGenerationFlags: 0
     maximumMeshLod: -1
+=======
+>>>>>>> base
 =======
 >>>>>>> base
     meshOptimizationFlags: -1
@@ -136,12 +170,17 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
 <<<<<<< HEAD
+<<<<<<< HEAD
     secondaryUVMarginMethod: 1
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
     strictVertexDataChecks: 0
+=======
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+>>>>>>> base
 =======
     secondaryUVPackMargin: 4
     useFileScale: 1
@@ -159,9 +198,12 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     human: []
     skeleton: []
 =======
+=======
+>>>>>>> base
     human:
     - boneName: Hips
       humanName: Hips
@@ -982,6 +1024,9 @@ ModelImporter:
       position: {x: -0, y: -0.008416844, z: -0.06961862}
       rotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
       scale: {x: 2.8898523, y: 2.8898523, z: 2.8898523}
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
     armTwist: 0.5
     foreArmTwist: 0.5
@@ -994,6 +1039,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
@@ -1005,6 +1051,8 @@ ModelImporter:
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
 =======
+=======
+>>>>>>> base
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 5c442f9e667c3ac4089fc4321d655698,
@@ -1013,6 +1061,9 @@ ModelImporter:
   animationType: 3
   humanoidOversampling: 1
   avatarSetup: 2
+<<<<<<< HEAD
+>>>>>>> base
+=======
 >>>>>>> base
   additionalBone: 0
   userData: 
