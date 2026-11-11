@@ -1,22 +1,25 @@
 ﻿using System;
+using _Members.NKY.Scripts;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace _Members.PJH._01.Script
 {
-    public class TestEnemy : SKillEnemyBase
+    public class TestEnemy : AbstractEnemy
     {
-        private void Update()
+        SkillModule _skillModule;
+        protected override void InitializeModules()
         {
-            if (Keyboard.current.tKey.wasPressedThisFrame)
-            {
-                UseSkill();
-            }
+            base.InitializeModules();
+            _skillModule = GetModule<SkillModule>();
         }
 
-        public void UseSkill()
+        private void Update()
         {
-            Debug.Log(enemySkill.SkillDataSO.skillID);
+            if (Keyboard.current.yKey.wasPressedThisFrame)
+            {
+                _skillModule.Skill();
+            }
         }
     }
 }
