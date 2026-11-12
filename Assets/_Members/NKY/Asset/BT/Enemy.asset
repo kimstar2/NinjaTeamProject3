@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Enemy Blackboard
   m_EditorClassIdentifier: Unity.Behavior.Authoring::Unity.Behavior.BehaviorBlackboardAuthoringAsset
   AssetID:
-    m_Value0: 0
-    m_Value1: 0
+    m_Value0: 7257922698860071455
+    m_Value1: 918943659436365417
   m_Variables:
   - rid: 6139612714815717461
   - rid: 6139612714815717479
@@ -135,7 +135,7 @@ MonoBehaviour:
         BlackboardGroupReferences: []
         Root:
           rid: 6139612714815718326
-        m_VersionTimestamp: 639300254164966378
+        m_VersionTimestamp: 639301005511282616
     - rid: 6139612714815717463
       type: {class: BlackboardReference, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
@@ -613,7 +613,7 @@ MonoBehaviour:
   - rid: 6139612714815718177
   - rid: 6139612714815718178
   - rid: 6139612714815718318
-  m_VersionTimestamp: 639300254164966378
+  m_VersionTimestamp: 639301005511282616
   m_SerializedVersion: 3
   m_DebugInfo: {fileID: -1012851206160534513}
   m_RuntimeGraph: {fileID: -906825846886214130}
@@ -2128,7 +2128,7 @@ MonoBehaviour:
     - rid: 6139612714815718318
       type: {class: ActionNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: 567.20435, y: 803.5135}
+        Position: {x: 481.23785, y: 661.6166}
         ID:
           m_Value0: 11490011430699563083
           m_Value1: 9534105641934072625
