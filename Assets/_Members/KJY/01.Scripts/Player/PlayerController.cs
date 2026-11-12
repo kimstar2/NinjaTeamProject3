@@ -15,9 +15,6 @@ namespace _Members.KJY._01.Scripts.Player
 
         [Header("Hand Setting")] 
         [SerializeField] private float rotAcc;
-
-        [Header("Weapon Setting")] 
-        [SerializeField] private AbstractWeapon baseWeapon;
         
         public AgentWeaponHandler WeaponHandler { get; private set; }
         public IMoveable Mover { get; private set; }
@@ -42,22 +39,12 @@ namespace _Members.KJY._01.Scripts.Player
             ValidateData();
         }
 
-        private void ValidateData()
-        {
-            WeaponHandler.Init(baseWeapon);
-            Mover.SetSpeed(baseSpeed);
-        }
-
         private void Update()
         {
             if (CanMove)
                 Mover.SetDirection(PlayerInput.InputDir);
 
-            _mPosDir = ((Vector3)WorldMousePosition() - transform.position).normalized;
-            float zAngle = AgentUtil.GetZAngle(_mPosDir);
-            float lerpAngle = Mathf.LerpAngle(WeaponHandler.transform.localEulerAngles.z, zAngle,1 - Mathf.Pow(1 - Time.fixedDeltaTime * rotAcc, 3));
-            // 1 - mathf.Pow ~~ 이거는 easeOutCubic 함수임
-            WeaponHandler.SetZAngle(lerpAngle);
+            SetAngle();
         }
 
         private void OnEnable()
@@ -68,17 +55,26 @@ namespace _Members.KJY._01.Scripts.Player
             PlayerInput.OnLShiftPressed += DashWithMoveDir;
             PlayerInput.OnJumpPressed += DashWithMoveDir;
             PlayerInput.OnRClickPressed += DashWithMouseDir;
+            PlayerInput.OnWeaponChangeKeyPressed += HandleWeaponChanged;
         }
+
         private void OnDisable()
         {
             PlayerInput.OnAttackPressed -= HandleAttack;
             PlayerInput.OnLShiftPressed -= DashWithMoveDir;
             PlayerInput.OnJumpPressed -= DashWithMoveDir;
             PlayerInput.OnRClickPressed -= DashWithMouseDir;
+            PlayerInput.OnWeaponChangeKeyPressed -= HandleWeaponChanged;
 
             PlayerInput.SetDisable();
         }
 
+        private void ValidateData()
+        {
+            WeaponHandler.Init();
+            Mover.SetSpeed(baseSpeed);
+        }
+        
         #region Handle
         
         private void HandleAttack(bool attacking)
@@ -107,6 +103,20 @@ namespace _Members.KJY._01.Scripts.Player
         
         private Vector2 WorldMousePosition()
             => Camera.ScreenToWorldPoint(PlayerInput.LookPos);
+        
+        private void SetAngle()
+        {
+            _mPosDir = ((Vector3)WorldMousePosition() - transform.position).normalized;
+            float zAngle = AgentUtil.GetZAngle(_mPosDir);
+            float lerpAngle = Mathf.LerpAngle(WeaponHandler.transform.localEulerAngles.z, zAngle,1 - Mathf.Pow(1 - Time.fixedDeltaTime * rotAcc, 3));
+            // 1 - mathf.Pow ~~ 이거는 easeOutCubic 함수임
+            WeaponHandler.SetZAngle(lerpAngle);
+        }
+        
+        private void HandleWeaponChanged(int weaponIndex)
+        {
+            WeaponHandler.ChangeWeapon((WeaponType)weaponIndex);
+        }
         
         #endregion
     }

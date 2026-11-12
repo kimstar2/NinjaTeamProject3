@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e43da666e0b4f7a840537d9a582bc66, type: 3}
+  m_Name: Punch
+  m_EditorClassIdentifier: Assembly-CSharp::_Members.KJY._01.Scripts.Agent.Combat.Weapon.WeaponDataSO
+  <WeaponName>k__BackingField: Punch
+  <Weapon>k__BackingField: {fileID: 4492510753118516371, guid: 247ed33cdc422cf4eaa81502df26f4d4, type: 3}
+  <WeaponType>k__BackingField: 0

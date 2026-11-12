@@ -119,6 +119,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &151729482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 151729483}
+  m_Layer: 0
+  m_Name: WeaponRazer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &151729483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151729482}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1490551388}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &213019901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -536,6 +567,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!4 &1490551388 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5684385356348698890, guid: 639f6a2d5d01d5f44b8b4949f5f2bd04, type: 3}
+  m_PrefabInstance: {fileID: 8715463656625780324}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1590486674
 GameObject:
   m_ObjectHideFlags: 0
@@ -595,13 +631,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerController
       objectReference: {fileID: 0}
+    - target: {fileID: 4704137636519223827, guid: 639f6a2d5d01d5f44b8b4949f5f2bd04, type: 3}
+      propertyPath: baseWeapon
+      value: 
+      objectReference: {fileID: 1844012372807431008, guid: 9b6fe830f13ef364b9db3a135a0e703c, type: 3}
+    - target: {fileID: 7213958186188890202, guid: 639f6a2d5d01d5f44b8b4949f5f2bd04, type: 3}
+      propertyPath: defaultWeapons.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213958186188890202, guid: 639f6a2d5d01d5f44b8b4949f5f2bd04, type: 3}
+      propertyPath: 'defaultWeapons.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 2af1c673dda257741b460a56f936567c, type: 2}
+    - target: {fileID: 7213958186188890202, guid: 639f6a2d5d01d5f44b8b4949f5f2bd04, type: 3}
+      propertyPath: 'defaultWeapons.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 9b54c688f986b0e4aa32ee4f14ecf55e, type: 2}
     - target: {fileID: 8314728403864839152, guid: 639f6a2d5d01d5f44b8b4949f5f2bd04, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.563
       objectReference: {fileID: 0}
     - target: {fileID: 8314728403864839152, guid: 639f6a2d5d01d5f44b8b4949f5f2bd04, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.008
       objectReference: {fileID: 0}
     - target: {fileID: 8314728403864839152, guid: 639f6a2d5d01d5f44b8b4949f5f2bd04, type: 3}
       propertyPath: m_LocalPosition.z
@@ -637,7 +689,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5684385356348698890, guid: 639f6a2d5d01d5f44b8b4949f5f2bd04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 151729483}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 639f6a2d5d01d5f44b8b4949f5f2bd04, type: 3}
 --- !u!1660057539 &9223372036854775807

@@ -1,4 +1,6 @@
-﻿using _Members.KJY._01.Scripts.Object.Detector;
+﻿using System;
+using _Members.KJY._01.Scripts.Object.Detector;
+using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using Unity.Cinemachine;
 using UnityEngine;
@@ -22,10 +24,15 @@ namespace _Members.KJY._01.Scripts.Agent.Combat.Weapon.Hand
         private Vector2 _originPos;
         private Sequence _attackSequence;
         
-        public void Init()
+        public event Action OnAttackMotionEnd;
+        public event Action OnAttackEnd;
+
+        private void Awake()
         {
             _originPos = transform.localPosition;
         }
+
+        public void Init() { }
 
         public void Attack(Vector2 pos)
         {
@@ -34,6 +41,7 @@ namespace _Members.KJY._01.Scripts.Agent.Combat.Weapon.Hand
             float posMagnitude = (pos - (Vector2)transform.position).magnitude;
             
             _attackSequence = DOTween.Sequence();
+            transform.localPosition = _originPos;
             _attackSequence.Append(transform.
                 DOLocalMove(Vector2.right * Mathf.Clamp(posMagnitude,attackRange.x,attackRange.y),duration)).
                 SetEase(raiseEase);
@@ -42,11 +50,14 @@ namespace _Members.KJY._01.Scripts.Agent.Combat.Weapon.Hand
             
             _attackSequence.Append(transform.
                 DOLocalMove(_originPos ,duration)).
-                SetEase(returnEase);
+                SetEase(returnEase).
+                OnComplete(() => OnAttackMotionEnd?.Invoke());
         }
 
         private void AttackTarget()
         {
+            OnAttackEnd?.Invoke();
+            
             attackOverlap.Detect();
             
             float theta = transform.eulerAngles.z * Mathf.Deg2Rad;
