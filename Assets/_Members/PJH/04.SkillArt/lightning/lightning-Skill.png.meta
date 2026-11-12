@@ -1,0 +1,1081 @@
+fileFormatVersion: 2
+guid: e1ce53909ecafad46a8e38ade293e861
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2439008106712330041
+    second: radial-chain_0
+  - first:
+      213: -5110097647469980429
+    second: radial-chain_1
+  - first:
+      213: -4177364344673130832
+    second: radial-chain_2
+  - first:
+      213: 4223699515390068193
+    second: radial-chain_3
+  - first:
+      213: 4086140127879335964
+    second: radial-chain_4
+  - first:
+      213: 6528664359415727934
+    second: radial-chain_5
+  - first:
+      213: -5583675212895780335
+    second: radial-chain_6
+  - first:
+      213: 6294682214900935378
+    second: radial-chain_7
+  - first:
+      213: -3539009115793462017
+    second: radial-chain_8
+  - first:
+      213: -326062328286823987
+    second: radial-chain_9
+  - first:
+      213: 9068919757419511358
+    second: radial-chain_10
+  - first:
+      213: 624943598491343187
+    second: radial-chain_11
+  - first:
+      213: -5163037978715945070
+    second: radial-chain_12
+  - first:
+      213: 4554889909819400428
+    second: radial-chain_13
+  - first:
+      213: 6955274971804227850
+    second: radial-chain_14
+  - first:
+      213: 6877008314943371300
+    second: radial-chain_15
+  - first:
+      213: -7286639442441183814
+    second: radial-chain_16
+  - first:
+      213: -1009004282079684648
+    second: radial-chain_17
+  - first:
+      213: 8655161774387123260
+    second: radial-chain_18
+  - first:
+      213: -3175480398450450061
+    second: radial-chain_19
+  - first:
+      213: 3394384355258068721
+    second: radial-chain_20
+  - first:
+      213: 5706037851008798851
+    second: radial-chain_21
+  - first:
+      213: -4709723464482868200
+    second: radial-chain_22
+  - first:
+      213: 474192182253436488
+    second: radial-chain_23
+  - first:
+      213: 8360932968274188337
+    second: radial-chain_24
+  - first:
+      213: 7673339640016112537
+    second: radial-chain_25
+  - first:
+      213: 2276055644598105848
+    second: radial-chain_26
+  - first:
+      213: 187047867475695211
+    second: radial-chain_27
+  - first:
+      213: 7798861646047053
+    second: radial-chain_28
+  - first:
+      213: -789127349915333155
+    second: radial-chain_29
+  - first:
+      213: -3044565945652259645
+    second: radial-chain_30
+  - first:
+      213: 3382428109309970770
+    second: radial-chain_31
+  - first:
+      213: -3248746535331997806
+    second: radial-chain_32
+  - first:
+      213: 8909896725485762300
+    second: radial-chain_33
+  - first:
+      213: -2326750699490576881
+    second: radial-chain_34
+  - first:
+      213: -5954201999852169159
+    second: radial-chain_35
+  - first:
+      213: 762936698099468480
+    second: radial-chain_36
+  - first:
+      213: -1528291779306645422
+    second: radial-chain_37
+  - first:
+      213: 6618449035172123659
+    second: radial-chain_38
+  - first:
+      213: -7621208500450526133
+    second: radial-chain_39
+  - first:
+      213: -1909999677142501931
+    second: radial-chain_40
+  - first:
+      213: -6564108537818680591
+    second: radial-chain_41
+  - first:
+      213: -5134132437336860932
+    second: radial-chain_42
+  - first:
+      213: -3523343326818885170
+    second: radial-chain_43
+  - first:
+      213: 4984293019788783930
+    second: radial-chain_44
+  - first:
+      213: -5047640020443474081
+    second: radial-chain_45
+  - first:
+      213: -2992192533950793655
+    second: radial-chain_46
+  - first:
+      213: 2147415602205047019
+    second: radial-chain_47
+  - first:
+      213: 4346846887701142750
+    second: radial-chain_48
+  - first:
+      213: 5319970135783456587
+    second: radial-chain_49
+  - first:
+      213: 7791888874534478997
+    second: radial-chain_50
+  - first:
+      213: 8811923686052210940
+    second: radial-chain_51
+  - first:
+      213: 8783962755827609385
+    second: radial-chain_52
+  - first:
+      213: 8967567448334431103
+    second: radial-chain_53
+  - first:
+      213: -1041268375635125250
+    second: radial-chain_54
+  - first:
+      213: 4945325991084356431
+    second: radial-chain_55
+  - first:
+      213: 2387614700421720800
+    second: radial-chain_56
+  - first:
+      213: -4034699841008445485
+    second: radial-chain_57
+  - first:
+      213: 5789043500894178501
+    second: radial-chain_58
+  - first:
+      213: -2520541861961035347
+    second: radial-chain_59
+  - first:
+      213: -451249153056685435
+    second: radial-chain_60
+  - first:
+      213: 2491219762741750014
+    second: radial-chain_61
+  - first:
+      213: -4646424868375759551
+    second: radial-chain_62
+  - first:
+      213: -3289796608202691318
+    second: radial-chain_63
+  - first:
+      213: -4376810185166516965
+    second: radial-chain_64
+  - first:
+      213: 2495566485481840153
+    second: radial-chain_65
+  - first:
+      213: -6043132886132229895
+    second: radial-chain_66
+  - first:
+      213: -5868851423345901415
+    second: radial-chain_67
+  - first:
+      213: 5515259672286795097
+    second: radial-chain_68
+  - first:
+      213: 418834641285058533
+    second: radial-chain_69
+  - first:
+      213: 6708373497374410247
+    second: radial-chain_70
+  - first:
+      213: 8911669264097964676
+    second: radial-chain_71
+  - first:
+      213: 871707533306905482
+    second: radial-chain_72
+  - first:
+      213: -3190660814976572574
+    second: radial-chain_73
+  - first:
+      213: -2635307934084852698
+    second: radial-chain_74
+  - first:
+      213: 8675867760158592646
+    second: radial-chain_75
+  - first:
+      213: 7713602938270197938
+    second: radial-chain_76
+  - first:
+      213: -2153027215075657460
+    second: radial-chain_77
+  - first:
+      213: -2778633596927304553
+    second: radial-chain_78
+  - first:
+      213: 1980585520938545775
+    second: radial-chain_79
+  - first:
+      213: 8368553793768051356
+    second: radial-chain_80
+  - first:
+      213: -5078087289881556149
+    second: radial-chain_81
+  - first:
+      213: 5901457267792551157
+    second: radial-chain_82
+  - first:
+      213: -8800390872794265932
+    second: radial-chain_83
+  - first:
+      213: -2363481630031409160
+    second: radial-chain_84
+  - first:
+      213: 3267464326085350217
+    second: radial-chain_85
+  - first:
+      213: 4483451181311397783
+    second: radial-chain_86
+  - first:
+      213: 6357946549030225346
+    second: radial-chain_87
+  - first:
+      213: -3085006352243465275
+    second: radial-chain_88
+  - first:
+      213: 709746640076093311
+    second: radial-chain_89
+  - first:
+      213: -679202222550510625
+    second: radial-chain_90
+  - first:
+      213: 4855364910379908074
+    second: radial-chain_91
+  - first:
+      213: 3007183349140395044
+    second: radial-chain_92
+  - first:
+      213: 7194820907309601299
+    second: radial-chain_93
+  - first:
+      213: -8703832804773352292
+    second: radial-chain_94
+  - first:
+      213: -3810455088442197910
+    second: radial-chain_95
+  - first:
+      213: 7356309914983165038
+    second: radial-chain_96
+  - first:
+      213: 8371779411848428963
+    second: radial-chain_97
+  - first:
+      213: -1197013124746138705
+    second: radial-chain_98
+  - first:
+      213: 5909715601092464139
+    second: radial-chain_99
+  - first:
+      213: 377664533535270203
+    second: radial-chain_100
+  - first:
+      213: -1751877669620217216
+    second: radial-chain_101
+  - first:
+      213: 3093864677889072002
+    second: radial-chain_102
+  - first:
+      213: -4426064875575524901
+    second: radial-chain_103
+  - first:
+      213: -6365766987205632164
+    second: radial-chain_104
+  - first:
+      213: -3808370942093654524
+    second: radial-chain_105
+  - first:
+      213: 8950902378881543811
+    second: radial-chain_106
+  - first:
+      213: -846764894712753806
+    second: radial-chain_107
+  - first:
+      213: 3216082115944715636
+    second: radial-chain_108
+  - first:
+      213: -5400605527617222563
+    second: radial-chain_109
+  - first:
+      213: 5479696240789260282
+    second: radial-chain_110
+  - first:
+      213: -6001918266378282033
+    second: radial-chain_111
+  - first:
+      213: 1852459385775111732
+    second: radial-chain_112
+  - first:
+      213: 8365302242885501391
+    second: radial-chain_113
+  - first:
+      213: 8206796071199225268
+    second: radial-chain_114
+  - first:
+      213: -2339504833016247464
+    second: radial-chain_115
+  - first:
+      213: -7480899395108062415
+    second: radial-chain_116
+  - first:
+      213: 3253162755107503603
+    second: radial-chain_117
+  - first:
+      213: -7231163419391819158
+    second: radial-chain_118
+  - first:
+      213: -116411059347656596
+    second: radial-chain_119
+  - first:
+      213: -9058838493622875025
+    second: radial-chain_120
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lightning-Skill_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02edff579ee51b441bf24ad7db67995d
+      internalID: -897116407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb26bc04a46ca44891c225ef84a7f2b
+      internalID: 1583556196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a69d434f43c27b4cad802161908c505
+      internalID: 1588793818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01139f70bd298c74d900d8a9b3d9a47a
+      internalID: 1819132753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92db0ab0dcbc36468f163f791f92a8a
+      internalID: -596660639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641395633811d4e459c752f59c5cd131
+      internalID: 1966732869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943733b148c49f541b8e7e0a696aff2b
+      internalID: -1767557942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f721af0fadce3694499613e1549c5364
+      internalID: 1347418312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05313cb77b145f4ca389d5000be6bea
+      internalID: -1879521244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9995f7936c4832849a7cad23afa8a6bd
+      internalID: 1920669900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28257b76a364fc94a9170cdf08af7227
+      internalID: -1979325710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_11
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15574dc0ec1b4884a8330300c56c5cb9
+      internalID: -398296891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0dbc5b68e7334a41acd144866edf64b
+      internalID: -634797311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aae5545cb35dd64b964c053026efe58
+      internalID: -1776313709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767c94bd00f91f44bb5afb1a1d1a2742
+      internalID: -979057243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb784178837e6c45900038a3ff5ef67
+      internalID: -2050374710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbbb298e360c964c98b44aa3cb20baf
+      internalID: -97458073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_17
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6caf30cd378f1b4e982ce8b08273829
+      internalID: 1356478648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb72dd0751e5194bb4a912d69603af5
+      internalID: -1677723905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af498c2b31daf664a81b89781aa49be2
+      internalID: -1773660966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a90d5d997657e4f83ab7dbe2bc7854
+      internalID: 2012718796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_21
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f98151f1f0ca1947823f0f820984b66
+      internalID: 450553128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b97c4baa132aa42b3ce9511e705ef6
+      internalID: 186868642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_23
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed0c935410fa314c81d73bfa20bddc1
+      internalID: -143061896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cee2797f47bfd74db2cab9f15d4cb13
+      internalID: 2019021623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightning-Skill_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ff24247d23db3438a959a1758deec7
+      internalID: -265456590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: da002f15ce4076e45a67bd8605334970
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":5.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      lightning-Skill_0: -897116407
+      lightning-Skill_1: 1583556196
+      lightning-Skill_10: -1979325710
+      lightning-Skill_11: -398296891
+      lightning-Skill_12: -634797311
+      lightning-Skill_13: -1776313709
+      lightning-Skill_14: -979057243
+      lightning-Skill_15: -2050374710
+      lightning-Skill_16: -97458073
+      lightning-Skill_17: 1356478648
+      lightning-Skill_18: -1677723905
+      lightning-Skill_19: -1773660966
+      lightning-Skill_2: 1588793818
+      lightning-Skill_20: 2012718796
+      lightning-Skill_21: 450553128
+      lightning-Skill_22: 186868642
+      lightning-Skill_23: -143061896
+      lightning-Skill_24: 2019021623
+      lightning-Skill_25: -265456590
+      lightning-Skill_26: 1538541485
+      lightning-Skill_3: 1819132753
+      lightning-Skill_4: -596660639
+      lightning-Skill_5: 1966732869
+      lightning-Skill_6: -1767557942
+      lightning-Skill_7: 1347418312
+      lightning-Skill_8: -1879521244
+      lightning-Skill_9: 1920669900
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

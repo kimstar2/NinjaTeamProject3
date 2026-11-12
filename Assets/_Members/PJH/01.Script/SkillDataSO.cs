@@ -12,5 +12,7 @@ namespace _Members.PJH._01.Script
         public float coolTime;
         public float castTime;
         public GameObject skillPrefab;
+        
+        public AnimationClip skillAnimation;
     }
 }
