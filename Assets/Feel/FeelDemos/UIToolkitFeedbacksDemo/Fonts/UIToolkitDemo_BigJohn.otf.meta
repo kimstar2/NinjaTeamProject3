@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3258cbeb41f23b545a323883d7b047b9
+guid: fbce3e3a66930bb4d9f673d8046a8ef0
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,7 +8,6 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Big John
   fontNames:
   - Big John
   fallbackFontReferences: []

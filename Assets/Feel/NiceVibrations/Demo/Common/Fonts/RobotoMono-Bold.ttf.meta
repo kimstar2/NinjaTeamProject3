@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 34202502ade0b824f87ab4b85049f0c4
+guid: 5aa1be66a1f59c74087a5c62a895731a
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,7 +8,6 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Roboto Mono
   fontNames:
   - Roboto Mono
   fallbackFontReferences: []

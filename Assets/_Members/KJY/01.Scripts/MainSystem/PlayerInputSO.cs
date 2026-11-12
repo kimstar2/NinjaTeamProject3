@@ -27,8 +27,10 @@ namespace _Members.KJY._01.Scripts.MainSystem
         public Vector3 LookPos {get; private set;}
 
         public event Action<bool> OnAttackPressed;
+        public event Action OnRClickPressed;
+        
         public event Action OnJumpPressed;
-        public event Action OnSprintPressed;
+        public event Action OnLShiftPressed;
 
         public void OnMove(InputAction.CallbackContext context)
         {
@@ -54,10 +56,16 @@ namespace _Members.KJY._01.Scripts.MainSystem
                 OnJumpPressed?.Invoke();
         }
 
-        public void OnSprint(InputAction.CallbackContext context)
+        public void OnLShift(InputAction.CallbackContext context)
         {
             if (context.performed)
-                OnSprintPressed?.Invoke();
+                OnLShiftPressed?.Invoke();
+        }
+
+        public void OnRClick(InputAction.CallbackContext context)
+        {
+            if (context.performed)
+                OnRClickPressed?.Invoke();
         }
     }
 }

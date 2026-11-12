@@ -1,45 +1,78 @@
 fileFormatVersion: 2
-guid: 109174f54ddf71a4fbe62bf30e9cf0e0
+guid: 7a94478bb2d4571409c7533a33d18d12
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
+      213: 3344014615299933098
     second: LoadingCompleteAnimation_0
   - first:
-      213: 21300002
+      213: 7951600969979135462
     second: LoadingCompleteAnimation_1
   - first:
-      213: 21300004
+      213: 6261919202824612986
     second: LoadingCompleteAnimation_2
   - first:
-      213: 21300006
+      213: 2667147169219539217
     second: LoadingCompleteAnimation_3
   - first:
-      213: 21300008
+      213: 8521984050778156308
     second: LoadingCompleteAnimation_4
   - first:
-      213: 21300010
+      213: 4983958977921225463
     second: LoadingCompleteAnimation_5
   - first:
-      213: 21300012
+      213: 8335917487013024228
     second: LoadingCompleteAnimation_6
   - first:
-      213: 21300014
+      213: -5624932399771607790
     second: LoadingCompleteAnimation_7
   - first:
-      213: 21300016
+      213: -35130621036615574
     second: LoadingCompleteAnimation_8
   - first:
-      213: 21300018
+      213: -1891255197367582506
     second: LoadingCompleteAnimation_9
   - first:
-      213: 21300020
+      213: 437913372285925909
     second: LoadingCompleteAnimation_10
+  - first:
+      213: -3849330628022825696
+    second: LoadingCompleteAnimation_11
+  - first:
+      213: 7062635344025341577
+    second: LoadingCompleteAnimation_12
+  - first:
+      213: 2368842903823297374
+    second: LoadingCompleteAnimation_13
+  - first:
+      213: 5585988101198173369
+    second: LoadingCompleteAnimation_14
+  - first:
+      213: -1560311395172686287
+    second: LoadingCompleteAnimation_15
+  - first:
+      213: 3247768307224628632
+    second: LoadingCompleteAnimation_16
+  - first:
+      213: -4137029043826020875
+    second: LoadingCompleteAnimation_17
+  - first:
+      213: -6860042410913365262
+    second: LoadingCompleteAnimation_18
+  - first:
+      213: -5212278348612084881
+    second: LoadingCompleteAnimation_19
+  - first:
+      213: 2245977112525317354
+    second: LoadingCompleteAnimation_20
+  - first:
+      213: 4262790743706119118
+    second: LoadingCompleteAnimation_21
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -63,12 +96,12 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: 1
+  maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: 16
+    aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
@@ -96,13 +129,13 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -113,9 +146,9 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -126,22 +159,9 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 1024
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -159,19 +179,20 @@ TextureImporter:
       name: LoadingCompleteAnimation_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 768
-        width: 256
-        height: 256
+        x: 11
+        y: 867
+        width: 184
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02305410000000000800000000000000
-      internalID: 21300000
+      spriteID: aa3caa44393586e20800000000000000
+      internalID: 3344014615299933098
       vertices: []
       indices: 
       edges: []
@@ -180,19 +201,20 @@ TextureImporter:
       name: LoadingCompleteAnimation_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 768
-        width: 256
-        height: 256
+        x: 191
+        y: 866
+        width: 37
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22305410000000000800000000000000
-      internalID: 21300002
+      spriteID: 6e5024be3f2c95e60800000000000000
+      internalID: 7951600969979135462
       vertices: []
       indices: 
       edges: []
@@ -201,19 +223,20 @@ TextureImporter:
       name: LoadingCompleteAnimation_2
       rect:
         serializedVersion: 2
-        x: 512
-        y: 768
-        width: 256
-        height: 256
+        x: 269
+        y: 867
+        width: 182
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42305410000000000800000000000000
-      internalID: 21300004
+      spriteID: a7cee80865ec6e650800000000000000
+      internalID: 6261919202824612986
       vertices: []
       indices: 
       edges: []
@@ -222,19 +245,20 @@ TextureImporter:
       name: LoadingCompleteAnimation_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 512
-        width: 256
-        height: 256
+        x: 447
+        y: 867
+        width: 37
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62305410000000000800000000000000
-      internalID: 21300006
+      spriteID: 111f401283c930520800000000000000
+      internalID: 2667147169219539217
       vertices: []
       indices: 
       edges: []
@@ -243,19 +267,20 @@ TextureImporter:
       name: LoadingCompleteAnimation_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 512
-        width: 256
-        height: 256
+        x: 529
+        y: 867
+        width: 178
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82305410000000000800000000000000
-      internalID: 21300008
+      spriteID: 41d2d20c75b244670800000000000000
+      internalID: 8521984050778156308
       vertices: []
       indices: 
       edges: []
@@ -264,19 +289,20 @@ TextureImporter:
       name: LoadingCompleteAnimation_5
       rect:
         serializedVersion: 2
-        x: 512
-        y: 512
-        width: 256
-        height: 256
+        x: 703
+        y: 867
+        width: 37
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2305410000000000800000000000000
-      internalID: 21300010
+      spriteID: 7f21d16c8449a2540800000000000000
+      internalID: 4983958977921225463
       vertices: []
       indices: 
       edges: []
@@ -285,19 +311,20 @@ TextureImporter:
       name: LoadingCompleteAnimation_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 256
-        height: 256
+        x: 17
+        y: 611
+        width: 178
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c2305410000000000800000000000000
-      internalID: 21300012
+      spriteID: 4e1d062f9c02fa370800000000000000
+      internalID: 8335917487013024228
       vertices: []
       indices: 
       edges: []
@@ -306,19 +333,20 @@ TextureImporter:
       name: LoadingCompleteAnimation_7
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
-        width: 256
-        height: 256
+        x: 191
+        y: 611
+        width: 37
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e2305410000000000800000000000000
-      internalID: 21300014
+      spriteID: 21d170ad8c930f1b0800000000000000
+      internalID: -5624932399771607790
       vertices: []
       indices: 
       edges: []
@@ -327,19 +355,20 @@ TextureImporter:
       name: LoadingCompleteAnimation_8
       rect:
         serializedVersion: 2
-        x: 512
-        y: 256
-        width: 256
-        height: 256
+        x: 271
+        y: 611
+        width: 180
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 03305410000000000800000000000000
-      internalID: 21300016
+      spriteID: a68af54e2e0338ff0800000000000000
+      internalID: -35130621036615574
       vertices: []
       indices: 
       edges: []
@@ -348,19 +377,20 @@ TextureImporter:
       name: LoadingCompleteAnimation_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 256
-        height: 256
+        x: 447
+        y: 612
+        width: 37
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23305410000000000800000000000000
-      internalID: 21300018
+      spriteID: 6d04b451b69e0c5e0800000000000000
+      internalID: -1891255197367582506
       vertices: []
       indices: 
       edges: []
@@ -369,24 +399,268 @@ TextureImporter:
       name: LoadingCompleteAnimation_10
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 256
-        height: 256
+        x: 525
+        y: 611
+        width: 182
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43305410000000000800000000000000
-      internalID: 21300020
+      spriteID: 51afe7554e7c31600800000000000000
+      internalID: 437913372285925909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingCompleteAnimation_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 612
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d0bad303e649ac0800000000000000
+      internalID: -3849330628022825696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingCompleteAnimation_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 355
+        width: 183
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ecfba0d65830260800000000000000
+      internalID: 7062635344025341577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingCompleteAnimation_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 356
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ba7130212dfd020800000000000000
+      internalID: 2368842903823297374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingCompleteAnimation_14
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 355
+        width: 182
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4d97b059a658d40800000000000000
+      internalID: 5585988101198173369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingCompleteAnimation_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 356
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136ecbf8d09a85ae0800000000000000
+      internalID: -1560311395172686287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingCompleteAnimation_16
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 355
+        width: 178
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d45e86114621d20800000000000000
+      internalID: 3247768307224628632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingCompleteAnimation_17
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 356
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fda649e0025696c0800000000000000
+      internalID: -4137029043826020875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingCompleteAnimation_18
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 99
+        width: 174
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f20569f5cb3cc0a0800000000000000
+      internalID: -6860042410913365262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingCompleteAnimation_19
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 100
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b548035744aa7b0800000000000000
+      internalID: -5212278348612084881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingCompleteAnimation_20
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 99
+        width: 169
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4aabdb8405b2f10800000000000000
+      internalID: 2245977112525317354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingCompleteAnimation_21
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 100
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb2d6e9899782b30800000000000000
+      internalID: 4262790743706119118
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 
@@ -396,18 +670,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
-      LoadingCompleteAnimation_0: 21300000
-      LoadingCompleteAnimation_1: 21300002
-      LoadingCompleteAnimation_10: 21300020
-      LoadingCompleteAnimation_2: 21300004
-      LoadingCompleteAnimation_3: 21300006
-      LoadingCompleteAnimation_4: 21300008
-      LoadingCompleteAnimation_5: 21300010
-      LoadingCompleteAnimation_6: 21300012
-      LoadingCompleteAnimation_7: 21300014
-      LoadingCompleteAnimation_8: 21300016
-      LoadingCompleteAnimation_9: 21300018
+      LoadingCompleteAnimation_0: 3344014615299933098
+      LoadingCompleteAnimation_1: 7951600969979135462
+      LoadingCompleteAnimation_10: 437913372285925909
+      LoadingCompleteAnimation_11: -3849330628022825696
+      LoadingCompleteAnimation_12: 7062635344025341577
+      LoadingCompleteAnimation_13: 2368842903823297374
+      LoadingCompleteAnimation_14: 5585988101198173369
+      LoadingCompleteAnimation_15: -1560311395172686287
+      LoadingCompleteAnimation_16: 3247768307224628632
+      LoadingCompleteAnimation_17: -4137029043826020875
+      LoadingCompleteAnimation_18: -6860042410913365262
+      LoadingCompleteAnimation_19: -5212278348612084881
+      LoadingCompleteAnimation_2: 6261919202824612986
+      LoadingCompleteAnimation_20: 2245977112525317354
+      LoadingCompleteAnimation_21: 4262790743706119118
+      LoadingCompleteAnimation_3: 2667147169219539217
+      LoadingCompleteAnimation_4: 8521984050778156308
+      LoadingCompleteAnimation_5: 4983958977921225463
+      LoadingCompleteAnimation_6: 8335917487013024228
+      LoadingCompleteAnimation_7: -5624932399771607790
+      LoadingCompleteAnimation_8: -35130621036615574
+      LoadingCompleteAnimation_9: -1891255197367582506
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
