@@ -1,9 +1,8 @@
-﻿using System;
-using DG.Tweening;
+﻿using DG.Tweening;
 using Unity.Cinemachine;
 using UnityEngine;
 
-namespace _Members.KJY._01.Scripts.Agent.Hand
+namespace _Members.KJY._01.Scripts.Agent.Weapon.Hand
 {
     public class AgentHand : MonoBehaviour
     {
@@ -17,7 +16,7 @@ namespace _Members.KJY._01.Scripts.Agent.Hand
         private Vector2 _originPos;
         private Sequence _attackSequence;
         
-        private void Awake()
+        public void Init()
         {
             _originPos = transform.localPosition;
         }

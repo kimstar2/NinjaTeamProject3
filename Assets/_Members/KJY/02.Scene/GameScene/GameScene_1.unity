@@ -268,6 +268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerController
       objectReference: {fileID: 0}
+    - target: {fileID: 7474025347305701956, guid: 639f6a2d5d01d5f44b8b4949f5f2bd04, type: 3}
+      propertyPath: m_Name
+      value: WeaponHandler
+      objectReference: {fileID: 0}
     - target: {fileID: 8314728403864839152, guid: 639f6a2d5d01d5f44b8b4949f5f2bd04, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
