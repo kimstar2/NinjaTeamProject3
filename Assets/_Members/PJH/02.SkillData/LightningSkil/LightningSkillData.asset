@@ -17,5 +17,5 @@ MonoBehaviour:
   skillDamage: 5
   coolTime: 2
   castTime: 1
-  skillPrefab: {fileID: 8955012734128814149, guid: fdd68c9e64ebb8a42b6319a8cc4a7ffa, type: 3}
-  skillAnimation: {fileID: 7400000, guid: 9d63cfe377788c94cb4898d525a37910, type: 2}
+  skillItem: {fileID: 11400000, guid: ea890f7781a9ea84ea26142e5a72dc9f, type: 2}
+  skillAnimHash: {fileID: 11400000, guid: 5a55b2152c376a448bc7f4228bb01d9b, type: 2}

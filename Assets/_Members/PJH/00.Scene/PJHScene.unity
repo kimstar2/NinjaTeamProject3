@@ -439,9 +439,58 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::_Members.PJH._01.Script.SkillEnemy
   skill: {fileID: -7545924900313008414, guid: 71903798d334d1543b49b41e8a9db162, type: 3}
   skillData: {fileID: 11400000, guid: 7b6a9506f945e9946b152a44ef4433dc, type: 2}
+--- !u!1 &2051934584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2051934585}
+  - component: {fileID: 2051934586}
+  m_Layer: 0
+  m_Name: Poolmanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2051934585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051934584}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.23601, y: -1.07302, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2051934586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051934584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4966456f56e4612bec150c7b50f0bce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ServiceLocatorSystem_assembly::_TevLib.ServiceLocatorSystem.PoolService.PoolingService
+  poolingList: {fileID: 11400000, guid: 7d3239030a398a44e8693c6ae6c9ba85, type: 2}
+  poolItemSetterList:
+  - parentTrm: {fileID: 2051934585}
+    item: {fileID: 11400000, guid: ea890f7781a9ea84ea26142e5a72dc9f, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 26024535}
   - {fileID: 244112023}
+  - {fileID: 2051934585}
