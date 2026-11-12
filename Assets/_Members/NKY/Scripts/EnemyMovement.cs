@@ -1,29 +1,32 @@
-using System;
 using _Members.KJY._01.Scripts.Agent;
+using _TevLib.TileAstar;
 using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour, IMoveable
+namespace _Members.NKY.Scripts
 {
-    public Rigidbody2D RbCompo { get; private set; }
-
-    public Vector2 MoveDir { get; private set; }
-    private void Awake()
+    public class EnemyMovement : PathAgent, IMoveable
     {
-        RbCompo = GetComponent<Rigidbody2D>();
-    }
+        public Rigidbody2D RbCompo { get; private set; }
 
-    public void SetDirection(Vector2 moveDir)
-    {
-        MoveDir = moveDir;
-    }
+        public Vector2 MoveDir { get; private set; }
+        private void Awake()
+        {
+            RbCompo = GetComponent<Rigidbody2D>();
+        }
 
-    public void SetMulti(float multi)
-    {
+        public void SetDirection(Vector2 moveDir)
+        {
+            MoveDir = moveDir;
+        }
+
+        public void SetMulti(float multi)
+        {
         
-    }
+        }
 
-    public void SetSpeed(float speed)
-    {
-        throw new System.NotImplementedException();
+        public void SetSpeed(float speed)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
