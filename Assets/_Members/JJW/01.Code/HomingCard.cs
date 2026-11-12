@@ -47,7 +47,6 @@ namespace _Members.JJW._01.Code
                 return;
             }
 
-            // 직선탄은 발사 순간의 방향을 계속 사용한다.
             _launchDirection = direction.normalized;
             _remainingTravelDistance = Mathf.Max(0.1f, straightTravelDistance);
             _rb.rotation = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
@@ -87,7 +86,6 @@ namespace _Members.JJW._01.Code
             moveDistance = Mathf.Min(moveDistance, distance);
             _rb.MovePosition(_rb.position + direction * moveDistance);
 
-            // 발동 중에는 현재 각도를 유지하고, 남아 있는 회전 속도도 없앤다.
             if (_targetAbility != null && _targetAbility.IsActive)
                 _rb.angularVelocity = 0f;
             else

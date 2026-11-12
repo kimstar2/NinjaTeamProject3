@@ -55,11 +55,8 @@ namespace _Members.JJW._01.Code
         Collider2D player = DetectPlayer();
         _playerInRange = player != null;
 
-        SandevistanAbility ability = player != null
-            ? player.GetComponentInParent<SandevistanAbility>()
-            : null;
+        SandevistanAbility ability = player != null ? player.GetComponentInParent<SandevistanAbility>() : null;
 
-        // 발동 중에는 회전, 발사, 공격 대기시간의 진행을 멈춘다.
         if (ability != null && ability.IsActive)
             return;
 
@@ -67,9 +64,7 @@ namespace _Members.JJW._01.Code
         if (!_playerInRange)
             return;
 
-        target = player.attachedRigidbody != null
-            ? player.attachedRigidbody.transform
-            : player.transform;
+        target = player.attachedRigidbody != null ? player.attachedRigidbody.transform : player.transform;
         RotateTowardsPlayer(deltaTime);
 
         if (_cooldownRemaining <= 0f)
@@ -120,8 +115,7 @@ namespace _Members.JJW._01.Code
         Vector2 currentDirection = new Vector2(Mathf.Cos(radians), Mathf.Sin(radians));
         Vector2 targetDirection = toTarget.normalized;
 
-        float crossZ = currentDirection.x * targetDirection.y
-                     - currentDirection.y * targetDirection.x;
+        float crossZ = currentDirection.x * targetDirection.y - currentDirection.y * targetDirection.x;
 
         float targetAngle = Mathf.Atan2(targetDirection.y, targetDirection.x) * Mathf.Rad2Deg;
         float remainingAngle = Mathf.DeltaAngle(currentAngle, targetAngle);
@@ -132,9 +126,7 @@ namespace _Members.JJW._01.Code
             return;
         }
 
-        float turnDirection = Mathf.Abs(crossZ) > 0.000001f
-            ? Mathf.Sign(crossZ)
-            : Mathf.Sign(remainingAngle);
+        float turnDirection = Mathf.Abs(crossZ) > 0.000001f ? Mathf.Sign(crossZ) : Mathf.Sign(remainingAngle);
 
         float turnAmount = Mathf.Min(turnSpeed * deltaTime, Mathf.Abs(remainingAngle));
         float nextAngle = currentAngle + turnDirection * turnAmount;

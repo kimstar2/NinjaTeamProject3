@@ -1,9 +1,10 @@
 ﻿using System;
+using _TevLib.ServiceLocatorSystem.PoolService;
 using UnityEngine;
 
 namespace _Members.PJH._01.Script.Skill
 {
-    public abstract class AbstractSkill : MonoBehaviour
+    public abstract class AbstractSkill : MonoBehaviour, IPoolable
     {
         protected SkillDataSO SkillData { get; private set; }
         
@@ -13,5 +14,11 @@ namespace _Members.PJH._01.Script.Skill
         } 
         
         public abstract void UseSkill();
+
+        [field: SerializeField] public PoolItemSO Item {get; private set;} 
+        public GameObject GameObject => gameObject;
+        public void ResetItem()
+        {
+        }
     }
 }

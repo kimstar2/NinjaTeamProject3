@@ -1,0 +1,2404 @@
+fileFormatVersion: 2
+guid: 252ebad33d158134bb80bd3179bd2fa2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5404078433782787781
+    second: IceAge_Overhead_Spikes_Sheet_0
+  - first:
+      213: 1725090644451489473
+    second: IceAge_Overhead_Spikes_Sheet_1
+  - first:
+      213: 5725380404243412881
+    second: IceAge_Overhead_Spikes_Sheet_2
+  - first:
+      213: -865166786054638390
+    second: IceAge_Overhead_Spikes_Sheet_3
+  - first:
+      213: 8123127073416773705
+    second: IceAge_Overhead_Spikes_Sheet_4
+  - first:
+      213: -3761259985446027562
+    second: IceAge_Overhead_Spikes_Sheet_5
+  - first:
+      213: -1497482846226491002
+    second: IceAge_Overhead_Spikes_Sheet_6
+  - first:
+      213: -4846271976644994450
+    second: IceAge_Overhead_Spikes_Sheet_7
+  - first:
+      213: -353423539474117662
+    second: IceAge_Overhead_Spikes_Sheet_8
+  - first:
+      213: 4652280022914494531
+    second: IceAge_Overhead_Spikes_Sheet_9
+  - first:
+      213: -3512209093489336727
+    second: IceAge_Overhead_Spikes_Sheet_10
+  - first:
+      213: 6870813128910401617
+    second: IceAge_Overhead_Spikes_Sheet_11
+  - first:
+      213: 5826834807662772740
+    second: IceAge_Overhead_Spikes_Sheet_12
+  - first:
+      213: 4165523761039372931
+    second: IceAge_Overhead_Spikes_Sheet_13
+  - first:
+      213: 3753241728395294403
+    second: IceAge_Overhead_Spikes_Sheet_14
+  - first:
+      213: 2883134134053114357
+    second: IceAge_Overhead_Spikes_Sheet_15
+  - first:
+      213: 1246279057130596308
+    second: IceAge_Overhead_Spikes_Sheet_16
+  - first:
+      213: 3715155138816705256
+    second: IceAge_Overhead_Spikes_Sheet_17
+  - first:
+      213: 6612081820719408726
+    second: IceAge_Overhead_Spikes_Sheet_18
+  - first:
+      213: 3335317162878333248
+    second: IceAge_Overhead_Spikes_Sheet_19
+  - first:
+      213: -1817487715511692111
+    second: IceAge_Overhead_Spikes_Sheet_20
+  - first:
+      213: 1639711101954050842
+    second: IceAge_Overhead_Spikes_Sheet_21
+  - first:
+      213: -2799973519757544940
+    second: IceAge_Overhead_Spikes_Sheet_22
+  - first:
+      213: 1070890951881347161
+    second: IceAge_Overhead_Spikes_Sheet_23
+  - first:
+      213: -8560392801135503245
+    second: IceAge_Overhead_Spikes_Sheet_24
+  - first:
+      213: -7245780587807646583
+    second: IceAge_Overhead_Spikes_Sheet_25
+  - first:
+      213: 2789290597094845230
+    second: IceAge_Overhead_Spikes_Sheet_26
+  - first:
+      213: 2276556154818170030
+    second: IceAge_Overhead_Spikes_Sheet_27
+  - first:
+      213: 517143665707974310
+    second: IceAge_Overhead_Spikes_Sheet_28
+  - first:
+      213: 4171751583653921339
+    second: IceAge_Overhead_Spikes_Sheet_29
+  - first:
+      213: 1406432426932005850
+    second: IceAge_Overhead_Spikes_Sheet_30
+  - first:
+      213: -7908009594730577580
+    second: IceAge_Overhead_Spikes_Sheet_31
+  - first:
+      213: 3315875097373072135
+    second: IceAge_Overhead_Spikes_Sheet_32
+  - first:
+      213: -159270260680275778
+    second: IceAge_Overhead_Spikes_Sheet_33
+  - first:
+      213: 8496965756746991207
+    second: IceAge_Overhead_Spikes_Sheet_34
+  - first:
+      213: -2517450889923743423
+    second: IceAge_Overhead_Spikes_Sheet_35
+  - first:
+      213: 5880854746738696535
+    second: IceAge_Overhead_Spikes_Sheet_36
+  - first:
+      213: 8968216221764891082
+    second: IceAge_Overhead_Spikes_Sheet_37
+  - first:
+      213: -9097695107906318561
+    second: IceAge_Overhead_Spikes_Sheet_38
+  - first:
+      213: -2181174546105073178
+    second: IceAge_Overhead_Spikes_Sheet_39
+  - first:
+      213: -8445276786133213188
+    second: IceAge_Overhead_Spikes_Sheet_40
+  - first:
+      213: 4122965694181598880
+    second: IceAge_Overhead_Spikes_Sheet_41
+  - first:
+      213: -2398417453290698980
+    second: IceAge_Overhead_Spikes_Sheet_42
+  - first:
+      213: 6203326917607877166
+    second: IceAge_Overhead_Spikes_Sheet_43
+  - first:
+      213: -2110525352320762800
+    second: IceAge_Overhead_Spikes_Sheet_44
+  - first:
+      213: -1727900728611570092
+    second: IceAge_Overhead_Spikes_Sheet_45
+  - first:
+      213: 2245744132881596350
+    second: IceAge_Overhead_Spikes_Sheet_46
+  - first:
+      213: 4681971913748691242
+    second: IceAge_Overhead_Spikes_Sheet_47
+  - first:
+      213: 5149627643058881101
+    second: IceAge_Overhead_Spikes_Sheet_48
+  - first:
+      213: 4771511220834299044
+    second: IceAge_Overhead_Spikes_Sheet_49
+  - first:
+      213: 5386923721061469201
+    second: IceAge_Overhead_Spikes_Sheet_50
+  - first:
+      213: 6918404606106155004
+    second: IceAge_Overhead_Spikes_Sheet_51
+  - first:
+      213: -4430833111809545641
+    second: IceAge_Overhead_Spikes_Sheet_52
+  - first:
+      213: 7109671812258896996
+    second: IceAge_Overhead_Spikes_Sheet_53
+  - first:
+      213: 4555177017318361408
+    second: IceAge_Overhead_Spikes_Sheet_54
+  - first:
+      213: -6541858166878356281
+    second: IceAge_Overhead_Spikes_Sheet_55
+  - first:
+      213: 3520597004847178351
+    second: IceAge_Overhead_Spikes_Sheet_56
+  - first:
+      213: -8063923916474878136
+    second: IceAge_Overhead_Spikes_Sheet_57
+  - first:
+      213: -2378181593886500362
+    second: IceAge_Overhead_Spikes_Sheet_58
+  - first:
+      213: 9186088772642471044
+    second: IceAge_Overhead_Spikes_Sheet_59
+  - first:
+      213: 8446046991147448911
+    second: IceAge_Overhead_Spikes_Sheet_60
+  - first:
+      213: -5039439949459040468
+    second: IceAge_Overhead_Spikes_Sheet_61
+  - first:
+      213: 2511636156153967435
+    second: IceAge_Overhead_Spikes_Sheet_62
+  - first:
+      213: 7435935242207287446
+    second: IceAge_Overhead_Spikes_Sheet_63
+  - first:
+      213: 6772017625466113711
+    second: IceAge_Overhead_Spikes_Sheet_64
+  - first:
+      213: 7718152257523996448
+    second: IceAge_Overhead_Spikes_Sheet_65
+  - first:
+      213: 4671098504774352314
+    second: IceAge_Overhead_Spikes_Sheet_66
+  - first:
+      213: -1794948246329362628
+    second: IceAge_Overhead_Spikes_Sheet_67
+  - first:
+      213: 8554187706788453139
+    second: IceAge_Overhead_Spikes_Sheet_68
+  - first:
+      213: -3295275705155614284
+    second: IceAge_Overhead_Spikes_Sheet_69
+  - first:
+      213: -7428196340774912280
+    second: IceAge_Overhead_Spikes_Sheet_70
+  - first:
+      213: -7228372146758500611
+    second: IceAge_Overhead_Spikes_Sheet_71
+  - first:
+      213: 8094015334953566836
+    second: IceAge_Overhead_Spikes_Sheet_72
+  - first:
+      213: 8655181203947443302
+    second: IceAge_Overhead_Spikes_Sheet_73
+  - first:
+      213: -2171042702731759915
+    second: IceAge_Overhead_Spikes_Sheet_74
+  - first:
+      213: -65854645809359284
+    second: IceAge_Overhead_Spikes_Sheet_75
+  - first:
+      213: 6116879737585734052
+    second: IceAge_Overhead_Spikes_Sheet_76
+  - first:
+      213: 1287442781186577668
+    second: IceAge_Overhead_Spikes_Sheet_77
+  - first:
+      213: -1108962094983886211
+    second: IceAge_Overhead_Spikes_Sheet_78
+  - first:
+      213: 1268535668637956901
+    second: IceAge_Overhead_Spikes_Sheet_79
+  - first:
+      213: 1247679049920866600
+    second: IceAge_Overhead_Spikes_Sheet_80
+  - first:
+      213: -8634845672264057520
+    second: IceAge_Overhead_Spikes_Sheet_81
+  - first:
+      213: -502531620106485974
+    second: IceAge_Overhead_Spikes_Sheet_82
+  - first:
+      213: -32628360132004158
+    second: IceAge_Overhead_Spikes_Sheet_83
+  - first:
+      213: 201389843652164714
+    second: IceAge_Overhead_Spikes_Sheet_84
+  - first:
+      213: 382659057551880882
+    second: IceAge_Overhead_Spikes_Sheet_85
+  - first:
+      213: 8180389199935941202
+    second: IceAge_Overhead_Spikes_Sheet_86
+  - first:
+      213: 8906678355859199667
+    second: IceAge_Overhead_Spikes_Sheet_87
+  - first:
+      213: 4233680148037619690
+    second: IceAge_Overhead_Spikes_Sheet_88
+  - first:
+      213: -2122489049093234056
+    second: IceAge_Overhead_Spikes_Sheet_89
+  - first:
+      213: 5752008551959160707
+    second: IceAge_Overhead_Spikes_Sheet_90
+  - first:
+      213: 2486782805385003
+    second: IceAge_Overhead_Spikes_Sheet_91
+  - first:
+      213: 8132045380200859261
+    second: IceAge_Overhead_Spikes_Sheet_92
+  - first:
+      213: -8884808870139217382
+    second: IceAge_Overhead_Spikes_Sheet_93
+  - first:
+      213: 3750883892446578460
+    second: IceAge_Overhead_Spikes_Sheet_94
+  - first:
+      213: 2280948839091813486
+    second: IceAge_Overhead_Spikes_Sheet_95
+  - first:
+      213: 2294645795795826920
+    second: IceAge_Overhead_Spikes_Sheet_96
+  - first:
+      213: 4734941736942959327
+    second: IceAge_Overhead_Spikes_Sheet_97
+  - first:
+      213: -5312446352065692310
+    second: IceAge_Overhead_Spikes_Sheet_98
+  - first:
+      213: -3809752766330920049
+    second: IceAge_Overhead_Spikes_Sheet_99
+  - first:
+      213: -102303231052865380
+    second: IceAge_Overhead_Spikes_Sheet_100
+  - first:
+      213: 7664769581343181394
+    second: IceAge_Overhead_Spikes_Sheet_101
+  - first:
+      213: -3332700180858550888
+    second: IceAge_Overhead_Spikes_Sheet_102
+  - first:
+      213: 643483017006137021
+    second: IceAge_Overhead_Spikes_Sheet_103
+  - first:
+      213: -2010104853659083634
+    second: IceAge_Overhead_Spikes_Sheet_104
+  - first:
+      213: 1440263130817151583
+    second: IceAge_Overhead_Spikes_Sheet_105
+  - first:
+      213: -1380548908325620238
+    second: IceAge_Overhead_Spikes_Sheet_106
+  - first:
+      213: -6632479246251272179
+    second: IceAge_Overhead_Spikes_Sheet_107
+  - first:
+      213: 8111336553259010995
+    second: IceAge_Overhead_Spikes_Sheet_108
+  - first:
+      213: -2708237794512316577
+    second: IceAge_Overhead_Spikes_Sheet_109
+  - first:
+      213: 3791417266217922881
+    second: IceAge_Overhead_Spikes_Sheet_110
+  - first:
+      213: 7637038675907745599
+    second: IceAge_Overhead_Spikes_Sheet_111
+  - first:
+      213: -6243825920278056276
+    second: IceAge_Overhead_Spikes_Sheet_112
+  - first:
+      213: -4127343424435487916
+    second: IceAge_Overhead_Spikes_Sheet_113
+  - first:
+      213: 4714138763151996889
+    second: IceAge_Overhead_Spikes_Sheet_114
+  - first:
+      213: -13865446554288033
+    second: IceAge_Overhead_Spikes_Sheet_115
+  - first:
+      213: 4680262990123197078
+    second: IceAge_Overhead_Spikes_Sheet_116
+  - first:
+      213: -4292512713033583868
+    second: IceAge_Overhead_Spikes_Sheet_117
+  - first:
+      213: -4887506065255911082
+    second: IceAge_Overhead_Spikes_Sheet_118
+  - first:
+      213: 5485980162242939388
+    second: IceAge_Overhead_Spikes_Sheet_119
+  - first:
+      213: 9198974659365256596
+    second: IceAge_Overhead_Spikes_Sheet_120
+  - first:
+      213: -2851551688939051072
+    second: IceAge_Overhead_Spikes_Sheet_121
+  - first:
+      213: -996513321855914139
+    second: IceAge_Overhead_Spikes_Sheet_122
+  - first:
+      213: -3119870034145626505
+    second: IceAge_Overhead_Spikes_Sheet_123
+  - first:
+      213: 8805147561398454928
+    second: IceAge_Overhead_Spikes_Sheet_124
+  - first:
+      213: 4121887611205068751
+    second: IceAge_Overhead_Spikes_Sheet_125
+  - first:
+      213: 6708647845780731684
+    second: IceAge_Overhead_Spikes_Sheet_126
+  - first:
+      213: -505980988174592857
+    second: IceAge_Overhead_Spikes_Sheet_127
+  - first:
+      213: 1147428734624149585
+    second: IceAge_Overhead_Spikes_Sheet_128
+  - first:
+      213: -873036872687395424
+    second: IceAge_Overhead_Spikes_Sheet_129
+  - first:
+      213: -4440413984551483754
+    second: IceAge_Overhead_Spikes_Sheet_130
+  - first:
+      213: -6078169948366400069
+    second: IceAge_Overhead_Spikes_Sheet_131
+  - first:
+      213: -264977379053687477
+    second: IceAge_Overhead_Spikes_Sheet_132
+  - first:
+      213: 2272606690007225759
+    second: IceAge_Overhead_Spikes_Sheet_133
+  - first:
+      213: 4619909586602409013
+    second: IceAge_Overhead_Spikes_Sheet_134
+  - first:
+      213: 3638449827111505942
+    second: IceAge_Overhead_Spikes_Sheet_135
+  - first:
+      213: 2623593030290820582
+    second: IceAge_Overhead_Spikes_Sheet_136
+  - first:
+      213: -260198032637538187
+    second: IceAge_Overhead_Spikes_Sheet_137
+  - first:
+      213: 425996243469038648
+    second: IceAge_Overhead_Spikes_Sheet_138
+  - first:
+      213: -6622817243694736338
+    second: IceAge_Overhead_Spikes_Sheet_139
+  - first:
+      213: -4618101589653196115
+    second: IceAge_Overhead_Spikes_Sheet_140
+  - first:
+      213: 5766988296124383742
+    second: IceAge_Overhead_Spikes_Sheet_141
+  - first:
+      213: -4663912830530273331
+    second: IceAge_Overhead_Spikes_Sheet_142
+  - first:
+      213: -99876865985799383
+    second: IceAge_Overhead_Spikes_Sheet_143
+  - first:
+      213: -6628057355476392574
+    second: IceAge_Overhead_Spikes_Sheet_144
+  - first:
+      213: -2298465974110375008
+    second: IceAge_Overhead_Spikes_Sheet_145
+  - first:
+      213: -6596994836170093569
+    second: IceAge_Overhead_Spikes_Sheet_146
+  - first:
+      213: -8353825504251191636
+    second: IceAge_Overhead_Spikes_Sheet_147
+  - first:
+      213: -3649439094774312636
+    second: IceAge_Overhead_Spikes_Sheet_148
+  - first:
+      213: -3927411634307671079
+    second: IceAge_Overhead_Spikes_Sheet_149
+  - first:
+      213: 2945927236670409080
+    second: IceAge_Overhead_Spikes_Sheet_150
+  - first:
+      213: -5157505767667222964
+    second: IceAge_Overhead_Spikes_Sheet_151
+  - first:
+      213: -986543487253884098
+    second: IceAge_Overhead_Spikes_Sheet_152
+  - first:
+      213: -5213475479967277137
+    second: IceAge_Overhead_Spikes_Sheet_153
+  - first:
+      213: 1349162805625603948
+    second: IceAge_Overhead_Spikes_Sheet_154
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3200
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cee8f714b42ffa40800000000000000
+      internalID: 5404078433782787781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3200
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c671eb1dc0c0f710800000000000000
+      internalID: 1725090644451489473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3200
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19739eea423a47f40800000000000000
+      internalID: 5725380404243412881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3200
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac43fb5546f4ef3f0800000000000000
+      internalID: -865166786054638390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3200
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9408d5cf8052bb070800000000000000
+      internalID: 8123127073416773705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3200
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de3993a8f15dcbc0800000000000000
+      internalID: -3761259985446027562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 3200
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689dd6d094fd73be0800000000000000
+      internalID: -1497482846226491002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a152b50559ebcb0800000000000000
+      internalID: -4846271976644994450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2880
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb4262d923681bf0800000000000000
+      internalID: -353423539474117662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2880
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340f6713808309040800000000000000
+      internalID: 4652280022914494531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2880
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96edbad1070224fc0800000000000000
+      internalID: -3512209093489336727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2880
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1507bca33280a5f50800000000000000
+      internalID: 6870813128910401617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2880
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4020f9bb2631dd050800000000000000
+      internalID: 5826834807662772740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2880
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38273307ac9eec930800000000000000
+      internalID: 4165523761039372931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2880
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6bc296771361430800000000000000
+      internalID: 3753241728395294403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f11a0c2833f20820800000000000000
+      internalID: 2883134134053114357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7274b033cab4110800000000000000
+      internalID: 1246279057130596308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e203ae3ae1ee8330800000000000000
+      internalID: 3715155138816705256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6566cc53265d2cb50800000000000000
+      internalID: 6612081820719408726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04170a2d94d694e20800000000000000
+      internalID: 3335317162878333248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b41a4d5d8cf6c6e0800000000000000
+      internalID: -1817487715511692111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b4c364f8c61c610800000000000000
+      internalID: 1639711101954050842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412f95e2bee7429d0800000000000000
+      internalID: -2799973519757544940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950511c95a19cde00800000000000000
+      internalID: 1070890951881347161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378d18e2a10633980800000000000000
+      internalID: -8560392801135503245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cdd47f1f0d17b90800000000000000
+      internalID: -7245780587807646583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2bec2f050d85b620800000000000000
+      internalID: 2789290597094845230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac8a27d2c3f79f10800000000000000
+      internalID: 2276556154818170030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aefd5c8c634d2700800000000000000
+      internalID: 517143665707974310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b328dd266f905e930800000000000000
+      internalID: 4171751583653921339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb6fd737d6a48310800000000000000
+      internalID: 1406432426932005850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45104b90c2b114290800000000000000
+      internalID: -7908009594730577580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b5c7235da540e20800000000000000
+      internalID: 3315875097373072135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb84ed0ba882acdf0800000000000000
+      internalID: -159270260680275778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766009f36594be570800000000000000
+      internalID: 8496965756746991207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141ba9ee0c7301dd0800000000000000
+      internalID: -2517450889923743423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751a70beb3efc9150800000000000000
+      internalID: 5880854746738696535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac131375321857c70800000000000000
+      internalID: 8968216221764891082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f4f62408e7eb180800000000000000
+      internalID: -9097695107906318561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e188428e49eab1e0800000000000000
+      internalID: -2181174546105073178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff5dac02895cca80800000000000000
+      internalID: -8445276786133213188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6e0d65477b73930800000000000000
+      internalID: 4122965694181598880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17c289980c17bed0800000000000000
+      internalID: -2398417453290698980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ae2a507f4a61650800000000000000
+      internalID: 6203326917607877166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05cf675cf58e5b2e0800000000000000
+      internalID: -2110525352320762800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ef7ff21734508e0800000000000000
+      internalID: -1727900728611570092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf33d0f36c7a2f10800000000000000
+      internalID: 2245744132881596350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29b85f36a4b9f040800000000000000
+      internalID: 4681971913748691242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d428e06be07277740800000000000000
+      internalID: 5149627643058881101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac6e9fbc20d73240800000000000000
+      internalID: 4771511220834299044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c8ef9459232ca40800000000000000
+      internalID: 5386923721061469201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7326f755c130060800000000000000
+      internalID: 6918404606106155004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75aad87a2c48282c0800000000000000
+      internalID: -4430833111809545641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c9c4738d0aaa260800000000000000
+      internalID: 7109671812258896996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049c846ec5d373f30800000000000000
+      internalID: 4555177017318361408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc3a3058a6a635a0800000000000000
+      internalID: -6541858166878356281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62683fa25cabd030800000000000000
+      internalID: 3520597004847178351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847fcb62cef271090800000000000000
+      internalID: -8063923916474878136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9d505c0700ffed0800000000000000
+      internalID: -2378181593886500362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48cfe88911b8b7f70800000000000000
+      internalID: 9186088772642471044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ab9974df2663570800000000000000
+      internalID: 8446046991147448911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27d499e010501ab0800000000000000
+      internalID: -5039439949459040468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43b59cd6cf1bd220800000000000000
+      internalID: 2511636156153967435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698d29c94bfb13760800000000000000
+      internalID: 7435935242207287446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae8792962a0bfd50800000000000000
+      internalID: 6772017625466113711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027d810f5926c1b60800000000000000
+      internalID: 7718152257523996448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abdfeef675313d040800000000000000
+      internalID: 4671098504774352314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37f35b74101717e0800000000000000
+      internalID: -1794948246329362628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b9325b56496b670800000000000000
+      internalID: 8554187706788453139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9893d8434d442d0800000000000000
+      internalID: -3295275705155614284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee314ac8ceb9e890800000000000000
+      internalID: -7428196340774912280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfeb12084d9afab90800000000000000
+      internalID: -7228372146758500611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472c87e2018b35070800000000000000
+      internalID: 8094015334953566836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664dce7a2716d1870800000000000000
+      internalID: 8655181203947443302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de287f1a28eed1e0800000000000000
+      internalID: -2171042702731759915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4659bd6c89061ff0800000000000000
+      internalID: -65854645809359284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1159476b583e450800000000000000
+      internalID: 6116879737585734052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceAge_Overhead_Spikes_Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4055449636aedd110800000000000000
+      internalID: 1287442781186577668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f95b0545230e3e14cb6f270474fae666
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":11.0},"gridSpriteSize":{"x":320.0,"y":320.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      IceAge_Overhead_Spikes_Sheet_0: 5404078433782787781
+      IceAge_Overhead_Spikes_Sheet_1: 1725090644451489473
+      IceAge_Overhead_Spikes_Sheet_10: -3512209093489336727
+      IceAge_Overhead_Spikes_Sheet_11: 6870813128910401617
+      IceAge_Overhead_Spikes_Sheet_12: 5826834807662772740
+      IceAge_Overhead_Spikes_Sheet_13: 4165523761039372931
+      IceAge_Overhead_Spikes_Sheet_14: 3753241728395294403
+      IceAge_Overhead_Spikes_Sheet_15: 2883134134053114357
+      IceAge_Overhead_Spikes_Sheet_16: 1246279057130596308
+      IceAge_Overhead_Spikes_Sheet_17: 3715155138816705256
+      IceAge_Overhead_Spikes_Sheet_18: 6612081820719408726
+      IceAge_Overhead_Spikes_Sheet_19: 3335317162878333248
+      IceAge_Overhead_Spikes_Sheet_2: 5725380404243412881
+      IceAge_Overhead_Spikes_Sheet_20: -1817487715511692111
+      IceAge_Overhead_Spikes_Sheet_21: 1639711101954050842
+      IceAge_Overhead_Spikes_Sheet_22: -2799973519757544940
+      IceAge_Overhead_Spikes_Sheet_23: 1070890951881347161
+      IceAge_Overhead_Spikes_Sheet_24: -8560392801135503245
+      IceAge_Overhead_Spikes_Sheet_25: -7245780587807646583
+      IceAge_Overhead_Spikes_Sheet_26: 2789290597094845230
+      IceAge_Overhead_Spikes_Sheet_27: 2276556154818170030
+      IceAge_Overhead_Spikes_Sheet_28: 517143665707974310
+      IceAge_Overhead_Spikes_Sheet_29: 4171751583653921339
+      IceAge_Overhead_Spikes_Sheet_3: -865166786054638390
+      IceAge_Overhead_Spikes_Sheet_30: 1406432426932005850
+      IceAge_Overhead_Spikes_Sheet_31: -7908009594730577580
+      IceAge_Overhead_Spikes_Sheet_32: 3315875097373072135
+      IceAge_Overhead_Spikes_Sheet_33: -159270260680275778
+      IceAge_Overhead_Spikes_Sheet_34: 8496965756746991207
+      IceAge_Overhead_Spikes_Sheet_35: -2517450889923743423
+      IceAge_Overhead_Spikes_Sheet_36: 5880854746738696535
+      IceAge_Overhead_Spikes_Sheet_37: 8968216221764891082
+      IceAge_Overhead_Spikes_Sheet_38: -9097695107906318561
+      IceAge_Overhead_Spikes_Sheet_39: -2181174546105073178
+      IceAge_Overhead_Spikes_Sheet_4: 8123127073416773705
+      IceAge_Overhead_Spikes_Sheet_40: -8445276786133213188
+      IceAge_Overhead_Spikes_Sheet_41: 4122965694181598880
+      IceAge_Overhead_Spikes_Sheet_42: -2398417453290698980
+      IceAge_Overhead_Spikes_Sheet_43: 6203326917607877166
+      IceAge_Overhead_Spikes_Sheet_44: -2110525352320762800
+      IceAge_Overhead_Spikes_Sheet_45: -1727900728611570092
+      IceAge_Overhead_Spikes_Sheet_46: 2245744132881596350
+      IceAge_Overhead_Spikes_Sheet_47: 4681971913748691242
+      IceAge_Overhead_Spikes_Sheet_48: 5149627643058881101
+      IceAge_Overhead_Spikes_Sheet_49: 4771511220834299044
+      IceAge_Overhead_Spikes_Sheet_5: -3761259985446027562
+      IceAge_Overhead_Spikes_Sheet_50: 5386923721061469201
+      IceAge_Overhead_Spikes_Sheet_51: 6918404606106155004
+      IceAge_Overhead_Spikes_Sheet_52: -4430833111809545641
+      IceAge_Overhead_Spikes_Sheet_53: 7109671812258896996
+      IceAge_Overhead_Spikes_Sheet_54: 4555177017318361408
+      IceAge_Overhead_Spikes_Sheet_55: -6541858166878356281
+      IceAge_Overhead_Spikes_Sheet_56: 3520597004847178351
+      IceAge_Overhead_Spikes_Sheet_57: -8063923916474878136
+      IceAge_Overhead_Spikes_Sheet_58: -2378181593886500362
+      IceAge_Overhead_Spikes_Sheet_59: 9186088772642471044
+      IceAge_Overhead_Spikes_Sheet_6: -1497482846226491002
+      IceAge_Overhead_Spikes_Sheet_60: 8446046991147448911
+      IceAge_Overhead_Spikes_Sheet_61: -5039439949459040468
+      IceAge_Overhead_Spikes_Sheet_62: 2511636156153967435
+      IceAge_Overhead_Spikes_Sheet_63: 7435935242207287446
+      IceAge_Overhead_Spikes_Sheet_64: 6772017625466113711
+      IceAge_Overhead_Spikes_Sheet_65: 7718152257523996448
+      IceAge_Overhead_Spikes_Sheet_66: 4671098504774352314
+      IceAge_Overhead_Spikes_Sheet_67: -1794948246329362628
+      IceAge_Overhead_Spikes_Sheet_68: 8554187706788453139
+      IceAge_Overhead_Spikes_Sheet_69: -3295275705155614284
+      IceAge_Overhead_Spikes_Sheet_7: -4846271976644994450
+      IceAge_Overhead_Spikes_Sheet_70: -7428196340774912280
+      IceAge_Overhead_Spikes_Sheet_71: -7228372146758500611
+      IceAge_Overhead_Spikes_Sheet_72: 8094015334953566836
+      IceAge_Overhead_Spikes_Sheet_73: 8655181203947443302
+      IceAge_Overhead_Spikes_Sheet_74: -2171042702731759915
+      IceAge_Overhead_Spikes_Sheet_75: -65854645809359284
+      IceAge_Overhead_Spikes_Sheet_76: 6116879737585734052
+      IceAge_Overhead_Spikes_Sheet_77: 1287442781186577668
+      IceAge_Overhead_Spikes_Sheet_8: -353423539474117662
+      IceAge_Overhead_Spikes_Sheet_9: 4652280022914494531
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

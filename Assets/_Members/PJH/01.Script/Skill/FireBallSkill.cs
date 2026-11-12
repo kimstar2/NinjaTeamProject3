@@ -15,7 +15,7 @@ namespace _Members.PJH._01.Script.Skill
         public override void UseSkill()
         {
             Debug.Log("파이어 볼 발사");
-            Instantiate(SkillData.skillPrefab);
+            Instantiate(SkillData.skillItem);
         }
     }
 }
