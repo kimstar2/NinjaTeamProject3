@@ -11,6 +11,7 @@ namespace KDH.Scripts
         [SerializeField] private Tilemap _tilemap;
         [SerializeField] private TileBase _roadBase;
         [SerializeField] private TileBase _roomBase;
+        [SerializeField] private TileBase _wallBase;
 
         private void Update()
         {
@@ -18,6 +19,7 @@ namespace KDH.Scripts
             {
                 DrawRoadTiles();
                 DrawRoomTiles(_mapGenerator.currentNode);
+                DrawWallTiles();
             }
         }
 
@@ -55,6 +57,14 @@ namespace KDH.Scripts
             {
                 DrawRoomTiles(node.LeftNode); // 더 이상 뻗어나갈 길이 없으면 거기까지 생성
                 DrawRoomTiles(node.RightNode); // 더 이상 뻗어나갈 길이 없으면 거기까지 생성
+            }
+        }
+
+        private void DrawWallTiles()
+        {
+            foreach (var wall in _mapGenerator.walls)
+            {
+                _tilemap.SetTile((Vector3Int)wall, _wallBase);
             }
         }
     }

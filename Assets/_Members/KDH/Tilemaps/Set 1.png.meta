@@ -326,6 +326,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Set 1_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581fe50e88d09a74bb96efdf85af9cc9
+      internalID: 920284142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -344,6 +366,7 @@ TextureImporter:
     nameFileIdTable:
       Set 1_0: 4585271165598984893
       Set 1_1: -4562813954993685694
+      Set 1_10: 920284142
       Set 1_2: 1903407411
       Set 1_3: 216675170
       Set 1_4: 2100763336
