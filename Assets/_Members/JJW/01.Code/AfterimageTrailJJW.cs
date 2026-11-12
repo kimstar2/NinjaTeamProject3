@@ -13,15 +13,13 @@ namespace _Members.JJW._01.Code
         [Header("잔상 설정")]
         [SerializeField, Min(0.1f)] private float emissionDuration = 2f;
         [SerializeField, Min(0.01f)] private float spawnInterval = 0.05f;
-        [Tooltip("발동이 끝난 뒤 모든 잔상이 함께 사라지는 시간입니다.")]
         [SerializeField, Min(0.01f), InspectorName("Fade Duration")] private float lifetime = 0.3f;
-        [Tooltip("최소 풀 크기입니다. 한 번의 발동에 필요한 만큼 자동으로 늘어납니다.")]
         [SerializeField, Min(1)] private int poolSize = 30;
         [SerializeField, Min(0f)] private float minDistance = 0.08f;
-        [Tooltip("RGB는 발동 진행률로 선택합니다. Alpha는 발동 종료 후의 페이드에 적용됩니다.")]
         [SerializeField, InspectorName("Trail Gradient")] private Gradient colorOverLifetime = new Gradient();
 
         public float EmissionDuration => Mathf.Max(0.1f, emissionDuration);
+        public SpriteRenderer SourceRenderer => source;
 
         private class Afterimage
         {
@@ -149,7 +147,6 @@ namespace _Members.JJW._01.Code
 
         private void SpawnAfterimage()
         {
-            // 아직 보이는 잔상을 덮어쓰지 않는다.
             if (_nextIndex >= _images.Length)
                 EnsurePoolCapacity(Mathf.Max(_nextIndex + 1, _images.Length * 2));
 
