@@ -9,6 +9,8 @@ public class AbstractBoss : MonoBehaviour
     public BossRenderer RenderCompo { get; private set; }
     public BossHealth HealthCompo { get; private set; }
 
+    private Behaviour BT;
+
     #endregion
 
     #region SO데이터 받기
@@ -38,6 +40,9 @@ public class AbstractBoss : MonoBehaviour
         MoveCompo = GetComponent<BossMover>();
         RenderCompo = GetComponentInChildren<BossRenderer>();
         HealthCompo = GetComponent<BossHealth>();
+        BT = GetComponent<Behaviour>();
+        
+        HealthCompo.Init(_hp);
     }
 
     private void Update()
