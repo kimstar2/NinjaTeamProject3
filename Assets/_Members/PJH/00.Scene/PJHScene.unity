@@ -437,7 +437,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64494eb91b6fbc049811b132e59a723e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::_Members.PJH._01.Script.SkillEnemy
-  _skill: {fileID: -3126096922358140928, guid: fdd68c9e64ebb8a42b6319a8cc4a7ffa, type: 3}
+  skill: {fileID: -7545924900313008414, guid: 71903798d334d1543b49b41e8a9db162, type: 3}
+  skillData: {fileID: 11400000, guid: 7b6a9506f945e9946b152a44ef4433dc, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
