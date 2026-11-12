@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace _Members.KJY._01.Scripts.Player
 {
-    public class PlayerController : ModuleOwner
+    public class PlayerController : AbstractAgent
     {
         [field: SerializeField] public PlayerInputSO PlayerInput { get; private set; }
 
@@ -85,6 +85,11 @@ namespace _Members.KJY._01.Scripts.Player
         private void HandleAttack(bool attacking)
         {
             WeaponHandler.Attack(new AttackData(WorldMousePosition(),attacking));
+        }
+        
+        protected override void HandleDead()
+        {
+            
         }
         
         private void DashWithMoveDir()
