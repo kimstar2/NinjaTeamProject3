@@ -21,6 +21,7 @@ namespace _Members.KDH.Scripts
 
         public List<BSPNode> rooms = new(); // 노드
         public List<Vector2Int> roads = new(); // 노드
+        public List<Vector2Int> walls = new();
         public BSPNode currentNode;
 
         private void Start()
@@ -34,12 +35,14 @@ namespace _Members.KDH.Scripts
 
             rooms.Clear(); // 혹시 남아있던 거 있을 수도 있으니 초기화
             roads.Clear();
+            walls.Clear();
 
             BSPNode startNode = new(new RectInt(0, 0, mapWidth, mapHeight)); // 시작 점 찍기
 
             Split(startNode, mapDepth); // 분열 시작
             CreateRooms(startNode); // 만들고
             ConnectRoom(startNode); // 연결
+            CreateWalls();
         }
 
         private void RandomSeed()
@@ -150,14 +153,35 @@ namespace _Members.KDH.Scripts
         private void AddRoad(Vector2Int position) // 바닥깔 때 중복 막어버렷
         {
             if (!roads.Contains(position))
+            {
                 roads.Add(position);
+            }
+        }
+
+        private void AddWall(Vector2Int position)
+        {
+            if (roads.Contains(position) || walls.Contains(position))
+            {
+                return;
+            }
+
+            foreach (var room in rooms)
+            {
+                if (room.LeftNode == null && room.RightNode == null
+                    && room.Room.Contains(position))
+                {
+                    return;
+                }
+            }
+
+            walls.Add(position);
         }
 
         private void CreateHallway(Vector2Int start, Vector2Int end) // 길 잇는 법 AI한테 물어봄
         {
             int x = start.x;
 
-            while (x != end.x) // 시작 점과 끝 점이 다를 떄까지 
+            while (x != end.x) // 시작 점과 끝 점이 다를 때까지 
             {
                 AddRoad(new Vector2Int(x, start.y)); // 시작부터 끝까지 선을 담기
                 CreateHallwayDepth(new Vector2Int(x, start.y));
@@ -195,6 +219,17 @@ namespace _Members.KDH.Scripts
             }
         }
 
+        private void CreateWalls()
+        {
+            for (int x = 0; x < mapWidth; x++)
+            {
+                for (int y = 0; y < mapHeight; y++)
+                {
+                    AddWall(new Vector2Int(x, y));
+                }
+            }
+        }
+
         private void OnDrawGizmos()
         {
             foreach (var room in rooms)
@@ -213,9 +248,16 @@ namespace _Members.KDH.Scripts
 
             foreach (var road in roads)
             {
-                Gizmos.color = Color.red;
+                Gizmos.color = Color.cyan;
 
                 Gizmos.DrawCube(new Vector3(road.x + 0.5f, road.y + 0.5f, 0), Vector3.one);
+            }
+
+            foreach (var wall in walls)
+            {
+                Gizmos.color = Color.yellow;
+
+                Gizmos.DrawCube(new Vector3(wall.x + 0.5f, wall.y + 0.5f, 0), Vector3.one);
             }
         }
     }

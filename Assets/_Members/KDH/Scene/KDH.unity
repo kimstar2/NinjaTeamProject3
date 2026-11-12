@@ -294,6 +294,7 @@ MonoBehaviour:
   _tilemap: {fileID: 462303491}
   _roadBase: {fileID: 11400000, guid: bf879e947f6a4fb438df05575537b50c, type: 2}
   _roomBase: {fileID: 11400000, guid: bf879e947f6a4fb438df05575537b50c, type: 2}
+  _wallBase: {fileID: 11400000, guid: 9d1dc745f48fdab44a683a9189f4ad5a, type: 2}
 --- !u!1 &1332275505
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,6 +531,7 @@ MonoBehaviour:
   seed: 0
   useRandomSeed: 1
   roads: []
+  walls: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
