@@ -1,3 +1,5 @@
+using _TevLib.HashDataSystem;
+using _TevLib.ServiceLocatorSystem.PoolService;
 using UnityEngine;
 
 namespace _Members.PJH._01.Script
@@ -11,6 +13,8 @@ namespace _Members.PJH._01.Script
         public float skillDamage;
         public float coolTime;
         public float castTime;
-        public GameObject skillPrefab;
+        public PoolItemSO skillItem;
+
+        public AnimHashSO skillAnimHash;
     }
 }

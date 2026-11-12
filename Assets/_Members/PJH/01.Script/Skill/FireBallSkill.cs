@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace _Members.PJH._01.Script.Skill
 {
@@ -10,9 +11,11 @@ namespace _Members.PJH._01.Script.Skill
             // 해주면됨S
         }
 
+
         public override void UseSkill()
         {
             Debug.Log("파이어 볼 발사");
+            Instantiate(SkillData.skillItem);
         }
     }
 }

@@ -18,7 +18,8 @@ namespace _Members.KJY._01.Scripts.Agent
         public bool IsDashing => _dashTween.IsActive();
         public bool CanDash => _crtCooldown + dashCooldown <= Time.time;
         
-        private IVelocityAddable _mover;
+        private IVelocityAddable _velocityAdder;
+        private IMoverPlus _mover;
         
         private CancellationTokenSource _cts;
         private Tween _dashTween;
@@ -28,7 +29,9 @@ namespace _Members.KJY._01.Scripts.Agent
         public override void Init(ModuleOwner owner)
         {
             base.Init(owner);
-            _mover = owner.GetModule<IVelocityAddable>();
+
+            _velocityAdder = owner.GetModule<IVelocityAddable>();
+            _mover = owner.GetModule<IMoverPlus>();
             _crtCooldown -= dashCooldown;
         }
 
@@ -47,8 +50,11 @@ namespace _Members.KJY._01.Scripts.Agent
 
         private async UniTask DashLogic(CancellationToken token, Vector2 targetDir)
         {
+            _mover.StopImmediately();
+            
             float applyValue = dashForce;
-            _mover.SetAddVelocity(targetDir * applyValue);
+
+            _velocityAdder.SetAddVelocity(targetDir * applyValue);
             
             try
             {
@@ -56,14 +62,14 @@ namespace _Members.KJY._01.Scripts.Agent
                 _dashTween = DOTween.To(() => applyValue, x =>
                 {
                     applyValue = x;
-                    _mover.SetAddVelocity(targetDir * applyValue);
+                    _velocityAdder.SetAddVelocity(targetDir * applyValue);
                 }, 0f, dashDuration).SetEase(dashEase);
                 await _dashTween.ToUniTask(cancellationToken: token);
             }
             catch (OperationCanceledException) { }
             finally
             {
-                _mover.SetAddVelocity(targetDir * applyValue);
+                _velocityAdder.SetAddVelocity(targetDir * applyValue);
             }
         }
     }

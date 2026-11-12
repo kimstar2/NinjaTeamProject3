@@ -47,4 +47,4 @@ MonoBehaviour:
   dashForce: 100
   dashDuration: 0.15
   dashEase: 3
-  dashCooldown: 1
+  dashCooldown: 0.5

@@ -1,26 +1,25 @@
-using System;
 using _Members.KJY._01.Scripts.Agent;
-using _Members.KJY._01.Scripts.Agent.Hand;
+using _Members.KJY._01.Scripts.Agent.Combat.Weapon;
 using _Members.KJY._01.Scripts.MainSystem;
 using _TevLib.ModuleSystem;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 namespace _Members.KJY._01.Scripts.Player
 {
-    public class PlayerController : ModuleOwner
+    public class PlayerController : AbstractAgent
     {
         [field: SerializeField] public PlayerInputSO PlayerInput { get; private set; }
 
         [Header("Movement Setting")]
         [SerializeField] private float baseSpeed;
 
-        [field: Header("Hand Setting")] 
-        [field: SerializeField] public float rotAcc;
-        [field: SerializeField] public AgentHand LHand { get; private set; }
-        [field: SerializeField] public AgentHand RHand { get; private set; }
+        [Header("Hand Setting")] 
+        [SerializeField] private float rotAcc;
 
-        public AgentHandler Handler { get; private set; }
+        [Header("Weapon Setting")] 
+        [SerializeField] private AbstractWeapon baseWeapon;
+        
+        public AgentWeaponHandler WeaponHandler { get; private set; }
         public IMoveable Mover { get; private set; }
         public IDash Dasher {get; private set;}
         
@@ -37,7 +36,7 @@ namespace _Members.KJY._01.Scripts.Player
             Camera = Camera.main;
 
             Mover = GetModule<IMoveable>();
-            Handler = GetModule<AgentHandler>();
+            WeaponHandler = GetModule<AgentWeaponHandler>();
             Dasher = GetModule<IDash>();
 
             ValidateData();
@@ -45,6 +44,7 @@ namespace _Members.KJY._01.Scripts.Player
 
         private void ValidateData()
         {
+            WeaponHandler.Init(baseWeapon);
             Mover.SetSpeed(baseSpeed);
         }
 
@@ -55,8 +55,9 @@ namespace _Members.KJY._01.Scripts.Player
 
             _mPosDir = ((Vector3)WorldMousePosition() - transform.position).normalized;
             float zAngle = AgentUtil.GetZAngle(_mPosDir);
-            float lerpAngle = Mathf.LerpAngle(Handler.transform.localEulerAngles.z, zAngle, Time.fixedDeltaTime * rotAcc);
-            Handler.SetZAngle(lerpAngle);
+            float lerpAngle = Mathf.LerpAngle(WeaponHandler.transform.localEulerAngles.z, zAngle,1 - Mathf.Pow(1 - Time.fixedDeltaTime * rotAcc, 3));
+            // 1 - mathf.Pow ~~ 이거는 easeOutCubic 함수임
+            WeaponHandler.SetZAngle(lerpAngle);
         }
 
         private void OnEnable()
@@ -80,17 +81,14 @@ namespace _Members.KJY._01.Scripts.Player
 
         #region Handle
         
-        private bool _lastIsRight = true;
         private void HandleAttack(bool attacking)
         {
-            if (attacking)
-            {
-                _lastIsRight = !_lastIsRight;
-                if (_lastIsRight)
-                    LHand.Attack(WorldMousePosition());
-                else
-                    RHand.Attack(WorldMousePosition());
-            }
+            WeaponHandler.Attack(new AttackData(WorldMousePosition(),attacking));
+        }
+        
+        protected override void HandleDead()
+        {
+            
         }
         
         private void DashWithMoveDir()
@@ -102,8 +100,7 @@ namespace _Members.KJY._01.Scripts.Player
         {
             Dasher.Dash(_mPosDir);
         }
-
-
+        
         #endregion
 
         #region Helper

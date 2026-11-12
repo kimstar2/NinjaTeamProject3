@@ -9,10 +9,11 @@ namespace _Members.KDH.Scripts
         public int mapWidth;
         public int mapHeight;
         public int mapDepth;
+        public int roadDepth;
         [Min(0.3f)] public float splitMinRatio; // 이진 분열할 때 비율 (최소한 0.3로 잡는 게 좋음)
 
-        [SerializeField, Range(0, 0.5f)] private float minRandomSize = default;
-        [SerializeField, Range(0.5f, 1)] private float maxRandomSize = 0.5f;
+        [field: SerializeField, Range(0, 0.5f)] public float MinRandomSize { get; private set; } = default;
+        [field: SerializeField, Range(0.5f, 1)] public float MaxRandomSize { get; private set; } = 0.5f;
 
         [Header("시드 세팅")]
         public int seed; // 시드 값
@@ -20,6 +21,8 @@ namespace _Members.KDH.Scripts
 
         public List<BSPNode> rooms = new(); // 노드
         public List<Vector2Int> roads = new(); // 노드
+        public List<Vector2Int> walls = new();
+        public BSPNode currentNode;
 
         private void Start()
         {
@@ -32,12 +35,14 @@ namespace _Members.KDH.Scripts
 
             rooms.Clear(); // 혹시 남아있던 거 있을 수도 있으니 초기화
             roads.Clear();
+            walls.Clear();
 
             BSPNode startNode = new(new RectInt(0, 0, mapWidth, mapHeight)); // 시작 점 찍기
 
             Split(startNode, mapDepth); // 분열 시작
             CreateRooms(startNode); // 만들고
             ConnectRoom(startNode); // 연결
+            CreateWalls();
         }
 
         private void RandomSeed()
@@ -90,8 +95,8 @@ namespace _Members.KDH.Scripts
 
             if (node.LeftNode == null && node.RightNode == null)
             {
-                int roomWidth = Mathf.RoundToInt(Random.Range(minRandomSize, maxRandomSize) * node.Room.width); // 사각형의 폭을 뽑기
-                int roomHeight = Mathf.RoundToInt(Random.Range(minRandomSize, maxRandomSize) * node.Room.height); // 사각형의 높이 뽑기
+                int roomWidth = Mathf.RoundToInt(Random.Range(MinRandomSize, MaxRandomSize) * node.Room.width); // 사각형의 폭을 뽑기
+                int roomHeight = Mathf.RoundToInt(Random.Range(MinRandomSize, MaxRandomSize) * node.Room.height); // 사각형의 높이 뽑기
 
                 int roomX = node.Room.x + (node.Room.width - roomWidth) / 2; // 최소X
                 int roomY = node.Room.y + (node.Room.height - roomHeight) / 2; // 최소Y
@@ -103,6 +108,8 @@ namespace _Members.KDH.Scripts
                 CreateRooms(node.LeftNode); // 더 이상 뻗어나갈 길이 없으면 거기까지 생성
                 CreateRooms(node.RightNode); // 더 이상 뻗어나갈 길이 없으면 거기까지 생성
             }
+
+            currentNode = node;
         }
 
         private void ConnectRoom(BSPNode node) // 방끼리 길 잇기
@@ -143,18 +150,47 @@ namespace _Members.KDH.Scripts
             return GetCenter(node.LeftNode);
         }
 
+        private void AddRoad(Vector2Int position) // 바닥깔 때 중복 막어버렷
+        {
+            if (!roads.Contains(position))
+            {
+                roads.Add(position);
+            }
+        }
+
+        private void AddWall(Vector2Int position)
+        {
+            if (roads.Contains(position) || walls.Contains(position))
+            {
+                return;
+            }
+
+            foreach (var room in rooms)
+            {
+                if (room.LeftNode == null && room.RightNode == null
+                    && room.Room.Contains(position))
+                {
+                    return;
+                }
+            }
+
+            walls.Add(position);
+        }
+
         private void CreateHallway(Vector2Int start, Vector2Int end) // 길 잇는 법 AI한테 물어봄
         {
             int x = start.x;
 
-            while (x != end.x) // 시작 점과 끝 점이 다를 떄까지 
+            while (x != end.x) // 시작 점과 끝 점이 다를 때까지 
             {
-                roads.Add(new Vector2Int(x, start.y)); // 시작부터 끝까지 선을 담기
+                AddRoad(new Vector2Int(x, start.y)); // 시작부터 끝까지 선을 담기
+                CreateHallwayDepth(new Vector2Int(x, start.y));
 
                 x += (x < end.x) ? 1 : -1; // 시작 점이 끝 점보다 왼쪽에 있으면 그대로 한 칸 더 아니면 반대 방향으로 한 칸 더 가기 왜냐면 도착지점까지 찍어야 하니깐
             }
 
-            roads.Add(new Vector2Int(end.x, start.y)); // 이건 왜 하는 지 모르겠음
+            AddRoad(new Vector2Int(end.x, start.y)); // 방 중심에 찍기
+            CreateHallwayDepth(new Vector2Int(end.x, start.y));
 
             int y = start.y;
 
@@ -162,7 +198,35 @@ namespace _Members.KDH.Scripts
             {
                 y += (y < end.y) ? 1 : -1; // 끝 점이 시작 점보다 왼쪽에 있으면 그대로 아니면 반대 방향으로
 
-                roads.Add(new Vector2Int(end.x, y));  // 끝부터 시작까지 선을 담기
+                AddRoad(new Vector2Int(end.x, y));  // 끝부터 시작까지 선을 담기
+                CreateHallwayDepth(new Vector2Int(end.x, y));
+            }
+        }
+
+        private void CreateHallwayDepth(Vector2Int position)
+        {
+            for (int x = -roadDepth; x <= roadDepth; x++)
+            {
+                for (int y = -roadDepth; y <= roadDepth; y++)
+                {
+                    Vector2Int nextPos = position + new Vector2Int(x, y);
+
+                    if (nextPos == position || roads.Contains(nextPos))
+                        continue;
+
+                    AddRoad(nextPos);
+                }
+            }
+        }
+
+        private void CreateWalls()
+        {
+            for (int x = 0; x < mapWidth; x++)
+            {
+                for (int y = 0; y < mapHeight; y++)
+                {
+                    AddWall(new Vector2Int(x, y));
+                }
             }
         }
 
@@ -184,9 +248,16 @@ namespace _Members.KDH.Scripts
 
             foreach (var road in roads)
             {
-                Gizmos.color = Color.red;
+                Gizmos.color = Color.cyan;
 
                 Gizmos.DrawCube(new Vector3(road.x + 0.5f, road.y + 0.5f, 0), Vector3.one);
+            }
+
+            foreach (var wall in walls)
+            {
+                Gizmos.color = Color.yellow;
+
+                Gizmos.DrawCube(new Vector3(wall.x + 0.5f, wall.y + 0.5f, 0), Vector3.one);
             }
         }
     }

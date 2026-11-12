@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace _Members.KJY._01.Scripts.Agent
 {
-    public class AgentMovement : MonoModule, IMoveable , IVelocityAddable
+    public class AgentMovement : MonoModule , IVelocityAddable , IMoverPlus
     {
         [Header("Acceleration Setting")] [SerializeField]
         private bool useAcceleration;
@@ -50,6 +50,21 @@ namespace _Members.KJY._01.Scripts.Agent
         public void SetSpeed(float speed)
         {
             _speed = speed;
+        }
+
+        public void StopImmediately(bool stopX = true, bool stopY = true)
+        {
+            if (stopX)
+            {
+                SetDirection(new Vector2(0f,MoveDir.y));
+                RbCompo.linearVelocityX = 0f;
+            }
+
+            if (stopY)
+            {
+                SetDirection(new Vector2(MoveDir.x,0f));
+                RbCompo.linearVelocityY = 0f;
+            }
         }
     }
 }
