@@ -1,6 +1,5 @@
 using _Members.KJY._01.Scripts.Agent;
-using _Members.KJY._01.Scripts.Agent.Weapon;
-using _Members.KJY._01.Scripts.Agent.Weapon.Hand;
+using _Members.KJY._01.Scripts.Agent.Combat.Weapon;
 using _Members.KJY._01.Scripts.MainSystem;
 using _TevLib.ModuleSystem;
 using UnityEngine;

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace _Members.KJY._01.Scripts.Agent.Weapon.Hand
+namespace _Members.KJY._01.Scripts.Agent.Combat.Weapon.Hand
 {
     public class WeaponHand : AbstractWeapon
     {
