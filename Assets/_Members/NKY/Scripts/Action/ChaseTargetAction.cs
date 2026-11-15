@@ -1,44 +1,62 @@
 using System;
-using _Members.NKY.Scripts;
+using System.Threading;
+using Cysharp.Threading.Tasks;
 using Unity.Behavior;
-using UnityEngine;
-using Action = Unity.Behavior.Action;
 using Unity.Properties;
+using UnityEngine;
 
-[Serializable, GeneratePropertyBag]
-[NodeDescription(name: "Chase Target", story: "[Self] Chase to [Target]", category: "Action", id: "5204fa02fc73e3d0506b078ac2547c14")]
-public partial class ChaseTargetAction : Action
+namespace _Members.NKY.Scripts.Action
 {
-    [SerializeReference] public BlackboardVariable<GameObject> Self;
-    [SerializeReference] public BlackboardVariable<GameObject> Target;
-
-    private AbstractEnemy _agent;
-    private GameObject _target;
-
-    protected override Status OnStart()
+    [Serializable, GeneratePropertyBag]
+    [NodeDescription(name: "Chase Target", story: "[Self] Chase to [Target]", category: "Action", id: "5204fa02fc73e3d0506b078ac2547c14")]
+    public partial class ChaseTargetAction : Unity.Behavior.Action
     {
+        [SerializeReference] public BlackboardVariable<GameObject> Self;
+        [SerializeReference] public BlackboardVariable<GameObject> Target;
 
-        _agent = Self?.Value.GetComponent<AbstractEnemy>();
+        private AbstractEnemy _agent;
+        private GameObject _target;
+    
+        private UniTask<bool> _moveTask;
+        private CancellationTokenSource _cts;
+
+        protected override Status OnStart()
+        {
+            _agent = Self?.Value.GetComponent<AbstractEnemy>();
         
-        _target = Target?.Value;
+            _target = Target?.Value;
         
-        if(_target == null || _agent == null)
-            return Status.Failure;
+            if(_target == null || _agent == null)
+                return Status.Failure;
         
-        return Status.Running;
-    }
+            _cts = new CancellationTokenSource();
+            Vector2 targetPos = _target.transform.position;
 
-    protected override Status OnUpdate()
-    {
-        Vector2 moveDir = _target.transform.position - _agent.transform.position;
-        // a*활용한 이동 함수 실행
+            _moveTask = _agent.MoveCompo.StartAstarMove(targetPos);
+        
+            return Status.Running;
+        }
 
-        return Status.Success;
-    }
+        protected override Status OnUpdate()
+        {
+            if (!_moveTask.Status.IsCompleted())
+            {
+                return Status.Running;
+            }
+        
+            bool isSuccess = _moveTask.GetAwaiter().GetResult();
 
-    protected override void OnEnd()
-    {
-        //이동 멈추는거 실행
+            return isSuccess ? Status.Success : Status.Failure;
+        }
+
+        protected override void OnEnd()
+        {
+            _agent.MoveCompo.StopAstarMove();
+        
+            _cts?.Cancel();
+            _cts?.Dispose();
+            _cts = null;
+        }
     }
 }
 
