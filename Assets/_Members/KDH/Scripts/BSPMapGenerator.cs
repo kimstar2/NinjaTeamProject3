@@ -5,7 +5,11 @@ namespace _Members.KDH.Scripts
 {
     public class BSPMapGenerator : MonoBehaviour // BSP로 어떻게 유니티에 적용하는 지에 대해 물어봄
     {
-        [Header("생성 세팅")]
+        [Header("Components")]
+        [SerializeField] private MapColliderGenerator _mapCollGeneratorCompo;
+
+        [Header("Generate Settings")]
+        public int minNodeSize;
         public int mapWidth;
         public int mapHeight;
         public int mapDepth;
@@ -15,33 +19,33 @@ namespace _Members.KDH.Scripts
         [field: SerializeField, Range(0, 0.5f)] public float MinRandomSize { get; private set; } = default;
         [field: SerializeField, Range(0.5f, 1)] public float MaxRandomSize { get; private set; } = 0.5f;
 
-        [Header("시드 세팅")]
+        [Header("Seed Settings")]
         public int seed; // 시드 값
         public bool useRandomSeed; // 랜덤 시드을 물어보는 BOOL
 
-        public List<BSPNode> rooms = new(); // 노드
-        public List<Vector2Int> roads = new(); // 노드
-        public List<Vector2Int> walls = new();
-        public BSPNode currentNode;
+        private readonly List<BSPNode> _rooms = new(); // 노드
+        private readonly HashSet<Vector2Int> _roads = new(); // 노드
+        private readonly HashSet<Vector2Int> _walls = new();
+        public IReadOnlyList<BSPNode> Rooms => _rooms;
+        public IReadOnlyCollection<Vector2Int> Roads => _roads;
+        public IReadOnlyCollection<Vector2Int> Walls => _walls;
 
-        private void Start()
-        {
-            GenerateMap();
-        }
+        public BSPNode RootNode { get; private set; }
+        [SerializeField] private GameObject roomCenterPrefab;
 
-        private void GenerateMap()
+        public void GenerateMap()
         {
             RandomSeed(); // 랜덤으로 굴림
 
-            rooms.Clear(); // 혹시 남아있던 거 있을 수도 있으니 초기화
-            roads.Clear();
-            walls.Clear();
+            _rooms.Clear(); // 혹시 남아있던 거 있을 수도 있으니 초기화
+            _roads.Clear();
+            _walls.Clear();
 
-            BSPNode startNode = new(new RectInt(0, 0, mapWidth, mapHeight)); // 시작 점 찍기
+            RootNode = new(new RectInt(0, 0, mapWidth, mapHeight)); // 시작 점 찍기
 
-            Split(startNode, mapDepth); // 분열 시작
-            CreateRooms(startNode); // 만들고
-            ConnectRoom(startNode); // 연결
+            Split(RootNode, mapDepth); // 분열 시작
+            CreateRooms(RootNode); // 만들고
+            ConnectRoom(RootNode); // 연결
             CreateWalls();
         }
 
@@ -58,7 +62,7 @@ namespace _Members.KDH.Scripts
 
         private void Split(BSPNode node, int mapDepth) // 공간 분할
         {
-            if (mapDepth <= 0 || node == null)
+            if (mapDepth <= 0 || node == null || node.Room.width < minNodeSize * 2 || node.Room.height < minNodeSize * 2)
             {
                 return;
             }
@@ -79,8 +83,8 @@ namespace _Members.KDH.Scripts
             node.LeftNode.ParentNode = node;
             node.RightNode.ParentNode = node;
 
-            rooms.Add(node.LeftNode);
-            rooms.Add(node.RightNode);
+            _rooms.Add(node.LeftNode);
+            _rooms.Add(node.RightNode);
 
             Split(node.LeftNode, mapDepth - 1); // 재귀
             Split(node.RightNode, mapDepth - 1); // 재귀
@@ -102,14 +106,13 @@ namespace _Members.KDH.Scripts
                 int roomY = node.Room.y + (node.Room.height - roomHeight) / 2; // 최소Y
 
                 node.Room = new RectInt(roomX, roomY, roomWidth, roomHeight);
+                Instantiate(roomCenterPrefab, node.Room.center, Quaternion.identity);
             }
             else
             {
                 CreateRooms(node.LeftNode); // 더 이상 뻗어나갈 길이 없으면 거기까지 생성
                 CreateRooms(node.RightNode); // 더 이상 뻗어나갈 길이 없으면 거기까지 생성
             }
-
-            currentNode = node;
         }
 
         private void ConnectRoom(BSPNode node) // 방끼리 길 잇기
@@ -147,25 +150,25 @@ namespace _Members.KDH.Scripts
                 return GetCenter(node.LeftNode);
             }
 
-            return GetCenter(node.LeftNode);
+            return GetCenter(node.RightNode);
         }
 
-        private void AddRoad(Vector2Int position) // 바닥깔 때 중복 막어버렷
+        private void AddRoad(Vector2Int position)
         {
-            if (!roads.Contains(position))
+            if (position.x < 0 || position.y < 0 || position.x >= mapWidth || position.y >= mapHeight) return;
             {
-                roads.Add(position);
+                _roads.Add(position);
             }
         }
 
         private void AddWall(Vector2Int position)
         {
-            if (roads.Contains(position) || walls.Contains(position))
+            if (_roads.Contains(position) || _walls.Contains(position))
             {
                 return;
             }
 
-            foreach (var room in rooms)
+            foreach (var room in _rooms)
             {
                 if (room.LeftNode == null && room.RightNode == null
                     && room.Room.Contains(position))
@@ -174,7 +177,7 @@ namespace _Members.KDH.Scripts
                 }
             }
 
-            walls.Add(position);
+            _walls.Add(position);
         }
 
         private void CreateHallway(Vector2Int start, Vector2Int end) // 길 잇는 법 AI한테 물어봄
@@ -211,7 +214,7 @@ namespace _Members.KDH.Scripts
                 {
                     Vector2Int nextPos = position + new Vector2Int(x, y);
 
-                    if (nextPos == position || roads.Contains(nextPos))
+                    if (nextPos == position || _roads.Contains(nextPos))
                         continue;
 
                     AddRoad(nextPos);
@@ -230,35 +233,35 @@ namespace _Members.KDH.Scripts
             }
         }
 
-        private void OnDrawGizmos()
-        {
-            foreach (var room in rooms)
-            {
-                if (room.LeftNode == null && room.RightNode == null)
-                {
-                    Gizmos.color = Color.green;
-                }
-                else
-                {
-                    Gizmos.color = Color.cyan;
-                }
+        //private void OnDrawGizmos()
+        //{
+        //    foreach (var room in rooms)
+        //    {
+        //        if (room.LeftNode == null && room.RightNode == null)
+        //        {
+        //            Gizmos.color = Color.green;
+        //        }
+        //        else
+        //        {
+        //            Gizmos.color = Color.cyan;
+        //        }
 
-                Gizmos.DrawWireCube(room.Room.center, new Vector3(room.Room.width, room.Room.height, 1));
-            }
+        //        Gizmos.DrawCube(room.Room.center, new Vector3(room.Room.width, room.Room.height, 1));
+        //    }
 
-            foreach (var road in roads)
-            {
-                Gizmos.color = Color.cyan;
+            //foreach (var road in roads)
+            //{
+            //    Gizmos.color = Color.cyan;
 
-                Gizmos.DrawCube(new Vector3(road.x + 0.5f, road.y + 0.5f, 0), Vector3.one);
-            }
+            //    Gizmos.DrawCube(new Vector3(road.x + 0.5f, road.y + 0.5f, 0), Vector3.one);
+            //}
 
-            foreach (var wall in walls)
-            {
-                Gizmos.color = Color.yellow;
+            //foreach (var wall in walls)
+            //{
+            //    Gizmos.color = Color.yellow;
 
-                Gizmos.DrawCube(new Vector3(wall.x + 0.5f, wall.y + 0.5f, 0), Vector3.one);
-            }
-        }
+            //    Gizmos.DrawCube(new Vector3(wall.x + 0.5f, wall.y + 0.5f, 0), Vector3.one);
+            //}
+        //}
     }
 }

@@ -1,33 +1,44 @@
-using _Members.KDH.Scripts;
+using NUnit.Framework;
+using System;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
+using UnityEngine.Splines.ExtrusionShapes;
 using UnityEngine.Tilemaps;
 
-namespace KDH.Scripts
+namespace _Members.KDH.Scripts
 {
     public class TilemapGenerator : MonoBehaviour
     {
-        [SerializeField] private BSPMapGenerator _mapGenerator;
-        [SerializeField] private Tilemap _tilemap;
+        [field: SerializeField] public Tilemap Tilemap { get; private set; }
+        [field: SerializeField] public Tilemap Wallmap { get; private set; }
         [SerializeField] private TileBase _roadBase;
         [SerializeField] private TileBase _roomBase;
         [SerializeField] private TileBase _wallBase;
 
-        private void Update()
+        private HashSet<Vector2Int> _tiles = new();
+
+        public void GenerateTiles(BSPMapGenerator mapGenerator)
         {
-            if (Keyboard.current.tKey.wasPressedThisFrame)
-            {
-                DrawRoadTiles();
-                DrawRoomTiles(_mapGenerator.currentNode);
-                DrawWallTiles();
-            }
+            _tiles.Clear();
+            Tilemap.ClearAllTiles();
+            Wallmap.ClearAllTiles();
+
+            DrawRoomTiles(mapGenerator.RootNode);
+            DrawRoadTiles(mapGenerator);
+            DrawWallTiles(mapGenerator);
         }
 
-        private void DrawRoadTiles()
+        private void DrawRoadTiles(BSPMapGenerator mapGenerator)
         {
-            foreach (var road in _mapGenerator.roads)
+            foreach (var road in mapGenerator.Roads)
             {
-                _tilemap.SetTile((Vector3Int)road, _roadBase);
+                if (_tiles.Contains(road))
+                {
+                    continue;
+                }
+
+                Tilemap.SetTile((Vector3Int)road, _roadBase);
+                _tiles.Add(road);
             }
         }
 
@@ -49,7 +60,13 @@ namespace KDH.Scripts
                             continue;
                         }
 
-                        _tilemap.SetTile(new Vector3Int(x, y, 0), _roomBase);
+                        if (_tiles.Contains(new Vector2Int(x, y)))
+                        {
+                            continue;
+                        }
+
+                        Tilemap.SetTile(new Vector3Int(x, y, 0), _roomBase);
+                        _tiles.Add(new Vector2Int(x, y));
                     }
                 }
             }
@@ -60,11 +77,17 @@ namespace KDH.Scripts
             }
         }
 
-        private void DrawWallTiles()
+        private void DrawWallTiles(BSPMapGenerator mapGenerator)
         {
-            foreach (var wall in _mapGenerator.walls)
+            foreach (var wall in mapGenerator.Walls)
             {
-                _tilemap.SetTile((Vector3Int)wall, _wallBase);
+                if (_tiles.Contains(wall))
+                {
+                    continue;
+                }
+
+                Wallmap.SetTile((Vector3Int)wall, _wallBase);
+                _tiles.Add(wall);         
             }
         }
     }
