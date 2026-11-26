@@ -59,6 +59,11 @@ namespace _TevLib.TileAstar
                     break;
 
                 AstarNode currentNode = openList.Pop(); //가장 작은 값을 가지는 노드를 꺼낸다.
+
+                if (!Physics2D.Raycast(currentNode.worldPosition, CellToWorld(destination), 999))
+                {
+                    break;
+                }
                 
                 //꺼낸 노드가 이미 방문한 closed에 들어간 노드라면 이건 취소
                 if(closedSet.Contains(currentNode.cellPosition))
@@ -131,7 +136,7 @@ namespace _TevLib.TileAstar
                 _cts?.Cancel();
         }
         
-        public async Task<int> GetPath(Vector3Int startPosition, Vector3Int destination, Vector3[] pointArr)
+        public async Task<int> GetPath(Vector3Int startPosition, Vector3Int destination, List<Vector3> pointArr)
         {
             if (_isCalculating)
             {
@@ -168,32 +173,31 @@ namespace _TevLib.TileAstar
 
                 if (isSuccess)
                 {
-                    pointArr[cornerIndex] = list[0].worldPosition; //시작점
-                    cornerIndex++;
+                    pointArr.Clear();
+
+                    //pointArr.Add(list[0].worldPosition);
 
                     for (int i = 1; i < list.Count - 1; i++)
                     {
-                        if (cornerIndex >= pointArr.Length) break;
-
                         Vector3Int beforeDir = list[i].cellPosition - list[i - 1].cellPosition;
                         Vector3Int nextDir = list[i + 1].cellPosition - list[i].cellPosition;
-                        if (beforeDir != nextDir) //꺽인점에서 경로 기록
+
+                        if (beforeDir != nextDir)
                         {
-                            pointArr[cornerIndex] = list[i].worldPosition;
-                            cornerIndex++;
+                            pointArr.Add(list[i].worldPosition);
                         }
                     }
 
-                    //시작점과 다른 목표지일 경우 마지막 포인트 추가.
-                    if (list.Count > 1 && cornerIndex < pointArr.Length)
+                    if (list.Count > 1)
                     {
-                        pointArr[cornerIndex] = list[^1].worldPosition;
-                        cornerIndex++;
+                        pointArr.Add(list[^1].worldPosition);
                     }
 
                     HasPath = true;
                     IsPathStale = false;
                     _lastDestination = destination;
+
+                    return pointArr.Count;
                 }
                 else
                 {
@@ -219,6 +223,16 @@ namespace _TevLib.TileAstar
 
 
         #region Helper method
+
+        public static Vector3Int WorldToCell(Vector3 worldPosition)
+        {
+            return new Vector3Int((int)worldPosition.x, (int)worldPosition.y, 0);
+        }
+
+        public static Vector3 CellToWorld(Vector3Int cellPosition)
+        {
+            return new Vector3(cellPosition.x, cellPosition.y, cellPosition.z);
+        }
 
         private AstarNode Rent()
         {

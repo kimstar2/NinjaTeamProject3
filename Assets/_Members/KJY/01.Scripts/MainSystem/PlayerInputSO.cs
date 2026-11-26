@@ -31,6 +31,7 @@ namespace _Members.KJY._01.Scripts.MainSystem
         
         public event Action OnJumpPressed;
         public event Action OnLShiftPressed;
+        public event Action<int> OnWeaponChangeKeyPressed;
 
         public void OnMove(InputAction.CallbackContext context)
         {
@@ -66,6 +67,15 @@ namespace _Members.KJY._01.Scripts.MainSystem
         {
             if (context.performed)
                 OnRClickPressed?.Invoke();
+        }
+
+        public void OnWeaponChange(InputAction.CallbackContext context)
+        {
+            if (context.performed)
+            {
+                int index = context.action.GetBindingIndexForControl(context.control);
+                OnWeaponChangeKeyPressed?.Invoke(index);
+            }
         }
     }
 }

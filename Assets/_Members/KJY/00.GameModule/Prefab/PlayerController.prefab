@@ -91,6 +91,50 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &2024509232695345930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7488696774755530961}
+  - component: {fileID: 7613754494743246131}
+  m_Layer: 0
+  m_Name: WeaponRazer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7488696774755530961
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024509232695345930}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5684385356348698890}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7613754494743246131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024509232695345930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be5f76da8af4a139e9eadbe31d1ed37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::_Members.KJY._01.Scripts.Agent.Combat.Weapon.Razer.WeaponRazer
 --- !u!1 &4093295685369390116
 GameObject:
   m_ObjectHideFlags: 0
@@ -123,9 +167,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 5513168108436209686}
   - {fileID: 2855081220811437182}
   - {fileID: 6700499844491707297}
-  - {fileID: 5513168108436209686}
   - {fileID: 6090681611255083921}
   - {fileID: 6243736711210510705}
   - {fileID: 5684385356348698890}
@@ -210,7 +254,6 @@ MonoBehaviour:
   <PlayerInput>k__BackingField: {fileID: 11400000, guid: f7bfc732eaa0f8e4b8d91b8d155577f7, type: 2}
   baseSpeed: 6
   rotAcc: 1
-  baseWeapon: {fileID: 4492510753118516371, guid: 247ed33cdc422cf4eaa81502df26f4d4, type: 3}
 --- !u!1 &7474025347305701956
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,7 +283,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7488696774755530961}
   m_Father: {fileID: 8314728403864839152}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7213958186188890202
@@ -255,6 +299,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef510ee6c88440b94d9e3801bf2f4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::_Members.KJY._01.Scripts.Agent.AgentHandler
+  firstWeapon: 0
+  defaultWeapons:
+  - {fileID: 11400000, guid: 2af1c673dda257741b460a56f936567c, type: 2}
+  - {fileID: 11400000, guid: 9b54c688f986b0e4aa32ee4f14ecf55e, type: 2}
 --- !u!1001 &2343425375843755098
 PrefabInstance:
   m_ObjectHideFlags: 0
