@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: ServiceLocatorSystem_assembly::_TevLib.ServiceLocatorSystem.PoolService.PoolingListSO
   itemList:
   - {fileID: 11400000, guid: ea890f7781a9ea84ea26142e5a72dc9f, type: 2}
+  - {fileID: 11400000, guid: 69916925e01eb0647a4da42c37a0b0ca, type: 2}

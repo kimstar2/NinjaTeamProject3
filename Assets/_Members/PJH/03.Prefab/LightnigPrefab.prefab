@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6512efcda3f4b8d448313beb711075b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::_Members.PJH._01.Script.Skill.LightningSkill
+  <SkillData>k__BackingField: {fileID: 11400000, guid: 7b6a9506f945e9946b152a44ef4433dc, type: 2}
   <Item>k__BackingField: {fileID: 11400000, guid: ea890f7781a9ea84ea26142e5a72dc9f, type: 2}
 --- !u!95 &-439393124880274235
 Animator:

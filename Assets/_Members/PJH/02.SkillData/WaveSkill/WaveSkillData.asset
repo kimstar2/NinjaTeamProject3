@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2e8873efd521dc488e20c268ed724e4, type: 3}
-  m_Name: FireBallData
+  m_Name: WaveSkillData
   m_EditorClassIdentifier: Assembly-CSharp::_Members.PJH._01.Script.SkillDataSO
-  skillID: 1000
-  skillName: FireBall
-  skillDamage: 5
+  skillID: 1002
+  skillName: Wave
+  skillDamage: 3
   coolTime: 2
-  castTime: 1
-  skillPrefab: {fileID: 8955012734128814149, guid: fdd68c9e64ebb8a42b6319a8cc4a7ffa, type: 3}
+  castTime: 0
+  skillAnimHash: {fileID: 11400000, guid: 913d18947ef7665499fc4ad5f01d793b, type: 2}
+  skillPoolItem: {fileID: 11400000, guid: 69916925e01eb0647a4da42c37a0b0ca, type: 2}
