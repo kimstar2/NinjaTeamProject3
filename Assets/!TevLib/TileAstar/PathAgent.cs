@@ -7,96 +7,93 @@ using UnityEngine;
 namespace _TevLib.TileAstar
 {
     public class PathAgent : MonoBehaviour
-    {
+    { 
         [SerializeField] private PathBakeDataSO bakedData;
-        
-        private CancellationTokenSource _cts = new CancellationTokenSource();
-        private Task<(List<AstarNode> nodes, bool isSuccess)> _calculatingTask; //경로 계산 Task
+
+        private readonly SemaphoreSlim _gate = new SemaphoreSlim(1, 1);
+        private CancellationTokenSource _cts;
         private bool _isCalculating;
         private Vector3Int _lastDestination;
-        
-        private readonly Stack<AstarNode> _nodePool = new Stack<AstarNode>();
-        private readonly List<AstarNode> _rentedNodes = new List<AstarNode>();
-        
-        public bool PathPending => _isCalculating; //현재 계산중인가?
-        public bool HasPath { get; private set; }
-        public bool IsPathStale { get; private set; } //현재 경로는 버려져야하는가?
 
-        private (List<AstarNode> nodes, bool isSuccess) CalculatePath(
-            Vector3Int startPosition, Vector3Int destination, CancellationToken ct)
+        public bool PathPending => _isCalculating;
+        public bool HasPath { get; private set; }
+        public bool IsPathStale { get; private set; }
+
+        private (List<Vector3> waypoints, bool isSuccess) CalculatePathWorker(
+            PathBakeDataSO mapData,
+            Vector3Int startPosition,
+            Vector3Int destination,
+            CancellationToken ct)
         {
-            foreach (AstarNode node in _rentedNodes)
-            {
-                node.parentNode = null; //참조 순환을 막기 위해서 깨끗하게 밀어버린다.
-                _nodePool.Push(node);
-            }
-            _rentedNodes.Clear();
+            List<Vector3> resultPoints = new List<Vector3>();
+
+            if (mapData == null)
+                return (resultPoints, false);
+
+            if (!mapData.GetNodeIfExist(startPosition, out NodeData startNode))
+                return (resultPoints, false);
+
+            if (!mapData.GetNodeIfExist(destination, out NodeData destNode))
+                return (resultPoints, false);
             
-            //초기화 
+            Stack<AstarNode> localPool = new Stack<AstarNode>();
+            AstarNode RentLocal() => localPool.Count > 0 ? localPool.Pop() : new AstarNode();
+
             PriorityQueue<AstarNode> openList = new PriorityQueue<AstarNode>();
             HashSet<Vector3Int> closedSet = new HashSet<Vector3Int>();
-            List<AstarNode> path = new List<AstarNode>();
             AstarNode foundNode = null;
 
-            if (bakedData.GetNodeIfExist(startPosition, out NodeData startNode) == false)
-                return (path, false);
-            if(bakedData.GetNodeIfExist(destination, out NodeData destNode) == false)
-                return (path, false);
-
-            AstarNode startAstar = Rent(); //시작 노드 빌려온다.
+            AstarNode startAstar = RentLocal();
             startAstar.nodeData = startNode;
             startAstar.cellPosition = startNode.cellPosition;
             startAstar.worldPosition = startNode.worldPosition;
             startAstar.parentNode = null;
-            startAstar.G = 0;
+            startAstar.G = 0f;
             startAstar.F = CalcH(startNode.cellPosition, destNode.cellPosition);
-            openList.Push(startAstar); //시작점 설정후에 오픈리스트에 넣는다.
-            
-            //Astar 메인 루프 시작
+            openList.Push(startAstar);
+
             while (openList.Count > 0)
             {
-                if(ct.IsCancellationRequested)
-                    break;
+                if (ct.IsCancellationRequested)
+                    return (resultPoints, false);
 
-                AstarNode currentNode = openList.Pop(); //가장 작은 값을 가지는 노드를 꺼낸다.
+                AstarNode currentNode = openList.Pop();
 
-                if (!Physics2D.Raycast(currentNode.worldPosition, CellToWorld(destination), 999))
+                if (closedSet.Contains(currentNode.cellPosition))
                 {
-                    break;
-                }
-                
-                //꺼낸 노드가 이미 방문한 closed에 들어간 노드라면 이건 취소
-                if(closedSet.Contains(currentNode.cellPosition))
+                    localPool.Push(currentNode);
                     continue;
+                }
 
-                closedSet.Add(currentNode.cellPosition); //현재 노드를 방문처리하고 내려간다.
-                
-                //새로운 노드를 꺼냈더니 그게 목적지인거 즉 도착한거
+                closedSet.Add(currentNode.cellPosition);
+
                 if (currentNode.nodeData == destNode)
                 {
                     foundNode = currentNode;
                     break;
                 }
-                
-                //주변에 갈 수 있는 노드들을 다 찾아서 OpenList에 넣어줘야 한다.
+
                 foreach (LinkData link in currentNode.nodeData.neighbors)
                 {
-                    if(closedSet.Contains(link.endCellPosition)) continue;
-                    
-                    if(bakedData.GetNodeIfExist(link.endCellPosition, out NodeData nextNode) == false)
+                    if (ct.IsCancellationRequested)
+                        return (resultPoints, false);
+
+                    if (closedSet.Contains(link.endCellPosition))
                         continue;
 
-                    float newG = link.cost + currentNode.G;
+                    if (!mapData.GetNodeIfExist(link.endCellPosition, out NodeData nextNode))
+                        continue;
 
-                    AstarNode nextAstar = Rent();
+                    float newG = currentNode.G + link.cost;
+
+                    AstarNode nextAstar = RentLocal();
                     nextAstar.nodeData = nextNode;
                     nextAstar.cellPosition = nextNode.cellPosition;
                     nextAstar.worldPosition = nextNode.worldPosition;
                     nextAstar.parentNode = currentNode;
                     nextAstar.G = newG;
                     nextAstar.F = newG + CalcH(nextNode.cellPosition, destNode.cellPosition);
-                    
-                    //이미 오픈리스트에 있다면 어떤 값이 작은지 체크해야해.
+
                     AstarNode existInOpenNode = openList.Contains(nextAstar);
                     if (existInOpenNode != null)
                     {
@@ -105,9 +102,9 @@ namespace _TevLib.TileAstar
                             existInOpenNode.G = nextAstar.G;
                             existInOpenNode.F = nextAstar.F;
                             existInOpenNode.parentNode = nextAstar.parentNode;
-                            openList.DecreaseKey(existInOpenNode); //우선순위 갱신
+                            openList.DecreaseKey(existInOpenNode);
                         }
-                        ReturnLast(); //현재 nextAstar는 사용되지 않으므로 반납한다.
+                        localPool.Push(nextAstar);
                     }
                     else
                     {
@@ -116,97 +113,103 @@ namespace _TevLib.TileAstar
                 }
             }
 
-            if (foundNode != null)
+            if (foundNode == null)
+                return (resultPoints, false);
+
+            List<AstarNode> rawPath = new List<AstarNode>();
+            AstarNode trace = foundNode;
+            while (trace != null)
             {
-                AstarNode node = foundNode;
-                while (node != null)
-                {
-                    path.Add(node);
-                    node = node.parentNode;
-                }
-                path.Reverse();
+                rawPath.Add(trace);
+                trace = trace.parentNode;
             }
-            
-            return (path, foundNode != null);
+            rawPath.Reverse();
+
+            for (int i = 1; i < rawPath.Count - 1; i++)
+            {
+                Vector3Int beforeDir = rawPath[i].cellPosition - rawPath[i - 1].cellPosition;
+                Vector3Int nextDir = rawPath[i + 1].cellPosition - rawPath[i].cellPosition;
+                if (beforeDir != nextDir)
+                {
+                    resultPoints.Add(rawPath[i].worldPosition);
+                }
+            }
+
+            if (rawPath.Count > 0)
+            {
+                resultPoints.Add(rawPath[^1].worldPosition);
+            }
+
+            return (resultPoints, true);
         }
 
         public void CancelPath()
         {
-            if(_isCalculating)
-                _cts?.Cancel();
+            _cts?.Cancel();
         }
-        
-        public async Task<int> GetPath(Vector3Int startPosition, Vector3Int destination, List<Vector3> pointArr)
+
+        public async Task<int> GetPath(Vector3Int startPosition, Vector3Int destination, List<Vector2> pointArr, LayerMask obstacleLayer)
         {
-            if (_isCalculating)
-            {
-                _cts?.Cancel(); //이전 테스크를 종료시킨다.
-                if(_calculatingTask != null)  //이전 태스크가 있다면 종료될때까지 기다려야 한다.
-                    try
-                    {
-                        await _calculatingTask.ConfigureAwait(false);
-                    }
-                    catch (OperationCanceledException) { }
-            }
+            if (pointArr == null)
+                throw new ArgumentNullException(nameof(pointArr));
 
-            //경로는 존재하지만 목적지가 다르다면 경로가 상했음을 알린다.
-            if (HasPath && destination != _lastDestination)
-                IsPathStale = true;
-            
-            //null이거나 이미 취소된 경우 새로 생성한다. 
-            if (_cts is null or { IsCancellationRequested: true })
-                _cts = new CancellationTokenSource();
-            
-            CancellationToken ct = _cts.Token; //토큰을 로컬 변수로 캡쳐
+            // 이전 경로 탐색 취소 요청
+            _cts?.Cancel();
 
+            await _gate.WaitAsync().ConfigureAwait(true);
             try
             {
-                _isCalculating = true;
-                _calculatingTask = Task.Run(() => CalculatePath(startPosition, destination, ct), ct);
-                (List<AstarNode> list, bool isSuccess) = await _calculatingTask; //작업 종료 대기
+                if (HasPath && destination != _lastDestination)
+                    IsPathStale = true;
 
-                //취소되었다면 버퍼를 절대 건드리지 않도록.
-                if (ct.IsCancellationRequested)
-                    return 0;
-                
-                int cornerIndex = 0;
-
-                if (isSuccess)
+                // 메인 스레드에서 먼저 최종 목적지까지 직선 이동 가능 여부 확인
+                Vector2 startWorld = transform.position;
+                Vector2 destWorld = CellToWorld(destination);
+                if (CanMoveStraight(startWorld, destWorld, obstacleLayer))
                 {
                     pointArr.Clear();
+                    pointArr.Add(destWorld);
+                    HasPath = true;
+                    IsPathStale = false;
+                    _lastDestination = destination;
+                    return pointArr.Count;
+                }
 
-                    //pointArr.Add(list[0].worldPosition);
+                _cts?.Dispose();
+                _cts = new CancellationTokenSource();
+                CancellationToken ct = _cts.Token;
+                PathBakeDataSO mapDataSnapshot = bakedData;
 
-                    for (int i = 1; i < list.Count - 1; i++)
+                _isCalculating = true;
+                var (waypoints, isSuccess) = await Task.Run(
+                    () => CalculatePathWorker(mapDataSnapshot, startPosition, destination, ct),
+                    ct);
+
+                if (ct.IsCancellationRequested)
+                    return 0;
+
+                if (isSuccess && waypoints.Count > 0)
+                {
+                    pointArr.Clear();
+                    for (int i = 0; i < waypoints.Count; i++)
                     {
-                        Vector3Int beforeDir = list[i].cellPosition - list[i - 1].cellPosition;
-                        Vector3Int nextDir = list[i + 1].cellPosition - list[i].cellPosition;
-
-                        if (beforeDir != nextDir)
-                        {
-                            pointArr.Add(list[i].worldPosition);
-                        }
-                    }
-
-                    if (list.Count > 1)
-                    {
-                        pointArr.Add(list[^1].worldPosition);
+                        pointArr.Add(waypoints[i]);
                     }
 
                     HasPath = true;
                     IsPathStale = false;
                     _lastDestination = destination;
-
                     return pointArr.Count;
                 }
-                else
-                {
-                    HasPath = false;
-                    IsPathStale = false;
-                }
 
-                return cornerIndex;
-            } //end of try
+                HasPath = false;
+                IsPathStale = false;
+                return 0;
+            }
+            catch (OperationCanceledException)
+            {
+                return 0;
+            }
             catch (Exception ex)
             {
                 Debug.LogError(ex);
@@ -217,16 +220,33 @@ namespace _TevLib.TileAstar
             finally
             {
                 _isCalculating = false;
+                _gate.Release();
             }
         }
 
+        private bool CanMoveStraight(Vector2 start, Vector2 end, LayerMask obstacleMask)
+        {
+            Vector2 dir = end - start;
+            float distance = dir.magnitude;
+            if (distance <= 0.0001f)
+                return true;
 
+            RaycastHit2D hit = Physics2D.Raycast(start, dir.normalized, distance, obstacleMask);
+            return hit.collider == null;
+        }
+
+        private void OnDestroy()
+        {
+            _cts?.Cancel();
+            _cts?.Dispose();
+            _gate.Dispose();
+        }
 
         #region Helper method
 
         public static Vector3Int WorldToCell(Vector3 worldPosition)
         {
-            return new Vector3Int((int)worldPosition.x, (int)worldPosition.y, 0);
+            return new Vector3Int(Mathf.FloorToInt(worldPosition.x), Mathf.FloorToInt(worldPosition.y), 0);
         }
 
         public static Vector3 CellToWorld(Vector3Int cellPosition)
@@ -234,26 +254,9 @@ namespace _TevLib.TileAstar
             return new Vector3(cellPosition.x, cellPosition.y, cellPosition.z);
         }
 
-        private AstarNode Rent()
-        {
-            AstarNode node = _nodePool.Count > 0 ? _nodePool.Pop() : new AstarNode();
-            _rentedNodes.Add(node);
-            return node;
-        }
-
-        //풀에서 꺼낸뒤 Push를 못하거 버려지는 경우에는 반납
-        private void ReturnLast()
-        {
-            int last = _rentedNodes.Count - 1;
-            AstarNode node = _rentedNodes[last];
-            _rentedNodes.RemoveAt(last);
-            node.parentNode = null;
-            _nodePool.Push(node);
-        }
-
-        private float CalcH(Vector3Int startPoint, Vector3Int destinationPoint)
+        private static float CalcH(Vector3Int startPoint, Vector3Int destinationPoint)
             => Vector3Int.Distance(startPoint, destinationPoint);
-        
+
         #endregion
     }
 }

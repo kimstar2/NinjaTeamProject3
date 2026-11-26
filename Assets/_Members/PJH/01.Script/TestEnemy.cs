@@ -14,6 +14,11 @@ namespace _Members.PJH._01.Script
             _skillModule = GetModule<SkillModule>();
         }
 
+        protected override void HandleDead()
+        {
+            Debug.Log("죽음");
+        }
+
         private void Update()
         {
             if (Keyboard.current.yKey.wasPressedThisFrame)

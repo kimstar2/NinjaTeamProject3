@@ -54,17 +54,11 @@ namespace _Members.KJY._01.Scripts.Agent
 
         public void StopImmediately(bool stopX = true, bool stopY = true)
         {
-            if (stopX)
-            {
-                SetDirection(new Vector2(0f,MoveDir.y));
-                RbCompo.linearVelocityX = 0f;
-            }
-
-            if (stopY)
-            {
-                SetDirection(new Vector2(MoveDir.x,0f));
-                RbCompo.linearVelocityY = 0f;
-            }
+            float x = stopX ? MoveDir.x : 0f;
+            float y = stopY ? MoveDir.y : 0f;
+            SetDirection(new Vector2(x,y));
+            RbCompo.linearVelocityX = 0f;
+            
         }
     }
 }
