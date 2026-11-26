@@ -65,7 +65,6 @@ namespace _Members.KJY._01.Scripts.Agent.Combat.Weapon
         public void Attack(AttackData attackData)
         {
             if (CurrentWeapon is {IsAttacking: true}) return;
-            if (!attackData.IsAttacking) return;
             CurrentWeapon?.Attack(attackData);
         }
     }

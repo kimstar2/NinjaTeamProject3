@@ -36,6 +36,7 @@ namespace _Members.KJY._01.Scripts.Agent.Combat.Weapon.Dagger
 
         public override void Attack(AttackData data)
         {
+            if (!data.IsAttacking) return;
             IsAttacking = true;
             CanChange = false;
             

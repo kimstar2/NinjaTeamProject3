@@ -7,6 +7,7 @@ namespace _Members.KJY._01.Scripts.Agent.Combat.Weapon
 {
     public abstract class AbstractWeapon : MonoBehaviour , IWeapon
     {
+        [field:SerializeField] public SpriteRenderer WeaponRenderer { get; set; }
         public ModuleOwner WeaponOwner { get; private set; }
         public bool IsAttacking { get; protected set; }
         public bool CanChange { get; protected set; } = true;

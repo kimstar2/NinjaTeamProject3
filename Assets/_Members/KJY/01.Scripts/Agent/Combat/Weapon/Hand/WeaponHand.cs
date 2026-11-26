@@ -31,6 +31,7 @@ namespace _Members.KJY._01.Scripts.Agent.Combat.Weapon.Hand
 
         public override void Attack(AttackData data)
         {
+            if (!data.IsAttacking) return;
             CanChange = false;
             IsAttacking = true;
             
