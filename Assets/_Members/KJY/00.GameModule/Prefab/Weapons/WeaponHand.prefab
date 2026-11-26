@@ -46,6 +46,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 271370a02d8342fe87ac8c8ebaaa44e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::_Members.KJY._01.Scripts.Agent.Weapon.Hand.WeaponHand
+  <WeaponRenderer>k__BackingField:
+  - {fileID: 5276464629020529805}
+  - {fileID: 9106187629102422814}
   <LeftHand>k__BackingField: {fileID: 9010954155250083393}
   <RightHand>k__BackingField: {fileID: 1280296272934861255}
 --- !u!1 &3021129150628471892

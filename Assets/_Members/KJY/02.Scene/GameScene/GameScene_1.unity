@@ -376,7 +376,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 14.939334
+  orthographic size: 15
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -617,7 +617,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 60
-    OrthographicSize: 14.939334
+    OrthographicSize: 15
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -5631,9 +5631,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2024509232695345930, guid: 639f6a2d5d01d5f44b8b4949f5f2bd04, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4093295685369390116, guid: 639f6a2d5d01d5f44b8b4949f5f2bd04, type: 3}
       propertyPath: m_Name
       value: PlayerController
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213958186188890202, guid: 639f6a2d5d01d5f44b8b4949f5f2bd04, type: 3}
+      propertyPath: defaultWeapons.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213958186188890202, guid: 639f6a2d5d01d5f44b8b4949f5f2bd04, type: 3}
+      propertyPath: 'defaultWeapons.Array.data[2]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 028c0e917e671094396759563c176f69, type: 2}
+    - target: {fileID: 7613754494743246131, guid: 639f6a2d5d01d5f44b8b4949f5f2bd04, type: 3}
+      propertyPath: fireFailTime
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8314728403864839152, guid: 639f6a2d5d01d5f44b8b4949f5f2bd04, type: 3}
       propertyPath: m_LocalPosition.x

@@ -137,6 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cbd8a0119554130b3ac2bf7c97fcbe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::_Members.KJY._01.Scripts.Agent.Combat.Weapon.Dagger.WeaponDagger
+  <WeaponRenderer>k__BackingField: {fileID: 7709598674136012693}
   daggerPivot: {fileID: 7159689227378420691}
   attackOverlap: {fileID: 7019970016066977643}
   duration: 0.1
