@@ -142,6 +142,9 @@ MonoBehaviour:
   duration: 0.1
   ease: 9
   swingAngle: 50
+  dashForce: 10
+  dashDur: 0.4
+  dashEase: 21
 --- !u!1 &7929683716841980037
 GameObject:
   m_ObjectHideFlags: 0

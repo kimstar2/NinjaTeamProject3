@@ -3,6 +3,7 @@
     public enum WeaponType
     {
         Punch,
-        Dagger
+        Dagger,
+        Razer
     }
 }

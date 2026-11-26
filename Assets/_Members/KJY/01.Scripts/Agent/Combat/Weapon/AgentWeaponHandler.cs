@@ -9,21 +9,24 @@ using UnityEngine;
 
 namespace _Members.KJY._01.Scripts.Agent.Combat.Weapon
 {
-    public class AgentWeaponHandler : RotateObject , IModule
+    public class AgentWeaponHandler : RotateObject , IInitModule
     {
         [SerializeField] private WeaponType firstWeapon;
         [SerializeField] private List<WeaponDataSO> defaultWeapons;
         private readonly Dictionary<WeaponType, AbstractWeapon> _weapons = new();
         public AbstractWeapon CurrentWeapon { get; private set; }
+        public ModuleOwner ModuleOwner { get; private set; }
 
         private void Awake()
         {
             GameObject nullWeapon = new GameObject();
+            nullWeapon.transform.SetParent(transform);
             CurrentWeapon = nullWeapon.AddComponent<NullWeapon>();
         }
 
-        public void Init()
+        public void Init(ModuleOwner owner)
         {
+            ModuleOwner = owner;
             foreach (WeaponDataSO defaultWeapon in defaultWeapons)
                 AddWeapon(defaultWeapon.WeaponType,defaultWeapon.Weapon);
             ChangeWeapon(firstWeapon);
@@ -33,6 +36,8 @@ namespace _Members.KJY._01.Scripts.Agent.Combat.Weapon
         {
             AbstractWeapon weaponGo = Instantiate(weapon,transform);
             weaponGo.gameObject.SetActive(false);
+            weaponGo.SetOwner(ModuleOwner);
+            
             _weapons.Add(weaponType,weaponGo);
         }
 

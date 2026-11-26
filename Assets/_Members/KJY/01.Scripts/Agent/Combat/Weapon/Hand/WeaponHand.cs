@@ -1,4 +1,5 @@
 ﻿using System;
+using _TevLib.ModuleSystem;
 using UnityEngine;
 
 namespace _Members.KJY._01.Scripts.Agent.Combat.Weapon.Hand
@@ -8,9 +9,10 @@ namespace _Members.KJY._01.Scripts.Agent.Combat.Weapon.Hand
         [field:SerializeField] public AgentHand LeftHand { get; private set; }
         [field:SerializeField] public AgentHand RightHand { get; private set; }
         private bool _rightIsLast;
-        
-        public override void Init()
+
+        public override void SetOwner(ModuleOwner moduleOwner)
         {
+            base.SetOwner(moduleOwner);
             LeftHand.Init();
             RightHand.Init();
 

@@ -71,7 +71,6 @@ namespace _Members.KJY._01.Scripts.Player
 
         private void ValidateData()
         {
-            WeaponHandler.Init();
             Mover.SetSpeed(baseSpeed);
         }
         
