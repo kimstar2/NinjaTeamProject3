@@ -16,7 +16,7 @@ namespace _Members.PJH._01.Script
 
         private void Update()
         {
-            if (Keyboard.current.yKey.wasPressedThisFrame)
+            if (Keyboard.current.yKey.wasPressedThisFrame && _skillModule.CanUseSkill)
             {
                 _skillModule.Skill();
             }

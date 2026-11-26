@@ -13,8 +13,7 @@ namespace _Members.PJH._01.Script
         public float skillDamage;
         public float coolTime;
         public float castTime;
-        public PoolItemSO skillItem;
-
         public AnimHashSO skillAnimHash;
+        public PoolItemSO skillPoolItem;
     }
 }
