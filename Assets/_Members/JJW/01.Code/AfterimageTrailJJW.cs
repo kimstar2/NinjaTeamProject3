@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using _Members.KJY._01.Scripts.Player;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,7 +9,6 @@ namespace _Members.JJW._01.Code
     public class AfterimageTrailJJW : MonoBehaviour
     {
         [SerializeField] private SpriteRenderer source;
-        [SerializeField] private SpriteRenderer[] additionalSources;
         [SerializeField] private Material afterimageMaterial;
 
         [Header("잔상 설정")]
@@ -26,6 +27,8 @@ namespace _Members.JJW._01.Code
             public SpriteRenderer[] Renderers;
         }
 
+        private PlayerController _playerController;
+        private SpriteRenderer[] additionalSources;
         private SpriteRenderer[] _sources;
         private Afterimage[] _images;
         private Transform _poolRoot;
@@ -43,6 +46,18 @@ namespace _Members.JJW._01.Code
         {
             List<SpriteRenderer> sources = new List<SpriteRenderer>();
             if (source != null) sources.Add(source);
+            _sources = sources.ToArray();
+
+            _poolRoot = new GameObject("AfterimagePoolJJW").transform;
+            SceneManager.MoveGameObjectToScene(_poolRoot.gameObject, gameObject.scene);
+            EnsurePoolCapacity(GetRequiredPoolSize());
+            
+            _playerController = GetComponent<PlayerController>();
+        }
+
+        /*private void Start()
+        {
+            _playerController.WeaponHandler.CurrentWeapon
             if (additionalSources != null)
             {
                 foreach (SpriteRenderer part in additionalSources)
@@ -50,12 +65,7 @@ namespace _Members.JJW._01.Code
                     if (part != null && !sources.Contains(part)) sources.Add(part);
                 }
             }
-            _sources = sources.ToArray();
-
-            _poolRoot = new GameObject("AfterimagePoolJJW").transform;
-            SceneManager.MoveGameObjectToScene(_poolRoot.gameObject, gameObject.scene);
-            EnsurePoolCapacity(GetRequiredPoolSize());
-        }
+        }*/
 
         private int GetRequiredPoolSize()
         {

@@ -118,7 +118,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 6255105189860667753}
-          m_TargetAssemblyTypeName: _Members.JJW._01.Code.SandevistanFXBindingsJJW, Assembly-CSharp
+          m_TargetAssemblyTypeName: _Members.JJW._01.Code.SandevistanFXBindingsJJW,
+            Assembly-CSharp
           m_MethodName: PlayEffects
           m_Mode: 1
           m_Arguments:
@@ -136,7 +137,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 6255105189860667753}
-          m_TargetAssemblyTypeName: _Members.JJW._01.Code.SandevistanFXBindingsJJW, Assembly-CSharp
+          m_TargetAssemblyTypeName: _Members.JJW._01.Code.SandevistanFXBindingsJJW,
+            Assembly-CSharp
           m_MethodName: StopEffects
           m_Mode: 1
           m_Arguments:
@@ -163,7 +165,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 6255105189860667753}
-          m_TargetAssemblyTypeName: _Members.JJW._01.Code.SandevistanFXBindingsJJW, Assembly-CSharp
+          m_TargetAssemblyTypeName: _Members.JJW._01.Code.SandevistanFXBindingsJJW,
+            Assembly-CSharp
           m_MethodName: StopEffects
           m_Mode: 1
           m_Arguments:
@@ -184,7 +187,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 6255105189860667753}
-          m_TargetAssemblyTypeName: _Members.JJW._01.Code.SandevistanFXBindingsJJW, Assembly-CSharp
+          m_TargetAssemblyTypeName: _Members.JJW._01.Code.SandevistanFXBindingsJJW,
+            Assembly-CSharp
           m_MethodName: StopEffects
           m_Mode: 1
           m_Arguments:
