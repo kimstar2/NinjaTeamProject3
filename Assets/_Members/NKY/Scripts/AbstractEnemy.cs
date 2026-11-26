@@ -1,19 +1,20 @@
 using System;
 using System.Threading;
+using _Members.KJY._01.Scripts.Agent;
 using _TevLib.ModuleSystem;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 namespace _Members.NKY.Scripts
 {
-    public abstract class AbstractEnemy : ModuleOwner
+    public abstract class AbstractEnemy : AbstractAgent
     {
-        public EnemyMovementModule MoveCompo { get; private set; }
+        public AstarMovementModule MoveCompo { get; private set; }
 
         protected override void InitializeModules()
         {
             base.InitializeModules();
-            MoveCompo = GetModule<EnemyMovementModule>();
+            MoveCompo = GetModule<AstarMovementModule>();
         }
     }
 }
