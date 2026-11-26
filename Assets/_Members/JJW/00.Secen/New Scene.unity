@@ -1368,9 +1368,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::_Members.KJY._01.Scripts.Agent.Hand.AgentHand
   <IsRightHand>k__BackingField: 0
   attackRange: {x: 1, y: 2}
+  attackOverlap: {fileID: 0}
   duration: 0.1
   raiseEase: 15
   returnEase: 1
+  onHit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4093295685691539295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,8 +1473,7 @@ MonoBehaviour:
   <PlayerInput>k__BackingField: {fileID: 11400000, guid: f7bfc732eaa0f8e4b8d91b8d155577f7, type: 2}
   baseSpeed: 8
   rotAcc: 10
-  <LHand>k__BackingField: {fileID: 3970880633554232944}
-  <RHand>k__BackingField: {fileID: 6616552319824787958}
+  baseWeapon: {fileID: 0}
 --- !u!4 &5513168109454154605
 Transform:
   m_ObjectHideFlags: 0
@@ -1532,9 +1535,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::_Members.KJY._01.Scripts.Agent.Hand.AgentHand
   <IsRightHand>k__BackingField: 1
   attackRange: {x: 1, y: 2}
+  attackOverlap: {fileID: 0}
   duration: 0.1
   raiseEase: 15
   returnEase: 1
+  onHit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!70 &6793676109396217150
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
